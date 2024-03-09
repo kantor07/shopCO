@@ -5,15 +5,20 @@ body {
     margin: 0;
 }
 
-.discount-message {
+.container {
     min-width: 390px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.discount-message {
     height: 40px;
    
-    background: #000000;
-
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background: #000000;
 }
 
 .discount-text, .discount-href {
@@ -41,6 +46,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+.header-logo {
+    padding-bottom: 10px;
 }
 
 .header-logo-href {
