@@ -3,6 +3,9 @@
 }
 body {
     margin: 0;
+    font-family: 'Satoshi', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .container {
@@ -22,9 +25,7 @@ body {
 }
 
 .discount-text, .discount-href {
-    font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 14px;
 
     color: #FFFFFF;
@@ -54,7 +55,7 @@ body {
 
 .header-logo-href {
     font-family: 'Integral CF';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 32px;
 
@@ -74,9 +75,6 @@ body {
 }
 
 .header-menu{   
-    font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
 
     color: #000000;
@@ -102,9 +100,6 @@ body {
 }
 
 .search-field {
-    font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
 
     color: rgba(0, 0, 0, 0.4);
