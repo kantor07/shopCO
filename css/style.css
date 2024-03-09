@@ -36,8 +36,10 @@ body {
 
 .header {
     height: 48px;
-    margin: 62px 0 0 100px;
-    
+    margin: 62px 0 24px 100px;
+}
+
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -127,3 +129,5 @@ body {
     width: 62px;
     height: 24px;
 }
+
+
