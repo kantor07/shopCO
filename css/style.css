@@ -70,21 +70,23 @@ body {
 
 .header-nav {
     min-width: 320px;
+} 
 
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
     gap: 25px;
-
 }
-
-.header-menu{   
+.nav-menu, .nav-link{   
     font-size: 16px;
     color: #000000;
     text-decoration: none;
 }
 
-.header-menu-span {
+.nav-menu-span {
     padding-left: 5px;
 }
 
