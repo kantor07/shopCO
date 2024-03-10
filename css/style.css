@@ -251,12 +251,12 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.new-arrivals-item-list {
+.item-list {
     display: flex;
     justify-content: space-between;
 }
 
-.new-arrivals-title {
+.section-title {
     font-family: 'Integral CF';
     font-weight: 700;
     font-size: 48px;
@@ -267,7 +267,7 @@ body {
     text-align: center;
 }
 
-.new-arrivals-item {
+.item {
     width: 295px;
     height: 410px;
     display: flex;
@@ -341,14 +341,14 @@ body {
     color: #FF3333;
 }
 
-.new-arrivals-button {
+.view-all-button {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0 65px 0;
 }
 
-.new-arrivals-btn {
+.view-all-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -360,7 +360,7 @@ body {
     border-radius: 60px;
 }
 
-.new-arrivals-btn-title {
+.view-all-btn-title {
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
