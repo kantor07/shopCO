@@ -11,7 +11,7 @@ body {
 .container {
     min-width: 390px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* section discount */
@@ -67,7 +67,7 @@ body {
     text-decoration: none;   
 }
 
-.header-shop {
+.header-nav {
     min-width: 320px;
 
     display: flex;
