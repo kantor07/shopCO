@@ -101,12 +101,12 @@ body {
 
 .search {
     width: 575px;
+    height: 40px;
 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 10px 15px;
-    gap: 10px;
 
     background: #F0F0F0;
     border-radius: 60px;
@@ -114,17 +114,20 @@ body {
 
 .search-btn {
     border: none;
-    padding: 10px;
 }
 
 .search-field {
-    width: 550px;
-    font-size: 16px;
-    padding: 10px;
+    width: 550px;   
+    padding: 5px;
 
     color: rgba(0, 0, 0, 0.4);
     background: #F0F0F0;
     border: none;
+}
+
+.search-field::placeholder {
+    font-size: 16px;
+    font-family: Satoshi;
 }
 
 .search-field:active, .search-field:hover, .search-field:focus {
