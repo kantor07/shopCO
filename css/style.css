@@ -14,13 +14,15 @@ body {
     width: 1px;
     height: 1px;
     opacity: 0;
+    visibility: hidden;
+    /* display: none; */
 }
 
 .container {
     min-width: 390px;
     max-width: 1240px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* section discount */
@@ -110,6 +112,10 @@ body {
     border-radius: 60px;
 }
 
+.search-btn {
+    border: none;
+}
+
 .search-field {
     font-size: 16px;
 
@@ -128,21 +134,19 @@ body {
 /* section promo */
 
 .promo {
-    background-color: #F2F0F1;
+    height: 665px;
+    background: url(../img/promo.png) center top no-repeat, #F2F0F1;   
 }
 
+
 .promo-container {
-    height: 665px; 
-    
+    height: 665px;    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: start; 
-    
-    background: url(../img/promo.png) 65% no-repeat;
-    
+    align-items: start;     
 }
-.promo-vector-big,
+/* .promo-vector-big,
 .promo-vector-small {
     width: 105px;
     height: 105px;
@@ -163,10 +167,12 @@ body {
     top: 500px; 
      
     background-size: 55px; 
-}
+} */
 
 .promo-text {
     width: 570px;
+    margin: 0;
+    padding: 0;
 }
 
 .promo-title {
@@ -178,6 +184,7 @@ body {
 }
 
 .promo-desc {
+    padding-bottom: 20px;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -210,7 +217,7 @@ body {
 .promo-aside-list {
     display: grid;
     grid-template-columns: 180px 220px 240px;   
-    padding-bottom: 105px;
+    /* padding-bottom: 105px; */
 }
 
 .promo-aside, .promo-aside-first, .promo-aside-second {
