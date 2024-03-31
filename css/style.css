@@ -35,7 +35,7 @@ body {
 .discount-message {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .discount-text, .discount-href {
@@ -46,15 +46,14 @@ body {
 }
 
 .discount-message-delete {
-    position: absolute;
-    right: 10px;
+    padding-right: 10px;
 }
 
 /* header */
 
 .header {
     height: 50px;
-    margin: 60px 0 15px 0;
+    margin: 25px 0 15px 0;
 }
 
 .header-container {
