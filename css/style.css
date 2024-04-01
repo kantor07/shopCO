@@ -685,8 +685,10 @@ body {
     color: rgba(0, 0, 0, 0.6);
 }
 
+/*section footer-payments-info*/
+
 .footer-payments-info{
-    padding: 20px;
+    padding-top: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -718,4 +720,18 @@ body {
 .social-icon-img:hover{
     background-color: #000000;
     color: #FFFF;
+}
+
+.footer-payment-img{
+        /* Badge */
+
+    width: 46.61px;
+    height: 30.03px;
+
+    /* Neutral Colors/White */
+    background: #FFFFFF;
+    /* Neutral Colors/400 */
+    border: 0.224107px solid #D6DCE5;
+    box-shadow: 0px 4.48214px 8.96429px rgba(183, 183, 183, 0.08), 0px 0.448214px 4.48214px rgba(183, 183, 183, 0.08);
+    border-radius: 5.37857px; 
 }
