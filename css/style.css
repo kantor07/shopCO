@@ -470,7 +470,6 @@ body {
 .reviews-block{
     display: flex;
    justify-content: space-between;
-   padding-bottom: 80px;
 }
 
 .reviews-section-title {
