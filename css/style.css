@@ -622,11 +622,100 @@ body {
 
 .footer{
     margin-top: 90px;
-    height: 500px;
     background:rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
 
+.footer-container{
+    height: 500px;
+}
+
 .footer-info{
     padding-top: 60px;
+}
+
+.footer-info-all{
+    padding: 55px 0px 50px 0px;
+    gap: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footer-info-company{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.company-name{
+    margin: 0;
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+
+    color: #000000;
+}
+
+.company-desc{
+    margin: 0;
+    padding: 25px 0px 15px 0px;
+        
+    width: 260px;   
+}
+
+.footer-info-block-title{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.link-info-company{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.payments{
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-payments-text{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-payment{
+    text-decoration: none;
+}
+
+.footer-social-icon{
+    text-decoration: none;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.social-icon-img{
+    width: 28px;
+    height: 28px;   
+}
+
+.social-icon-img:hover{
+    background-color: #000000;
+    color: #FFFF;
 }
