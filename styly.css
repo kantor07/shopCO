@@ -45,6 +45,10 @@ body {
   color: #FFFFFF;
 }
 
+.discount-message-delete {
+  padding-right: 10px;
+}
+
 /* header */
 .header {
   height: 50px;
@@ -129,12 +133,12 @@ body {
 
 .search-field::-moz-placeholder {
   font-size: 16px;
-  font-family: "Satoshi";
+  font-family: Satoshi;
 }
 
 .search-field::placeholder {
   font-size: 16px;
-  font-family: "Satoshi";
+  font-family: Satoshi;
 }
 
 .search-field:active,
@@ -630,7 +634,6 @@ body {
   height: 500px;
 }
 
-/*footer info*/
 .footer-info {
   padding-top: 60px;
 }
@@ -764,6 +767,4 @@ body {
   width: 34px;
   height: 34px;
   transform: translate(2px, 10px);
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=styly.css.map */

@@ -1,0 +1,12 @@
+/* section breands */
+.breands {
+  margin-top: 15px;
+  height: 120px;
+  background: #000000;
+}
+
+.breands-list {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=breands.css.map */

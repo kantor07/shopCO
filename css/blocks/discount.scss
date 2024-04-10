@@ -1,0 +1,20 @@
+/* section discount */
+
+.discount {
+    height: 40px;
+    background: #000000;
+}
+
+.discount-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discount-text,
+.discount-href {
+    padding: 10px 0;
+    font-size: 14px;
+
+    color: #FFFFFF;
+}

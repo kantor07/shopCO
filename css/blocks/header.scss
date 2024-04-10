@@ -1,0 +1,105 @@
+/* header */
+
+.header {
+    height: 50px;
+    margin: 25px 0 15px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-logo {
+    padding-bottom: 10px;
+}
+
+.header-logo-href {
+    font-family: 'Integral CF';
+    font-weight: 700;
+    font-size: 32px;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-nav {
+    min-width: 320px;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-menu,
+.nav-link {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-menu-span {
+    padding-left: 5px;
+}
+
+.fa-chevron-down {
+    color: #000000;
+}
+
+.search {
+    width: 575px;
+    height: 45px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 15px;
+
+    background: #F0F0F0;
+    border-radius: 60px;
+}
+
+.search-btn {
+    border: none;
+}
+
+.fa-magnifying-glass {
+    padding-top: 2px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.search-field {
+    width: 550px;
+    padding: 5px;
+
+    color: rgba(0, 0, 0, 0.4);
+    background: #F0F0F0;
+    border: none;
+}
+
+.search-field::placeholder {
+    font-size: 16px;
+    font-family: Satoshi;
+}
+
+.search-field:active,
+.search-field:hover,
+.search-field:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+}

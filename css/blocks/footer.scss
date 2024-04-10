@@ -1,0 +1,153 @@
+/*footer*/
+.footer {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    height: 500px;
+}
+
+/*footer info*/
+.footer-info {
+    padding-top: 60px;
+}
+
+.footer-info-all {
+    padding: 55px 0px 50px 0px;
+    gap: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footer-info-company {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.company-name {
+    margin: 0;
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+
+    color: #000000;
+}
+
+.company-desc {
+    margin: 0;
+    padding: 25px 0px 15px 0px;
+
+    width: 260px;
+}
+
+.footer-info-block-title {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.link-info-company {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/*section footer-payments-info*/
+
+.footer-payments-info {
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-payments-text {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-payment {
+    text-decoration: none;
+}
+
+.footer-social-icon {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+
+    transition: 1s;
+}
+
+.footer-social-icon:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.footer-social-icon:active {
+    background: #000000;
+}
+
+.social-icon-img {
+    font-size: 13.55px;
+    color: #000000;
+
+    transition: 1s;
+}
+
+.social-icon-img:active,
+.social-icon-img:hover {
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    padding: 3px 0px 3px 3px;
+}
+
+.fa-facebook-f {
+    padding: 3px 2px 3px 5px;
+}
+
+.fa-github {
+    padding: 3px;
+}
+
+.fa-instagram {
+    padding: 3px 0px 3px 3px;
+}
+
+.footer-payment {
+    width: 47px;
+    height: 30px;
+
+    background: #FFFFFF;
+    border: 0.224107px solid #D6DCE5;
+    box-shadow: 0px 4.48214px 8.96429px rgba(183, 183, 183, 0.08), 0px 0.448214px 4.48214px rgba(183, 183, 183, 0.08);
+    border-radius: 5.37857px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.cart-img {
+    width: 34px;
+    height: 34px;
+    transform: translate(2px, 10px);
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Satoshi', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+}
+
+.container {
+    min-width: 390px;
+    max-width: 1240px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+@import "blocks/discount.scss";
+@import "blocks/header.scss";
+@import "blocks/promo.scss";
+@import "blocks/breands.scss";
+@import "blocks/new-arrivals.scss";
+@import "blocks/categories.scss";
+@import "blocks/reviews.scss";
+@import "blocks/subscription.scss";
+@import "blocks/footer.scss";

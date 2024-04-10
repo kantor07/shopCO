@@ -1,0 +1,93 @@
+/*section subscription*/
+.subscription {
+  transform: translate(0px, 90px);
+}
+
+.subscription-container {
+  width: 1240px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 65px;
+  gap: 155px;
+  background: #000000;
+  border-radius: 20px;
+}
+
+.subscription-text {
+  margin: 0 auto;
+  font-family: "Integral CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  margin: 0 auto;
+  width: 350px;
+  height: 100px;
+}
+
+.mail-form,
+.subscription-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 10px;
+  width: 350px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 62px;
+}
+
+.mail-img {
+  padding: 3px;
+}
+
+.subscription-mail {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  border: none;
+}
+
+.subscription-mail::-moz-placeholder {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.subscription-mail::placeholder {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.subscription-mail:active,
+.subscription-mail:hover,
+.subscription-mail:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.subscription-btn {
+  justify-content: center;
+}
+
+.mail-btn-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}/*# sourceMappingURL=subscription.css.map */
