@@ -26,7 +26,7 @@
 .review {
     padding: 30px;
     width: 400px;
-    height: 240px;
+    min-height: 240px;
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -70,7 +70,16 @@
 }
 
 .review-desc {
+    margin-bottom: 30px;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
     margin: 0;
+}
+
+@media(max-width: 1240px) {
+    .review {
+        width: 320px;
+        min-height: 240px;
+
+    }
 }

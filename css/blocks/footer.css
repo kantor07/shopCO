@@ -141,4 +141,10 @@
   width: 34px;
   height: 34px;
   transform: translate(2px, 10px);
+}
+
+@media (max-width: 1240px) {
+  .footer-info-all {
+    gap: 60px;
+  }
 }/*# sourceMappingURL=footer.css.map */

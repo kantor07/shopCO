@@ -103,3 +103,28 @@
     align-items: flex-start;
     gap: 15px;
 }
+
+.fa-bars {
+    font-size: 0px;
+}
+
+@media(max-width: 1240px) {
+    .header-bars {
+        margin: 0;
+        padding: 0;
+        padding: 0px 15px 10px 0px;
+    }
+
+    .fa-bars {
+        font-size: 24px;
+    }
+
+    .header-nav {
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
