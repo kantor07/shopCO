@@ -105,7 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 0 80px 0;
+    padding: 40px 0 80px 0;
 }
 
 .view-all-btn {
@@ -140,5 +140,13 @@
         margin: 0;
         padding: 0;
         margin: 20px 0px 40px 0px;
+    }
+}
+
+@media(max-width: 768px) {
+    .item-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }

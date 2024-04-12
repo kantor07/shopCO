@@ -125,4 +125,9 @@
     opacity: 0;
     visibility: hidden;
   }
+}
+@media (max-width: 768px) {
+  .search {
+    width: 400px;
+  }
 }/*# sourceMappingURL=header.css.map */
