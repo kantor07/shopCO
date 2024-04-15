@@ -130,4 +130,28 @@
   .search {
     width: 400px;
   }
+}
+@media (max-width: 768px) {
+  .search {
+    width: 45px;
+    height: 45px;
+    padding: 10px 0px 0px 70px;
+    background: #FFFFFF;
+    border: none;
+  }
+  .search-btn {
+    background: #FFFFFF;
+  }
+  .search-field {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .fa-magnifying-glass {
+    color: #000000;
+    background: #FFFFFF;
+  }
 }/*# sourceMappingURL=header.css.map */

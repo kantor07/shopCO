@@ -183,6 +183,30 @@ body {
     width: 400px;
   }
 }
+@media (max-width: 768px) {
+  .search {
+    width: 45px;
+    height: 45px;
+    padding: 10px 0px 0px 70px;
+    background: #FFFFFF;
+    border: none;
+  }
+  .search-btn {
+    background: #FFFFFF;
+  }
+  .search-field {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .fa-magnifying-glass {
+    color: #000000;
+    background: #FFFFFF;
+  }
+}
 /* section promo */
 .promo {
   height: 665px;
@@ -303,6 +327,12 @@ body {
   }
   .breand-img {
     margin: 0px 70px 20px 0px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .breand-img {
+    margin: 10px 0px;
+    height: 25px;
   }
 }
 /* section new-arrivals */
@@ -437,9 +467,59 @@ body {
 }
 @media (max-width: 768px) {
   .item-list {
-    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+  }
+}
+@media (max-width: 425px) {
+  .section-title {
+    font-size: 32px;
+    color: #000000;
+  }
+  .item-list {
+    justify-content: space-between;
+  }
+  .item {
+    width: 200px;
+    min-height: 285px;
+  }
+  .item-img {
+    width: 170px;
+    height: 200px;
+  }
+  .item-title {
+    font-size: 16px;
+  }
+  .item-rating {
+    gap: 5px;
+  }
+  .fa-star,
+  .fa-star-half {
+    font-size: 15.47px;
+  }
+  .item-selling-price {
+    font-size: 20px;
+  }
+  .item-basic-price {
+    font-size: 20px;
+  }
+  .item-price-discount {
+    width: 32px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .price-discount {
+    font-size: 10px;
+  }
+  .view-all-button {
+    padding: 25px 15px;
+  }
+  .view-all-btn {
+    width: 358px;
+    height: 46px;
+  }
+  .view-all-btn-title {
+    font-size: 14px;
   }
 }
 /* section categories */
