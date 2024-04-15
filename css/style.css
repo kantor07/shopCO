@@ -601,6 +601,21 @@ body {
     min-height: 240px;
   }
 }
+@media (max-width: 768px) {
+  .review {
+    width: 370px;
+    min-height: 240px;
+  }
+  .review-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+  }
+}
 /*section subscription*/
 .subscription {
   transform: translate(0px, 90px);
@@ -608,7 +623,7 @@ body {
 
 .subscription-container {
   max-width: 1240px;
-  height: 180px;
+  min-height: 180px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -690,11 +705,23 @@ body {
 }
 
 .mail-btn-title {
+  font-family: "Satoshi";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #000000;
 }
 
+@media (max-width: 768px) {
+  .subscription-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25px;
+    gap: 30px;
+  }
+}
 /*footer*/
 .footer {
   background: rgba(0, 0, 0, 0.1);
@@ -843,5 +870,13 @@ body {
 @media (max-width: 1240px) {
   .footer-info-all {
     gap: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-info-all {
+    gap: 15px;
+  }
+  .company-desc {
+    width: 220px;
   }
 }/*# sourceMappingURL=style.css.map */

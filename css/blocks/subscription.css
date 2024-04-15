@@ -5,7 +5,7 @@
 
 .subscription-container {
   max-width: 1240px;
-  height: 180px;
+  min-height: 180px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,7 +87,20 @@
 }
 
 .mail-btn-title {
+  font-family: "Satoshi";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #000000;
+}
+
+@media (max-width: 768px) {
+  .subscription-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25px;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=subscription.css.map */

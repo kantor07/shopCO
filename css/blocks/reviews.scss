@@ -80,6 +80,22 @@
     .review {
         width: 320px;
         min-height: 240px;
+    }
+}
 
+@media(max-width: 768px) {
+    .review {
+        width: 370px;
+        min-height: 240px;
+    }
+
+    .review-hidden {
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        visibility: hidden;
+        /* display: none; */
     }
 }

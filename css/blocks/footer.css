@@ -147,4 +147,12 @@
   .footer-info-all {
     gap: 60px;
   }
+}
+@media (max-width: 768px) {
+  .footer-info-all {
+    gap: 15px;
+  }
+  .company-desc {
+    width: 220px;
+  }
 }/*# sourceMappingURL=footer.css.map */
