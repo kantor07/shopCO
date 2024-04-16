@@ -74,4 +74,14 @@
     margin: 20px;
     background-position: right;
   }
+}
+@media (max-width: 425px) {
+  .categories-casual,
+  .categories-formal,
+  .categories-party,
+  .categories-gym {
+    width: 310px;
+    height: 190px;
+    margin: 15px 25px;
+  }
 }/*# sourceMappingURL=categories.css.map */

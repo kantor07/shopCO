@@ -373,7 +373,7 @@ body {
   font-size: 20px;
   color: #000000;
   padding-top: 15px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .item-rating {
@@ -443,6 +443,12 @@ body {
   height: 52px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 60px;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+.view-all-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .view-all-btn-title {
@@ -475,12 +481,13 @@ body {
     font-size: 32px;
     color: #000000;
   }
-  .item-list {
-    justify-content: space-between;
-  }
   .item {
     width: 200px;
-    min-height: 285px;
+    height: 285px;
+    margin: 20px 0px 20px 0px;
+  }
+  .item-list {
+    justify-content: space-between;
   }
   .item-img {
     width: 170px;
@@ -512,13 +519,24 @@ body {
     font-size: 10px;
   }
   .view-all-button {
-    padding: 25px 15px;
+    padding: 25px 0px;
   }
   .view-all-btn {
-    width: 358px;
-    height: 46px;
+    width: 360px;
+    height: 45px;
   }
   .view-all-btn-title {
+    font-size: 14px;
+  }
+}
+@media (max-width: 390px) {
+  .item {
+    width: 180px;
+  }
+  .item-img {
+    width: 150px;
+  }
+  .item-title {
     font-size: 14px;
   }
 }
@@ -597,6 +615,17 @@ body {
     height: 290px;
     margin: 20px;
     background-position: right;
+  }
+}
+@media (max-width: 425px) {
+  .categories-casual,
+  .categories-formal,
+  .categories-party,
+  .categories-gym {
+    width: 310px;
+    height: 190px;
+    margin: 15px 25px;
+    transform: scale(0.5);
   }
 }
 /*section reviews*/

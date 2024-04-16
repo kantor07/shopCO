@@ -40,7 +40,7 @@
     color: #000000;
 
     padding-top: 15px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .item-rating {
@@ -118,7 +118,15 @@
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 60px;
+    background-color: #FFFFFF;
+
+    transition: 1s;
 }
+
+.view-all-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 .view-all-btn-title {
     font-family: 'Satoshi';
@@ -155,13 +163,14 @@
         color: #000000;
     }
 
-    .item-list {
-        justify-content: space-between;
-    }
-
     .item {
         width: 200px;
         height: 285px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .item-list {
+        justify-content: space-between;
     }
 
     .item-img {
@@ -202,15 +211,30 @@
     }
 
     .view-all-button {
-        padding: 25px 15px;
+        padding: 25px 0px;
     }
 
     .view-all-btn {
-        width: 358px;
-        height: 46px;
+        width: 360px;
+        height: 45px;
     }
 
     .view-all-btn-title {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 390px) {
+    .item {
+        width: 180px;
+    }
+
+    .item-img {
+        width: 150px;
+    }
+
+    .item-title {
         font-size: 14px;
     }
 
