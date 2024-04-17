@@ -106,3 +106,24 @@
         gap: 30px;
     }
 }
+
+@media (max-width: 425px) {
+    .subscription-text {
+        font-size: 32px;
+    }
+
+    .mail-btn-title,
+    .subscription-mail,
+    .subscription-mail::placeholder {
+        font-size: 14px;
+    }
+
+    .mail-img {
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .subscription {
+        transform: translate(0px, 50px);
+    }
+}

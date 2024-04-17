@@ -84,4 +84,26 @@
     height: 190px;
     margin: 15px 25px;
   }
+  .categories-formal {
+    background-size: 140%;
+  }
+  .categories-party {
+    background-size: 135%;
+  }
+  .categories-casual {
+    background-size: 85%;
+  }
+  .categories-gym {
+    background-size: 105%;
+    background-position: -40px -50px;
+  }
+  .categories-title {
+    font-size: 24px;
+    width: 55px;
+    height: 35px;
+    transform: translate(-20px, -25px);
+  }
+  .categories {
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=categories.css.map */

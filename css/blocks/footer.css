@@ -153,6 +153,17 @@
     gap: 15px;
   }
   .company-desc {
-    width: 220px;
+    min-width: 220px;
+  }
+}
+@media (max-width: 425px) {
+  .footer-info-all {
+    padding: 30px 0px 75px 0px;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .company-desc {
+    padding: 15px 0px 20px 0px;
+    min-width: 260px;
   }
 }/*# sourceMappingURL=footer.css.map */

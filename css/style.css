@@ -625,16 +625,34 @@ body {
     width: 310px;
     height: 190px;
     margin: 15px 25px;
-    transform: scale(0.5);
+  }
+  .categories-formal {
+    background-size: 140%;
+  }
+  .categories-party {
+    background-size: 135%;
+  }
+  .categories-casual {
+    background-size: 85%;
+  }
+  .categories-gym {
+    background-size: 105%;
+    background-position: -40px -50px;
+  }
+  .categories-title {
+    font-size: 24px;
+    width: 55px;
+    height: 35px;
+    transform: translate(-20px, -25px);
+  }
+  .categories {
+    margin-bottom: 10px;
   }
 }
 /*section reviews*/
-.reviews-block {
-  display: flex;
-  justify-content: space-between;
-}
-
-.reviews-section-title {
+.reviews-block,
+.reviews-section-title,
+.reviews-arrows {
   display: flex;
   justify-content: space-between;
 }
@@ -642,8 +660,6 @@ body {
 .reviews-arrows {
   padding-top: 80px;
   width: 55px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .fa-arrow-left,
@@ -713,7 +729,6 @@ body {
 @media (max-width: 768px) {
   .review {
     width: 370px;
-    min-height: 240px;
   }
   .review-hidden {
     position: absolute;
@@ -723,6 +738,29 @@ body {
     opacity: 0;
     visibility: hidden;
     /* display: none; */
+  }
+}
+@media (max-width: 425px) {
+  .reviews-block {
+    justify-content: center;
+  }
+  .review {
+    min-width: 360px;
+  }
+  .review-hidden-two {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+  }
+  .section-title {
+    text-align: start;
+  }
+  .reviews-arrows {
+    width: 65px;
   }
 }
 /*section subscription*/
@@ -829,6 +867,26 @@ body {
     align-items: center;
     padding: 30px 25px;
     gap: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .subscription-text {
+    font-size: 32px;
+  }
+  .subscription-mail::-moz-placeholder {
+    font-size: 14px;
+  }
+  .mail-btn-title,
+  .subscription-mail,
+  .subscription-mail::placeholder {
+    font-size: 14px;
+  }
+  .mail-img {
+    font-size: 20px;
+    padding: 2px;
+  }
+  .subscription {
+    transform: translate(0px, 50px);
   }
 }
 /*footer*/
@@ -986,6 +1044,17 @@ body {
     gap: 15px;
   }
   .company-desc {
-    width: 220px;
+    min-width: 220px;
+  }
+}
+@media (max-width: 425px) {
+  .footer-info-all {
+    padding: 30px 0px 75px 0px;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .company-desc {
+    padding: 15px 0px 20px 0px;
+    min-width: 260px;
   }
 }/*# sourceMappingURL=style.css.map */
