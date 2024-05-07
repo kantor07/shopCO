@@ -3,16 +3,17 @@
     background: rgba(0, 0, 0, 0.1);
 }
 
-.footer-container {
-    height: 500px;
-}
+// .footer-container {
+//     height: 500px;
+// }
 
 /*footer info*/
 .footer-info {
     padding-top: 60px;
 }
 
-.footer-info-all {
+.footer-info-all,
+.footer-info-blocks {
     padding: 55px 0px 50px 0px;
     gap: 115px;
     display: flex;
@@ -20,8 +21,8 @@
     align-items: flex-start;
 }
 
-.footer-info-company {
-    height: 200px;
+.footer-info-company,
+.footer-info-company-title {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -43,7 +44,10 @@
     margin: 0;
     padding: 25px 0px 15px 0px;
 
-    width: 260px;
+    min-width: 260px;
+    font-size: 14px;
+
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .footer-info-block-title {
@@ -80,8 +84,8 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
-.footer-payment {
-    text-decoration: none;
+.footer-payments {
+    transform: translate(0px, -10px);
 }
 
 .footer-social-icon {
@@ -144,6 +148,7 @@
     border-radius: 5.37857px;
     padding: 10px;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 .cart-img {
@@ -153,31 +158,67 @@
 }
 
 @media(max-width: 1240px) {
-    .footer-info-all {
+
+    .footer-info-all,
+    .footer-info-blocks {
         gap: 60px;
     }
 }
 
 @media(max-width: 768px) {
-    .footer-info-all {
+
+    .footer-info-all,
+    .footer-info-blocks {
         gap: 15px;
     }
 
-    .company-desc {
-        min-width: 220px;
-    }
 }
 
 @media(max-width: 425px) {
+
+    .footer-container {
+        height: 900px;
+    }
+
     .footer-info-all {
         padding: 30px 0px 75px 0px;
-        gap: 15px;
         flex-direction: column;
+    }
+
+    .footer-info-blocks {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        gap: 0px;
+    }
+
+    .footer-info-company {
+        width: 50%;
     }
 
     .company-desc {
         padding: 15px 0px 20px 0px;
-
-        min-width: 260px;
     }
+
+    .company-name {
+        font-size: 28.847px;
+        line-height: 35px;
+    }
+
+    .footer-payments {
+        padding-top: 10px;
+        transform: translate(0px, 0px);
+        text-align: center;
+    }
+
+    .footer-payments-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-payments-text {
+        text-align: center;
+    }
+
 }
