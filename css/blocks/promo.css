@@ -89,8 +89,70 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+  .promo {
+    height: 875px;
+    background: #ffffff;
+  }
   .promo-container {
+    background: none;
+  }
+  .promo-img {
+    height: 450px;
     width: 100%;
+    background: url(../img/promo.png) right top no-repeat;
+  }
+  .promo-text {
+    width: 315px;
+    height: 275px;
+    margin: 0;
+    padding: 0;
+  }
+  .promo-title {
+    font-size: 36px;
+    line-height: 34px;
+  }
+  .promo-desc {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .promo-btn {
+    width: 360px;
+    height: 55px;
+    padding: 15px 55px;
+    gap: 12px;
+    border-radius: 62px;
+  }
+  .promo-aside-list {
+    display: grid;
+    grid-template-columns: 180px 220px 240px;
+    /* padding-bottom: 105px; */
+  }
+  .promo-aside,
+  .promo-aside-first,
+  .promo-aside-second {
+    height: 75px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+  }
+  .promo-aside-first,
+  .promo-aside-second {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .promo-aside,
+  .promo-aside-second {
+    padding-left: 30px;
+  }
+  .promo-aside-desc {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
   }
 }/*# sourceMappingURL=promo.css.map */
