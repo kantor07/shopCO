@@ -5,11 +5,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
-  background: #F2F0F1;
+  background: #f2f0f1;
 }
 
 .promo-container {
-  width: 1240px;
+  width: 100%;
   background: url(../img/promo.png) center top no-repeat;
 }
 
@@ -51,7 +51,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .promo-aside-list {

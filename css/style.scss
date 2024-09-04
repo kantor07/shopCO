@@ -1,29 +1,29 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Satoshi', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
+  margin: 0;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .hidden {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
-    visibility: hidden;
-    /* display: none; */
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  visibility: hidden;
+  /* display: none; */
 }
 
 .container {
-    min-width: 390px;
-    max-width: 1240px;
-    margin: 0 auto;
-    border: 1px solid red;
+  min-width: 390px;
+  max-width: 1240px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 @import "blocks/discount.scss";

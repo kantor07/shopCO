@@ -166,9 +166,11 @@ body {
     padding: 0;
     padding: 0px 15px 10px 0px;
   }
+
   .fa-bars {
     font-size: 24px;
   }
+
   .header-nav {
     position: absolute;
     left: -9999px;
@@ -178,11 +180,13 @@ body {
     visibility: hidden;
   }
 }
+
 @media (max-width: 768px) {
   .search {
     width: 400px;
   }
 }
+
 @media (max-width: 768px) {
   .search {
     width: 45px;
@@ -191,9 +195,11 @@ body {
     background: #FFFFFF;
     border: none;
   }
+
   .search-btn {
     background: #FFFFFF;
   }
+
   .search-field {
     position: absolute;
     left: -9999px;
@@ -202,11 +208,13 @@ body {
     opacity: 0;
     visibility: hidden;
   }
+
   .fa-magnifying-glass {
     color: #000000;
     background: #FFFFFF;
   }
 }
+
 /* section promo */
 .promo {
   height: 665px;
@@ -214,11 +222,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
-  background: #F2F0F1;
+  background: #f2f0f1;
 }
 
 .promo-container {
-  width: 1240px;
+  width: 100%;
   background: url(../img/promo.png) center top no-repeat;
 }
 
@@ -260,7 +268,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .promo-aside-list {
@@ -303,6 +311,7 @@ body {
     width: 100%;
   }
 }
+
 /* section breands */
 .breands {
   margin-top: 15px;
@@ -320,21 +329,25 @@ body {
   .breands {
     height: 145px;
   }
+
   .breands-list {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px 0;
   }
+
   .breand-img {
     margin: 0px 70px 20px 0px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .breand-img {
     margin: 10px 0px;
     height: 25px;
   }
 }
+
 /* section new-arrivals */
 .new-arrivals-container {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -465,81 +478,101 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
   .item {
     margin: 0;
     padding: 0;
     margin: 20px 0px 40px 0px;
   }
 }
+
 @media (max-width: 768px) {
   .item-list {
     justify-content: space-around;
   }
 }
+
 @media (max-width: 425px) {
   .section-title {
     font-size: 32px;
     color: #000000;
   }
+
   .item {
     width: 200px;
     height: 285px;
     margin: 20px 0px 20px 0px;
   }
+
   .item-list {
     justify-content: space-between;
   }
+
   .item-img {
     width: 170px;
     height: 200px;
   }
+
   .item-title {
     font-size: 16px;
   }
+
   .item-rating {
     gap: 5px;
   }
+
   .fa-star,
   .fa-star-half {
     font-size: 15.47px;
   }
+
   .item-selling-price {
     font-size: 20px;
   }
+
   .item-basic-price {
     font-size: 20px;
   }
+
   .item-price-discount {
     width: 32px;
     height: 20px;
     display: flex;
     justify-content: center;
   }
+
   .price-discount {
     font-size: 10px;
   }
+
   .view-all-button {
     padding: 25px 0px;
   }
+
   .view-all-btn {
     width: 360px;
     height: 45px;
   }
+
   .view-all-btn-title {
     font-size: 14px;
   }
 }
+
 @media (max-width: 390px) {
   .item {
     width: 180px;
   }
+
   .item-img {
     width: 150px;
   }
+
   .item-title {
     font-size: 14px;
   }
 }
+
 /* section categories */
 .categories-container {
   background: #F0F0F0;
@@ -599,6 +632,7 @@ body {
 }
 
 @media (max-width: 1240px) {
+
   .categories-formal,
   .categories-party {
     width: 405px;
@@ -606,7 +640,9 @@ body {
     background-position: center;
   }
 }
+
 @media (max-width: 768px) {
+
   .categories-casual,
   .categories-formal,
   .categories-party,
@@ -617,7 +653,9 @@ body {
     background-position: right;
   }
 }
+
 @media (max-width: 425px) {
+
   .categories-casual,
   .categories-formal,
   .categories-party,
@@ -626,29 +664,36 @@ body {
     height: 190px;
     margin: 15px 25px;
   }
+
   .categories-formal {
     background-size: 140%;
   }
+
   .categories-party {
     background-size: 135%;
   }
+
   .categories-casual {
     background-size: 85%;
   }
+
   .categories-gym {
     background-size: 105%;
     background-position: -40px -50px;
   }
+
   .categories-title {
     font-size: 24px;
     width: 55px;
     height: 35px;
     transform: translate(-20px, -25px);
   }
+
   .categories {
     margin-bottom: 10px;
   }
 }
+
 /*section reviews*/
 .reviews-block,
 .reviews-section-title,
@@ -726,10 +771,12 @@ body {
     min-height: 240px;
   }
 }
+
 @media (max-width: 768px) {
   .review {
     width: 370px;
   }
+
   .review-hidden {
     position: absolute;
     left: -9999px;
@@ -740,13 +787,16 @@ body {
     /* display: none; */
   }
 }
+
 @media (max-width: 425px) {
   .reviews-block {
     justify-content: center;
   }
+
   .review {
     min-width: 360px;
   }
+
   .review-hidden-two {
     position: absolute;
     left: -9999px;
@@ -756,13 +806,16 @@ body {
     visibility: hidden;
     /* display: none; */
   }
+
   .section-title {
     text-align: start;
   }
+
   .reviews-arrows {
     width: 65px;
   }
 }
+
 /*section subscription*/
 .subscription {
   transform: translate(0px, 90px);
@@ -869,26 +922,32 @@ body {
     gap: 30px;
   }
 }
+
 @media (max-width: 425px) {
   .subscription-text {
     font-size: 32px;
   }
+
   .subscription-mail::-moz-placeholder {
     font-size: 14px;
   }
+
   .mail-btn-title,
   .subscription-mail,
   .subscription-mail::placeholder {
     font-size: 14px;
   }
+
   .mail-img {
     font-size: 20px;
     padding: 2px;
   }
+
   .subscription {
     transform: translate(0px, 50px);
   }
 }
+
 /*footer*/
 .footer {
   background: rgba(0, 0, 0, 0.1);
@@ -1035,25 +1094,31 @@ body {
 }
 
 @media (max-width: 1240px) {
+
   .footer-info-all,
   .footer-info-blocks {
     gap: 60px;
   }
 }
+
 @media (max-width: 768px) {
+
   .footer-info-all,
   .footer-info-blocks {
     gap: 15px;
   }
 }
+
 @media (max-width: 425px) {
   .footer-container {
-    max-height: 900px;
+    height: 900px;
   }
+
   .footer-info-all {
     padding: 30px 0px 75px 0px;
     flex-direction: column;
   }
+
   .footer-info-blocks {
     padding: 0px;
     display: flex;
@@ -1061,26 +1126,34 @@ body {
     height: 100%;
     gap: 0px;
   }
+
   .footer-info-company {
     width: 50%;
   }
+
   .company-desc {
     padding: 15px 0px 20px 0px;
   }
+
   .company-name {
     font-size: 28.847px;
     line-height: 35px;
   }
+
   .footer-payments {
     padding-top: 10px;
     transform: translate(0px, 0px);
     text-align: center;
   }
+
   .footer-payments-info {
     display: flex;
     flex-direction: column;
   }
+
   .footer-payments-text {
     text-align: center;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
