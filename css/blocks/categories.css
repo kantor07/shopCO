@@ -1,6 +1,6 @@
 /* section categories */
 .categories-container {
-  background: #F0F0F0;
+  background: #f0f0f0;
   border-radius: 40px;
 }
 
@@ -27,7 +27,7 @@
   height: 290px;
   border-radius: 20px;
   margin: 0px 20px 20px 0px;
-  background: url(../img/categoriesCasual.png) -2500% no-repeat, #FFFFFF;
+  background: url(../img/categoriesCasual.png) -2500% no-repeat, #ffffff;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@
   width: 685px;
   height: 290px;
   border-radius: 20px;
-  background: url(../img/categoriesFormal.png) no-repeat, #FFFFFF;
+  background: url(../img/categoriesFormal.png) no-repeat, #ffffff;
   text-decoration: none;
 }
 
@@ -44,19 +44,19 @@
   height: 290px;
   border-radius: 20px;
   margin: 0px 20px 80px 0px;
-  background: url(../img/categoriesParty.png) right no-repeat, #FFFFFF;
+  background: url(../img/categoriesParty.png) right no-repeat, #ffffff;
   text-decoration: none;
 }
 
 .categories-gym {
   width: 405px;
   height: 290px;
-  background: url(../img/categoriesGym.png) 170% no-repeat, #FFFFFF;
+  background: url(../img/categoriesGym.png) 170% no-repeat, #ffffff;
   border-radius: 20px;
   text-decoration: none;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1024px) {
   .categories-formal,
   .categories-party {
     width: 405px;

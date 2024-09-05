@@ -1,130 +1,125 @@
 /* section categories */
 .categories-container {
-    background: #F0F0F0;
-    border-radius: 40px;
+  background: #f0f0f0;
+  border-radius: 40px;
 }
 
 .categories {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .categories-title {
-    width: 115px;
-    height: 50px;
-    padding: 35px;
-    margin-top: 25px;
-    font-weight: 700;
-    font-size: 36px;
+  width: 115px;
+  height: 50px;
+  padding: 35px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 36px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    color: #000000;
+  color: #000000;
 }
 
 .categories-casual {
-    width: 405px;
-    height: 290px;
-    border-radius: 20px;
-    margin: 0px 20px 20px 0px;
+  width: 405px;
+  height: 290px;
+  border-radius: 20px;
+  margin: 0px 20px 20px 0px;
 
-    background: url(../img/categoriesCasual.png) -2500% no-repeat, #FFFFFF;
-    text-decoration: none;
+  background: url(../img/categoriesCasual.png) -2500% no-repeat, #ffffff;
+  text-decoration: none;
 }
 
 .categories-formal {
-    width: 685px;
-    height: 290px;
-    border-radius: 20px;
+  width: 685px;
+  height: 290px;
+  border-radius: 20px;
 
-    background: url(../img/categoriesFormal.png) no-repeat, #FFFFFF;
-    text-decoration: none;
+  background: url(../img/categoriesFormal.png) no-repeat, #ffffff;
+  text-decoration: none;
 }
 
 .categories-party {
-    width: 685px;
-    height: 290px;
-    border-radius: 20px;
-    margin: 0px 20px 80px 0px;
+  width: 685px;
+  height: 290px;
+  border-radius: 20px;
+  margin: 0px 20px 80px 0px;
 
-    background: url(../img/categoriesParty.png) right no-repeat, #FFFFFF;
-    text-decoration: none;
+  background: url(../img/categoriesParty.png) right no-repeat, #ffffff;
+  text-decoration: none;
 }
 
 .categories-gym {
+  width: 405px;
+  height: 290px;
+
+  background: url(../img/categoriesGym.png) 170% no-repeat, #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .categories-formal,
+  .categories-party {
     width: 405px;
     height: 290px;
-
-    background: url(../img/categoriesGym.png) 170% no-repeat, #FFFFFF;
-    border-radius: 20px;
-    text-decoration: none;
+    background-position: center;
+  }
 }
 
-@media(max-width: 1240px) {
+@media (max-width: 768px) {
+  .categories-casual,
+  .categories-formal,
+  .categories-party,
+  .categories-gym {
+    width: 685px;
+    height: 290px;
 
-    .categories-formal,
-    .categories-party {
-        width: 405px;
-        height: 290px;
-        background-position: center;
-    }
+    margin: 20px;
+    background-position: right;
+  }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 425px) {
+  .categories-casual,
+  .categories-formal,
+  .categories-party,
+  .categories-gym {
+    width: 310px;
+    height: 190px;
 
-    .categories-casual,
-    .categories-formal,
-    .categories-party,
-    .categories-gym {
-        width: 685px;
-        height: 290px;
+    margin: 15px 25px;
+  }
 
-        margin: 20px;
-        background-position: right;
-    }
+  .categories-formal {
+    background-size: 140%;
+  }
 
-}
+  .categories-party {
+    background-size: 135%;
+  }
 
-@media(max-width: 425px) {
+  .categories-casual {
+    background-size: 85%;
+  }
 
-    .categories-casual,
-    .categories-formal,
-    .categories-party,
-    .categories-gym {
-        width: 310px;
-        height: 190px;
+  .categories-gym {
+    background-size: 105%;
+    background-position: -40px -50px;
+  }
 
-        margin: 15px 25px;
-    }
+  .categories-title {
+    font-size: 24px;
+    width: 55px;
+    height: 35px;
+    transform: translate(-20px, -25px);
+  }
 
-    .categories-formal {
-        background-size: 140%;
-    }
-
-    .categories-party {
-        background-size: 135%;
-    }
-
-    .categories-casual {
-        background-size: 85%;
-    }
-
-    .categories-gym {
-        background-size: 105%;
-        background-position: -40px -50px;
-    }
-
-    .categories-title {
-        font-size: 24px;
-        width: 55px;
-        height: 35px;
-        transform: translate(-20px, -25px);
-    }
-
-    .categories {
-        margin-bottom: 10px;
-    }
-
+  .categories {
+    margin-bottom: 10px;
+  }
 }
