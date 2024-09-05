@@ -277,12 +277,6 @@ body {
   color: #ffffff;
 }
 
-.promo-aside-list {
-  display: grid;
-  grid-template-columns: 180px 220px 240px;
-  /* padding-bottom: 105px; */
-}
-
 .promo-aside,
 .promo-aside-first,
 .promo-aside-second {
@@ -321,6 +315,7 @@ body {
     background: none;
   }
   .promo-img {
+    margin-top: 125px;
     height: 450px;
     width: 100%;
     background: url(../img/promo.png) right top no-repeat;
@@ -349,34 +344,36 @@ body {
     border-radius: 62px;
   }
   .promo-aside-list {
-    display: grid;
-    grid-template-columns: 180px 220px 240px;
-    /* padding-bottom: 105px; */
-  }
-  .promo-aside,
-  .promo-aside-first,
-  .promo-aside-second {
-    height: 75px;
-    font-weight: 700;
-    font-size: 40px;
-    color: #000000;
+    margin: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 0px;
+  }
+  .promo-aside {
+    padding-left: 0px;
+  }
+  .promo-aside,
+  .promo-aside-first,
+  .promo-aside-second {
+    height: 100%;
+    font-size: 24px;
   }
   .promo-aside-first,
   .promo-aside-second {
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-right: 10px;
   }
-  .promo-aside,
+  .promo-aside-first {
+    height: 52px;
+  }
   .promo-aside-second {
-    padding-left: 30px;
+    border-right: none;
   }
   .promo-aside-desc {
-    font-family: "Satoshi";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
   }
 }
 /* section breands */
