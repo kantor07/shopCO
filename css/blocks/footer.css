@@ -86,7 +86,7 @@
   margin-right: 10px;
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background: #FFFFFF;
+  background: #ffffff;
   transition: 1s;
 }
 
@@ -106,7 +106,7 @@
 
 .social-icon-img:active,
 .social-icon-img:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fa-twitter {
@@ -128,8 +128,8 @@
 .footer-payment {
   width: 47px;
   height: 30px;
-  background: #FFFFFF;
-  border: 0.224107px solid #D6DCE5;
+  background: #ffffff;
+  border: 0.224107px solid #d6dce5;
   box-shadow: 0px 4.48214px 8.96429px rgba(183, 183, 183, 0.08), 0px 0.448214px 4.48214px rgba(183, 183, 183, 0.08);
   border-radius: 5.37857px;
   padding: 10px;
@@ -158,6 +158,7 @@
 @media (max-width: 425px) {
   .footer-container {
     height: 900px;
+    padding-left: 10px;
   }
   .footer-info-all {
     padding: 30px 0px 75px 0px;

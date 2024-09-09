@@ -133,11 +133,19 @@
   }
 }
 @media (max-width: 768px) {
+  .new-arrivals-container,
+  .top-selling-container {
+    padding-left: 30px;
+  }
   .item {
     width: 45%;
   }
 }
 @media (max-width: 425px) {
+  .new-arrivals-container,
+  .top-selling-container {
+    padding-left: 10px;
+  }
   .section-title {
     font-size: 32px;
     color: #000000;

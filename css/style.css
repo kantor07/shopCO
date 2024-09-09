@@ -342,17 +342,10 @@ body {
 }
 @media (max-width: 425px) {
   .promo {
-    height: 875px;
-    background: #ffffff;
-  }
-  .promo-container {
-    background: none;
+    margin: 0px;
   }
   .promo-img {
-    margin-top: 140px;
-    height: 450px;
-    width: 100%;
-    background: url(../img/promo.png) right top no-repeat;
+    margin-top: 200px;
   }
   .promo-text {
     width: 315px;
@@ -570,11 +563,19 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .new-arrivals-container,
+  .top-selling-container {
+    padding-left: 30px;
+  }
   .item {
     width: 45%;
   }
 }
 @media (max-width: 425px) {
+  .new-arrivals-container,
+  .top-selling-container {
+    padding-left: 10px;
+  }
   .section-title {
     font-size: 32px;
     color: #000000;
@@ -785,7 +786,7 @@ body {
 
 .fa-circle-check {
   font-size: 19.5px;
-  color: #01AB31;
+  color: #01ab31;
 }
 
 .review-star {
@@ -1066,7 +1067,7 @@ body {
   margin-right: 10px;
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background: #FFFFFF;
+  background: #ffffff;
   transition: 1s;
 }
 
@@ -1086,7 +1087,7 @@ body {
 
 .social-icon-img:active,
 .social-icon-img:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fa-twitter {
@@ -1108,8 +1109,8 @@ body {
 .footer-payment {
   width: 47px;
   height: 30px;
-  background: #FFFFFF;
-  border: 0.224107px solid #D6DCE5;
+  background: #ffffff;
+  border: 0.224107px solid #d6dce5;
   box-shadow: 0px 4.48214px 8.96429px rgba(183, 183, 183, 0.08), 0px 0.448214px 4.48214px rgba(183, 183, 183, 0.08);
   border-radius: 5.37857px;
   padding: 10px;
@@ -1138,6 +1139,7 @@ body {
 @media (max-width: 425px) {
   .footer-container {
     height: 900px;
+    padding-left: 10px;
   }
   .footer-info-all {
     padding: 30px 0px 75px 0px;

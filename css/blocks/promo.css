@@ -119,17 +119,10 @@
 }
 @media (max-width: 425px) {
   .promo {
-    height: 875px;
-    background: #ffffff;
-  }
-  .promo-container {
-    background: none;
+    margin: 0px;
   }
   .promo-img {
-    margin-top: 140px;
-    height: 450px;
-    width: 100%;
-    background: url(../img/promo.png) right top no-repeat;
+    margin-top: 200px;
   }
   .promo-text {
     width: 315px;
