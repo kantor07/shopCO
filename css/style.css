@@ -277,9 +277,17 @@ body {
   color: #ffffff;
 }
 
-.promo-aside,
+.promo-aside-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
 .promo-aside-first,
-.promo-aside-second {
+.promo-aside-second,
+.promo-aside-third {
   height: 75px;
   font-weight: 700;
   font-size: 40px;
@@ -288,17 +296,14 @@ body {
   flex-direction: column;
 }
 
-.promo-aside-first,
 .promo-aside-second {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.promo-aside,
-.promo-aside-second {
-  padding-left: 30px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0px 30px 0px 30px;
 }
 
 .promo-aside-desc {
+  width: 170px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
@@ -353,10 +358,10 @@ body {
     align-content: flex-start;
     gap: 0px;
   }
-  .promo-aside {
+  .promo-aside-third {
     padding-left: 0px;
   }
-  .promo-aside,
+  .promo-aside-third,
   .promo-aside-first,
   .promo-aside-second {
     height: 100%;
