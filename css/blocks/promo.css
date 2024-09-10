@@ -90,7 +90,7 @@
 
 @media (max-width: 768px) {
   .promo {
-    margin-bottom: 465px;
+    margin-bottom: 475px;
     height: 875px;
     background: #ffffff;
   }
@@ -100,7 +100,7 @@
   .promo-img {
     height: 100%;
     width: 100%;
-    background: url(../img/promo.png) right top no-repeat;
+    background: url(../img/promo.png) 100% top no-repeat;
   }
   .promo-text {
     display: flex;
@@ -119,14 +119,17 @@
 }
 @media (max-width: 425px) {
   .promo {
-    margin: 0px;
+    margin-bottom: 0px;
   }
   .promo-img {
-    margin-top: 200px;
+    margin-top: 180px;
+    background-size: 230%;
+    background-position: 93%;
   }
   .promo-text {
     width: 315px;
     height: 275px;
+    margin-left: 0px;
   }
   .promo-title {
     font-size: 36px;
@@ -141,7 +144,7 @@
   .promo-btn {
     width: 360px;
     height: 55px;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 40px;
     padding: 15px 55px;
     gap: 12px;
     border-radius: 62px;
@@ -171,5 +174,12 @@
   .promo-aside-desc {
     width: 120px;
     font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .promo-img {
+    margin-top: 170px;
+    background-size: 230%;
+    background-position: 93%;
   }
 }/*# sourceMappingURL=promo.css.map */

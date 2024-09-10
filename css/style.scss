@@ -9,13 +9,12 @@ body {
 }
 
 body {
-  margin: 0;
   font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .hidden {
@@ -32,12 +31,12 @@ body {
   min-width: 390px;
   max-width: 1240px;
   margin: 0 auto;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .main {
   flex-grow: 1;
-  border: 5px solid green;
+  /*border: 5px solid green;*/
 }
 
 @import "blocks/discount.scss";

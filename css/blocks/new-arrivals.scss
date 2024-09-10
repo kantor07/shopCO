@@ -12,7 +12,8 @@
   height: 100%;
 }
 
-.section-title {
+.section-title,
+.reviews-title {
   font-family: "Integral CF";
   font-weight: 700;
   font-size: 48px;
@@ -164,7 +165,8 @@
     padding-left: 10px;
   }
 
-  .section-title {
+  .section-title,
+  .reviews-title {
     font-size: 32px;
     color: #000000;
   }
