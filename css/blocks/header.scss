@@ -136,6 +136,9 @@
 }
 
 @media (max-width: 425px) {
+  .header-logo-href {
+    font-size: 25px;
+  }
   .search {
     width: 45px;
     height: 45px;
@@ -162,4 +165,7 @@
     color: #000000;
     background: #ffffff;
   }
+}
+
+@media (max-width: 375px) {
 }

@@ -3,10 +3,6 @@
   background: rgba(0, 0, 0, 0.1);
 }
 
-// .footer-container {
-//     height: 500px;
-// }
-
 /*footer info*/
 .footer-info {
   padding-top: 60px;
@@ -217,5 +213,11 @@
 
   .footer-payments-text {
     text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    width: 390px;
   }
 }

@@ -29,4 +29,9 @@
     margin: 10px 0px;
     height: 25px;
   }
+}
+@media screen and (max-width: 375px) {
+  .breands {
+    width: 390px;
+  }
 }/*# sourceMappingURL=breands.css.map */

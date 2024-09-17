@@ -193,4 +193,9 @@
   .footer-payments-text {
     text-align: center;
   }
+}
+@media (max-width: 375px) {
+  .footer {
+    width: 390px;
+  }
 }/*# sourceMappingURL=footer.css.map */
