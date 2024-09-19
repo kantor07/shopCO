@@ -106,4 +106,10 @@
   .categories {
     margin-bottom: 10px;
   }
+}
+@media (max-width: 320px) {
+  .categories-container {
+    padding: 0px;
+    margin-left: 65px;
+  }
 }/*# sourceMappingURL=categories.css.map */
