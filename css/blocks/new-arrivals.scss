@@ -26,9 +26,11 @@
 
 .item {
   width: 25%;
-  height: 410px;
+  height: 440px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 20px 0px 40px 0px;
 }
 
@@ -44,8 +46,9 @@
   font-size: 20px;
   color: #000000;
 
-  padding-top: 15px;
+  padding: 15px 5px 0px 0px;
   text-transform: capitalize;
+  flex-grow: 1;
 }
 
 .item-rating {
@@ -173,7 +176,7 @@
 
   .item {
     width: 40%;
-    height: 285px;
+    height: 345px;
   }
 
   .item-img {

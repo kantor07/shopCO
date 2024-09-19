@@ -72,7 +72,6 @@
 @media (max-width: 1240px) {
   .review {
     width: 320px;
-    min-height: 240px;
   }
 }
 @media (max-width: 768px) {

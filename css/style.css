@@ -55,14 +55,21 @@ body {
 .discount-href {
   padding: 10px 0;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fa-times {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
+@media (max-width: 375px) {
+  .discount {
+    height: 40px;
+    width: 390px;
+    background: #000000;
+  }
+}
 /* header */
 .header {
   height: 50px;
@@ -483,9 +490,11 @@ body {
 
 .item {
   width: 25%;
-  height: 410px;
+  height: 440px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 20px 0px 40px 0px;
 }
 
@@ -500,8 +509,9 @@ body {
   font-weight: 700;
   font-size: 20px;
   color: #000000;
-  padding-top: 15px;
+  padding: 15px 5px 0px 0px;
   text-transform: capitalize;
+  flex-grow: 1;
 }
 
 .item-rating {
@@ -614,7 +624,7 @@ body {
   }
   .item {
     width: 40%;
-    height: 285px;
+    height: 345px;
   }
   .item-img {
     width: 170px;
@@ -845,7 +855,6 @@ body {
 @media (max-width: 1240px) {
   .review {
     width: 320px;
-    min-height: 240px;
   }
 }
 @media (max-width: 768px) {

@@ -14,10 +14,18 @@
 .discount-href {
   padding: 10px 0;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fa-times {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+@media (max-width: 375px) {
+  .discount {
+    height: 40px;
+    width: 390px;
+    background: #000000;
+  }
 }/*# sourceMappingURL=discount.css.map */
