@@ -413,15 +413,14 @@ body {
 }
 @media (max-width: 375px) {
   .promo-img {
-    margin-top: 110px;
+    margin-top: 90px;
   }
   .promo-text {
-    margin-left: 0px;
+    margin: 0px;
   }
 }
 @media (max-width: 320px) {
   .promo-img {
-    margin-top: 90px;
     background-size: 235%;
     background-position: 92%;
   }
