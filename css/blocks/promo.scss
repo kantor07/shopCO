@@ -47,6 +47,8 @@
 
   background: #000000;
   border-radius: 60px;
+
+  transition: 1s;
 }
 
 .promo-btn-title {
@@ -57,6 +59,10 @@
   line-height: 22px;
 
   color: #ffffff;
+
+  &:hover {
+    color: #000000;
+  }
 }
 
 .promo-aside-list {

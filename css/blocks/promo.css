@@ -43,6 +43,7 @@
   gap: 10px;
   background: #000000;
   border-radius: 60px;
+  transition: 1s;
 }
 
 .promo-btn-title {
@@ -52,6 +53,9 @@
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
+}
+.promo-btn-title:hover {
+  color: #000000;
 }
 
 .promo-aside-list {
