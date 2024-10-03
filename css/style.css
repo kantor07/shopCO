@@ -546,7 +546,8 @@ body {
   opacity: 0;
 }
 
-.overlay-btn-index {
+.overlay-btn-index,
+.overlay-href {
   width: 123px;
   height: 39px;
   border: 1px solid #ffffff;
@@ -555,6 +556,11 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.overlay-href {
+  margin-top: 5px;
+  text-decoration: none;
 }
 
 .overlay-btn-img {
