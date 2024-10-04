@@ -1,3 +1,5 @@
+/*breadcrumbls single page*/
+
 .breadcrumbls-single-page {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -42,10 +44,18 @@
   transform: rotate(135deg);
 }
 
+/*section item single page*/
+
 .item-container,
 .item-img-single-page {
   display: flex;
 }
+
+.item-img-single-page {
+  margin-right: 40px;
+}
+
+/*section item img single page*/
 
 .img-single-page {
   display: flex;
@@ -83,6 +93,38 @@
   }
 }
 
+/*section item desc single page*/
+
+.item-title-single-page {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 40px;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0px;
+
+  color: #000000;
+
+  text-transform: uppercase;
+}
+
+.item-rating-single-page {
+  margin: 15px 0px;
+}
+
+.star-single-page,
+.star-half-single-page {
+  font-size: 24.71px;
+  color: #ffc633;
+}
+
+.item-rating-star-single-page {
+  font-size: 16px;
+  color: #000000;
+}
+
 .item-count {
   display: flex;
 }
@@ -108,4 +150,25 @@
   border: none;
   border-radius: 3px;
   margin: 0 5px;
+}
+.review-single-page {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*section item details single page*/
+
+.link-desc-review {
+  text-decoration: none;
+
+  display: flex;
+}
+
+.link-desc-review span {
+  margin: 2px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
 }
