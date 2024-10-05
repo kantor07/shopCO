@@ -77,7 +77,6 @@
   border-radius: 20px;
 }
 .item-big-img-page:hover {
-  transform: scale(1.5);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -106,6 +105,133 @@
 .item-rating-star-single-page {
   font-size: 16px;
   color: #000000;
+}
+
+.item-price-single-page {
+  display: flex;
+}
+
+.item-selling-price-single-page {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.item-basic-price-single-page {
+  padding: 0px 10px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: line-through;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.item-price-discount-single-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 14px;
+  gap: 12px;
+  width: 72px;
+  height: 34px;
+  background: rgba(255, 51, 51, 0.1);
+  border-radius: 62px;
+}
+
+.price-discount-single-page {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ff3333;
+}
+
+.item-desc-single-page {
+  font-size: 16px;
+  line-height: 22px;
+  leading-trim: both;
+  text-edge: cap;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.item-colors-single-page {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  width: 590px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-label-single-page {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  leading-trim: both;
+  text-edge: cap;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.input-item-color {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.input-checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  transition: 500ms;
+}
+
+.input-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 0px;
+  height: 0px;
+  font-size: 15px;
+  transition: 500ms;
+  overflow: hidden;
+  background: url(../img/arrowInputCheckbox.png) no-repeat;
+}
+
+.input-checkbox:checked::after {
+  width: 35px;
+  height: 35px;
+  transition: 500ms;
+}
+
+.input-checkbox:disabled::after {
+  background: #ccc;
+  border-color: #ccc;
+}
+
+.item-color-brown {
+  background: #4f4631;
+}
+
+.item-color-green {
+  background: #314f4a;
+}
+
+.item-color-blue {
+  background: #31344f;
 }
 
 .item-count {
