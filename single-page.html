@@ -84,7 +84,7 @@
 
     <section class="breadcrumbls-single-page">
       <h2 class="hidden">section breadcrumbls</h2>
-      <div class="container"></div>
+      <div class="container">
         <ul class="menu-breadscrumbls">
           <li class="list-menu-breadcrumbles">
             <a href="./index.html" class="info-menu-breadcrumbles">Home</a>
@@ -190,46 +190,47 @@
                <input 
                   type="button" 
                   title="item-size" 
-                  class="item-size-btn" 
-                  id="item-size-small">
+                  class="input-btn-size" 
+                  id="item-size-small"
+                  value="Small">
                <input 
                   type="button" 
                   title="input-btn-size" 
-                  class="item-size-btn" 
-                  id="item-size-medium">
+                  class="input-btn-size" 
+                  id="item-size-medium"
+                  value="Medium">
                <input 
                   type="button" 
                   title="item-size" 
                   class="input-btn-size" 
-                  id="item-size-large">
+                  id="item-size-large"
+                  value="Large">
                <input 
                   type="button" 
                   title="item-size" 
                   class="input-btn-size" 
-                  id="item-size-x-large">  
+                  id="item-size-x-large"
+                  value="X-Large">  
             </div>
               </div>
             <div class="item-count-card">
-            <div class="item-count">
-              <span class="item-count-change">
-                <span>-</span>
-              </span>
-              <input 
-                type="number"
-                min="1" 
-                max="10"
-                name="productСount" 
-                value="1" 
-                placeholder="count"
-                class="item-count-input">
-              <span class="item-count-change">
-                  <span>+</span>
-              </span>
+              <div class="item-count">
+                <span class="item-count-change">-</span>
+                <input 
+                  type="text"
+                  name="productСount" 
+                  value="1" 
+                  placeholder="count"
+                  class="item-count-input">
+                <span class="item-count-change">+</span>
+              </div>
+              <button 
+                type="button"
+                class="promo-btn" 
+                title="promo-btn">
+              Add to Cart
+              </button>
             </div>
-            <button class="promo-btn" title="promo-btn" type="button">Add to Cart</button>
-              <span class="promo-btn-title">Shop Now</span>
-            </button>
-          </div>
           </section>
         </div>
       </section>
