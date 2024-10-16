@@ -1593,36 +1593,50 @@ body {
 }
 
 .item-size-single-page {
+  padding-bottom: 35px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.input-btn-size,
+.input-btn {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+}
+
+.input-size,
 .promo-btn {
   padding: 10px 25px;
   margin: 15px 0px 25px 0px;
-  gap: 10px;
   width: 105px;
   height: 45px;
   background: #f0f0f0;
   border-radius: 62px;
   border: none;
   font-size: 16px;
-  line-height: 22px;
   color: rgba(0, 0, 0, 0.6);
   transition: 500ms;
 }
-.input-btn-size:hover,
+.input-size:hover,
 .promo-btn:hover {
-  transform: scale(1.1);
+  transform: 1.1;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
-.input-btn-size:active,
-.promo-btn:active {
-  transform: scale(1);
+
+.input-btn:checked + .input-size {
   border: 1px solid #000000;
   background: #000000;
-  font-weight: 500;
   color: #ffffff;
+  transition: 500ms;
+}
+
+.input-btn:disabled + .input-size {
+  background: #f0f0f0;
+  transition: 500ms;
+}
+
+.input-btn:disabled::after + .input-size {
+  filter: grayscale(100%);
 }
 
 .item-count-card {
@@ -1689,6 +1703,13 @@ body {
   margin: 0px;
   width: 400px;
   height: 52px;
+}
+.promo-btn:active {
+  transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .review-single-page {
