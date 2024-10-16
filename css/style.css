@@ -31,7 +31,7 @@ body {
   min-width: 390px;
   max-width: 1240px;
   margin: 0 auto;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .main {
@@ -1525,6 +1525,7 @@ body {
 }
 
 .item-label-single-page {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   leading-trim: both;
@@ -1602,6 +1603,7 @@ body {
      -moz-appearance: none;
           appearance: none;
   position: relative;
+  margin-top: 45px;
 }
 
 .input-size,
@@ -1718,6 +1720,27 @@ body {
 }
 
 /*section item details single page*/
+.container-item-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*section product details single page*/
+.title-item-details {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 415px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.title-item-details:active {
+  font-weight: 500;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
 .link-desc-review {
   text-decoration: none;
   display: flex;
