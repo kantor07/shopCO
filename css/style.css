@@ -1539,8 +1539,7 @@ body {
   gap: 15px;
 }
 
-.input-checkbox {
-  margin-top: 10px;
+.input-radio {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -1553,7 +1552,7 @@ body {
   transition: 500ms;
 }
 
-.input-checkbox::after {
+.input-radio::after {
   content: "";
   position: absolute;
   top: 7px;
@@ -1566,15 +1565,19 @@ body {
   background: url(../img/arrowInputCheckbox.png) no-repeat;
 }
 
-.input-checkbox:checked::after {
+.input-radio:checked::after {
   width: 35px;
   height: 35px;
   transition: 500ms;
 }
 
-.input-checkbox:disabled::after {
+.input-radio:disabled {
   background: #ccc;
   border-color: #ccc;
+}
+
+.input-radio:disabled::after {
+  filter: grayscale(100%);
 }
 
 .item-color-brown {
