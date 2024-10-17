@@ -1741,6 +1741,7 @@ body {
   border-bottom: 2px solid #000000;
 }
 
+/*section reviews single page*/
 .link-desc-review {
   text-decoration: none;
   display: flex;
@@ -1753,4 +1754,118 @@ body {
   height: 5px;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
+}
+
+.reviews-section-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.count-reviews {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-reviews {
+  display: flex;
+}
+
+.filter-reviews {
+  border-radius: 62px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: url(../img/singlePageSettings.png) center center no-repeat, #f0f0f0;
+  transition: 500ms;
+}
+.filter-reviews:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.filter-reviews:active {
+  transform: scale(1);
+  border: 1px solid #ffffff;
+  background: url(../img/singlePageSettings.png) center center no-repeat, #ffffff;
+}
+
+.reviews-block,
+.reviews-section-title,
+.reviews-arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-arrows {
+  padding-top: 80px;
+  width: 55px;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  font-size: 18.75px;
+  color: #000000;
+}
+
+.review {
+  padding: 30px;
+  width: 400px;
+  min-height: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.review-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+}
+
+.reviews-author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.vector {
+  padding-top: 5px;
+}
+
+.fa-circle-check {
+  font-size: 19.5px;
+  color: #01ab31;
+}
+
+.review-star {
+  font-size: 22.58px;
+  padding-right: 6px;
+}
+
+.review-author {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  text-align: start;
+  margin: 0;
+  padding: 15px 0px 10px 0px;
+}
+
+.review-desc {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
