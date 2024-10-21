@@ -253,7 +253,8 @@
 }
 
 .input-size,
-.promo-btn {
+.promo-btn,
+.review-btn {
   padding: 10px 25px;
   margin: 15px 0px 25px 0px;
   width: 105px;
@@ -266,7 +267,8 @@
   transition: 500ms;
 }
 .input-size:hover,
-.promo-btn:hover {
+.promo-btn:hover,
+.review-btn:hover {
   transform: 1.1;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
@@ -346,13 +348,15 @@
   outline: none;
 }
 
-.promo-btn {
+.promo-btn,
+.review-btn {
   padding: 0px;
   margin: 0px;
   width: 400px;
-  height: 52px;
+  height: 50px;
 }
-.promo-btn:active {
+.promo-btn:active,
+.review-btn:active {
   transform: scale(1);
   border: 1px solid #000000;
   background: #000000;
@@ -447,15 +451,19 @@
 }
 
 .select-filter-reviews {
-  margin: 0px 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: none;
-  padding: 15px;
-  gap: 12px;
   width: 120px;
   height: 50px;
-  background: #f0f0f0;
+  margin: 0px 10px;
+  padding: 15px;
+  gap: 12px;
   border-radius: 62px;
+  background: #f0f0f0;
   transition: 500ms;
+  cursor: pointer;
 }
 .select-filter-reviews:hover {
   border: none;
@@ -464,32 +472,29 @@
 }
 .select-filter-reviews:active {
   transform: scale(1);
-  border: 1px solid #ffffff;
+  border: none;
   background: #ffffff;
 }
 
-.href-filter-reviews {
-  text-decoration: none;
-  margin: 0 auto;
-  width: 110px;
-  height: 20px;
+.select-option {
+  border: 1px solid red;
+  padding: 15px 0px 0px 120px;
+  background: url(../img/down-arrow.png) no-repeat;
+}
+
+.sort-select-option {
+  font-family: "Satoshi";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
-  background: #f0f0f0;
-  border-radius: 62px;
-  transition: 500ms;
 }
-.href-filter-reviews:hover {
-  border: none;
-  transform: 1.1;
-  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-}
-.href-filter-reviews:active {
-  transform: scale(1);
-  border: 1px solid #ffffff;
-  background: #ffffff;
+
+.review-btn {
+  padding: 15px;
+  width: 150px;
+  height: 50px;
 }
 
 .reviews-block,
