@@ -252,29 +252,6 @@
   margin-top: 45px;
 }
 
-.input-size,
-.promo-btn,
-.review-btn,
-.select-filter-reviews {
-  padding: 10px 25px;
-  margin: 15px 0px 25px 0px;
-  width: 105px;
-  height: 45px;
-  background: #f0f0f0;
-  border-radius: 62px;
-  border: none;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
-  transition: 500ms;
-}
-.input-size:hover,
-.promo-btn:hover,
-.review-btn:hover,
-.select-filter-reviews:hover {
-  transform: 1.1;
-  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-}
-
 .input-btn:checked + .input-size {
   border: 1px solid #000000;
   background: #000000;
@@ -350,16 +327,29 @@
   outline: none;
 }
 
-.promo-btn,
+.input-size,
 .review-btn,
+.review-btn-cart,
 .select-filter-reviews {
-  padding: 0px;
-  margin: 0px;
-  width: 400px;
-  height: 50px;
+  padding: 10px 25px;
+  margin: 0px 0px 25px 0px;
+  background: #f0f0f0;
+  border-radius: 62px;
+  border: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  transition: 500ms;
 }
-.promo-btn:active,
+.input-size:hover,
+.review-btn:hover,
+.review-btn-cart:hover,
+.select-filter-reviews:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.input-size:active,
 .review-btn:active,
+.review-btn-cart:active,
 .select-filter-reviews:active {
   transform: scale(1);
   border: 1px solid #000000;
@@ -368,9 +358,15 @@
   color: #ffffff;
 }
 
-.review-single-page {
-  display: flex;
-  justify-content: space-between;
+.review-btn-cart {
+  width: 400px;
+  height: 50px;
+}
+
+.input-size,
+.review-btn {
+  width: 105px;
+  height: 45px;
 }
 
 .review-adress {
@@ -481,17 +477,22 @@
   height: 50px;
 }
 
+.reviews-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  height: 100%;
+}
+
 .review-block-rating {
   display: flex;
   justify-content: space-between;
 }
 
 .review-single-page {
-  padding: 30px;
-  width: 610px;
-  min-height: 240px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  margin-top: 20px;
+  width: 600px;
 }
 
 .review-rating {

@@ -43,7 +43,18 @@
   gap: 10px;
   background: #000000;
   border-radius: 60px;
-  transition: 1s;
+  transition: 500ms;
+}
+.promo-btn:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.promo-btn:active {
+  transform: scale(1);
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  font-weight: 500;
+  color: #000000;
 }
 
 .promo-btn-title {
@@ -53,8 +64,12 @@
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
+  transition: 500ms;
 }
 .promo-btn-title:hover {
+  color: #000000;
+}
+.promo-btn-title:active {
   color: #000000;
 }
 
