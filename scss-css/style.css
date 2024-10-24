@@ -670,7 +670,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 220px;
+  width: 230px;
   height: 50px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 60px;
@@ -1184,13 +1184,16 @@ body {
   padding-top: 60px;
 }
 
-.footer-info-all,
-.footer-info-blocks {
-  padding: 55px 0px 50px 0px;
+.footer-info-blocks,
+.footer-info-all {
   gap: 115px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+.footer-info-all {
+  margin: 50px 0px;
 }
 
 .footer-info-company,
@@ -1706,7 +1709,6 @@ body {
 
 .input-size,
 .review-btn,
-.review-btn-view,
 .review-btn-cart,
 .select-filter-reviews {
   padding: 10px 25px;
@@ -1720,7 +1722,6 @@ body {
 }
 .input-size:hover,
 .review-btn:hover,
-.review-btn-view:hover,
 .review-btn-cart:hover,
 .select-filter-reviews:hover {
   transform: 1.1;
@@ -1728,7 +1729,6 @@ body {
 }
 .input-size:active,
 .review-btn:active,
-.review-btn-view:active,
 .review-btn-cart:active,
 .select-filter-reviews:active {
   transform: scale(1);
@@ -1736,13 +1736,6 @@ body {
   background: #000000;
   font-weight: 500;
   color: #ffffff;
-}
-
-.review-btn-view {
-  width: 230px;
-  height: 50px;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .review-btn-cart {
@@ -1924,4 +1917,6 @@ body {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*section you like*//*# sourceMappingURL=style.css.map */

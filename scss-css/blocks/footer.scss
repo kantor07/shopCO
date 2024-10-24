@@ -8,13 +8,16 @@
   padding-top: 60px;
 }
 
-.footer-info-all,
-.footer-info-blocks {
-  padding: 55px 0px 50px 0px;
+.footer-info-blocks,
+.footer-info-all {
   gap: 115px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+.footer-info-all {
+  margin: 50px 0px;
 }
 
 .footer-info-company,
