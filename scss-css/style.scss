@@ -39,30 +39,38 @@ body {
   /*border: 5px solid green;*/
 }
 
-/*section discount*/
-@import "blocks/discount.scss";
-
-/*header*/
-@import "blocks/header.scss";
-
-/*main*/
-/*section promo*/
-@import "blocks/promo.scss";
-
-/*section breands*/
-@import "blocks/breands.scss";
-
-/*section new arrivals*/
-@import "blocks/new-arrivals.scss";
-
-@import "blocks/categories.scss";
-@import "blocks/reviews.scss";
-@import "blocks/subscription.scss";
-@import "blocks/footer.scss";
-@import "blocks/single-page.scss";
-
-/*items*/
+/* item cart */
 @import "blocks/item.scss";
 
-/*buttons*/
+/* buttons */
 @import "blocks/buttons.scss";
+
+/* section discount */
+@import "blocks/discount.scss";
+
+/* header */
+@import "blocks/header.scss";
+
+/* main */
+/* section promo */
+@import "blocks/promo.scss";
+
+/* section breands */
+@import "blocks/breands.scss";
+
+/* section new arrivals */
+@import "blocks/new-arrivals.scss";
+
+/* section categories */
+@import "blocks/categories.scss";
+
+/* section reviews */
+@import "blocks/reviews.scss";
+
+/* section subscription */
+@import "blocks/subscription.scss";
+
+/* footer */
+@import "blocks/footer.scss";
+
+@import "blocks/single-page.scss";

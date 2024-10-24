@@ -2,22 +2,26 @@
 
 .promo {
   height: 665px;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
+
   background: #f2f0f1;
 }
 
 .promo-container {
   width: 100%;
+
   background: url(../img/promo.png) center top no-repeat;
 }
 
 .promo-text {
-  width: 570px;
   margin: 0;
   padding: 0;
+
+  width: 570px;
 }
 
 .promo-title {
@@ -30,11 +34,15 @@
 
 .promo-desc {
   padding-bottom: 20px;
+
   font-size: 16px;
+
   color: rgba(0, 0, 0, 0.6);
 }
 
 .promo-btn {
+  padding: 15px 55px;
+
   width: 210px;
   height: 50px;
 
@@ -42,7 +50,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 55px;
+
   gap: 10px;
 
   background: #000000;
@@ -83,10 +91,12 @@
 }
 
 .promo-aside-list {
+  padding: 0px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+
   gap: 32px;
 }
 
@@ -94,6 +104,7 @@
 .promo-aside-second,
 .promo-aside-third {
   height: 75px;
+
   font-weight: 700;
   font-size: 40px;
   color: #000000;
@@ -103,14 +114,15 @@
 }
 
 .promo-aside-second {
+  padding: 0px 30px 0px 30px;
+
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-left: 1px solid rgba(0, 0, 0, 0.1);
-
-  padding: 0px 30px 0px 30px;
 }
 
 .promo-aside-desc {
   width: 170px;
+
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
@@ -122,6 +134,7 @@
 @media (max-width: 768px) {
   .promo {
     height: 1340px;
+
     background: #ffffff;
   }
 
@@ -132,87 +145,104 @@
   .promo-img {
     height: 100%;
     width: 100%;
+
     background: url(../img/promo.png) 100% top no-repeat;
   }
   .promo-text {
+    margin-left: 100px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
   }
 
   .promo-btn {
-    width: 360px;
-    height: 55px;
     margin-bottom: 20px;
     padding: 15px 55px;
-    gap: 12px;
+
+    width: 360px;
+    height: 55px;
+
     border-radius: 62px;
+
+    gap: 12px;
   }
 }
 
 @media (max-width: 425px) {
   .promo {
-    height: 800px;
     margin-bottom: 0px;
+
+    height: 800px;
   }
 
   .promo-img {
     height: 450px;
+
     background-size: 230%;
     background-position: 93%;
   }
 
   .promo-text {
+    margin: 0px 0px 110px 50px;
+
     width: 360px;
     height: 275px;
-    margin-left: 50px;
-    margin-bottom: 110px;
   }
 
   .promo-title {
-    font-family: "Integral CF";
-    font-size: 38px;
     padding: 0px;
     margin: 0px;
+
+    font-family: "Integral CF";
+    font-size: 38px;
     line-height: 35px;
     font-weight: 900;
   }
 
   .promo-desc {
+    padding: 10px 0px;
+
     font-weight: 400;
     font-size: 14px;
-    padding: 10px 0px;
   }
 
   .promo-btn {
+    padding: 15px 55px;
+
     width: 360px;
     height: 55px;
-    padding: 15px 55px;
-    gap: 12px;
+
     border-radius: 62px;
+
+    gap: 12px;
   }
 
   .promo-aside-list {
     width: 390px;
+
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
+
     gap: 0px;
   }
 
   .promo-aside-first,
   .promo-aside-second,
   .promo-aside-third {
-    height: 50px;
-    font-size: 24px;
     margin: 0px;
     padding: 0px;
+
+    height: 50px;
+
+    font-size: 24px;
   }
 
   .promo-aside-second {
-    border-right: none;
     padding-left: 30px;
+
+    border-right: none;
   }
 
   .promo-aside-third {
@@ -221,6 +251,7 @@
 
   .promo-aside-desc {
     width: 120px;
+
     font-size: 12px;
   }
 }

@@ -1,19 +1,19 @@
-/*section subscription*/
+/* section subscription */
 .subscription {
   transform: translate(0px, 90px);
 }
 
 .subscription-container {
+  padding: 35px 65px;
   max-width: 1240px;
   min-height: 180px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 65px;
-  gap: 155px;
   background: #000000;
   border-radius: 20px;
+  gap: 155px;
 }
 
 .subscription-text {
@@ -22,31 +22,31 @@
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscription-form {
+  margin: 0 auto;
+  padding: 0px;
+  width: 350px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 15px;
-  margin: 0 auto;
-  width: 350px;
-  height: 100px;
 }
 
 .mail-form,
 .subscription-btn {
+  padding: 15px;
+  width: 350px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 15px;
-  gap: 10px;
-  width: 350px;
-  height: 50px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 62px;
+  gap: 10px;
 }
 
 .mail-img {
@@ -96,11 +96,11 @@
 
 @media (max-width: 768px) {
   .subscription-container {
+    padding: 30px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 25px;
     gap: 30px;
   }
 }
@@ -117,8 +117,8 @@
     font-size: 14px;
   }
   .mail-img {
-    font-size: 20px;
     padding: 2px;
+    font-size: 20px;
   }
   .subscription {
     transform: translate(0px, 50px);

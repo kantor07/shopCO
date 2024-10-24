@@ -1,14 +1,16 @@
 /* header */
 
 .header {
-  height: 50px;
   margin: 25px 0 15px 0;
+
+  height: 50px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   gap: 40px;
 }
 
@@ -22,6 +24,7 @@
   font-size: 32px;
 
   color: #000000;
+
   text-decoration: none;
 }
 
@@ -32,16 +35,21 @@
 .nav-list {
   margin: 0;
   padding: 0;
-  list-style: none;
+
   display: flex;
   justify-content: center;
+
+  list-style: none;
+
   gap: 25px;
 }
 
 .nav-menu,
 .nav-link {
   font-size: 16px;
+
   color: #000000;
+
   text-decoration: none;
 }
 
@@ -54,13 +62,14 @@
 }
 
 .search {
+  padding: 10px 15px;
+
   width: 575px;
   height: 45px;
 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 10px 15px;
 
   background: #f0f0f0;
   border-radius: 60px;
@@ -72,6 +81,7 @@
 
 .fa-magnifying-glass {
   padding-top: 2px;
+
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
 }
@@ -82,6 +92,7 @@
 
   color: rgba(0, 0, 0, 0.4);
   background: #f0f0f0;
+
   border: none;
 }
 
@@ -101,6 +112,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+
   gap: 15px;
 }
 
@@ -122,8 +134,10 @@
   .header-nav {
     position: absolute;
     left: -9999px;
+
     width: 1px;
     height: 1px;
+
     opacity: 0;
     visibility: hidden;
   }
@@ -140,9 +154,10 @@
     font-size: 25px;
   }
   .search {
+    padding: 7px 0px 0px 70px;
+
     width: 45px;
     height: 45px;
-    padding: 7px 0px 0px 70px;
 
     background: #ffffff;
     border: none;
@@ -155,8 +170,10 @@
   .search-field {
     position: absolute;
     left: -9999px;
+
     width: 1px;
     height: 1px;
+
     opacity: 0;
     visibility: hidden;
   }

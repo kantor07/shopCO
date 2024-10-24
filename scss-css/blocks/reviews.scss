@@ -1,4 +1,4 @@
-/*section reviews*/
+/* section reviews */
 
 .reviews-block,
 .reviews-section-title,
@@ -9,6 +9,7 @@
 
 .reviews-arrows {
   padding-top: 80px;
+
   width: 55px;
 }
 
@@ -20,24 +21,28 @@
 
 .review {
   padding: 30px;
+
   width: 400px;
   min-height: 240px;
 
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .review-rating {
+  padding: 0px;
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+
   gap: 5px;
 }
 
 .reviews-author {
   display: flex;
   align-items: center;
+
   gap: 5px;
 }
 
@@ -47,28 +52,33 @@
 
 .fa-circle-check {
   font-size: 19.5px;
+
   color: #01ab31;
 }
 
 .review-star {
-  font-size: 22.58px;
   padding-right: 6px;
+
+  font-size: 22.58px;
 }
 
 .review-author {
-  font-weight: 700;
-  font-size: 20px;
-  color: #000000;
-  text-align: start;
   margin: 0;
   padding: 15px 0px 10px 0px;
+
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #000000;
+
+  text-align: start;
 }
 
 .review-desc {
   margin-bottom: 30px;
+
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
-  margin: 0;
 }
 
 @media (max-width: 1240px) {

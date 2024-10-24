@@ -1,19 +1,20 @@
-/*footer*/
+/* footer */
 .footer {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/*footer info*/
+/* footer info */
 .footer-info {
   padding-top: 60px;
 }
 
 .footer-info-blocks,
 .footer-info-all {
-  gap: 115px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+
+  gap: 115px;
 }
 
 .footer-info-all {
@@ -22,15 +23,18 @@
 
 .footer-info-company,
 .footer-info-company-title {
+  padding: 0px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+
   gap: 15px;
 }
 
 .company-name {
   margin: 0;
+
   font-family: "Integral CF";
   font-style: normal;
   font-weight: 700;
@@ -59,18 +63,21 @@
 }
 
 .link-info-company {
-  text-decoration: none;
   font-size: 16px;
   line-height: 19px;
 
   color: rgba(0, 0, 0, 0.6);
+
+  text-decoration: none;
 }
 
 /*section footer-payments-info*/
 
 .footer-payments-info {
   padding-top: 20px;
+
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+
   display: flex;
   justify-content: space-between;
 }
@@ -78,8 +85,10 @@
 .footer-payments-text {
   margin: 0;
   padding-top: 5px;
+
   font-size: 14px;
   text-align: right;
+
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -88,11 +97,13 @@
 }
 
 .footer-social-icon {
+  margin-right: 10px;
+  padding: 10px;
+
   width: 30px;
   height: 30px;
+
   text-decoration: none;
-  padding: 10px;
-  margin-right: 10px;
 
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -111,6 +122,7 @@
 
 .social-icon-img {
   font-size: 13.55px;
+
   color: #000000;
 
   transition: 1s;
@@ -138,22 +150,25 @@
 }
 
 .footer-payment {
+  margin-left: 10px;
+  padding: 10px;
+
   width: 47px;
   height: 30px;
 
-  background: #ffffff;
+  border-radius: 5.37857px;
   border: 0.224107px solid #d6dce5;
   box-shadow: 0px 4.48214px 8.96429px rgba(183, 183, 183, 0.08),
     0px 0.448214px 4.48214px rgba(183, 183, 183, 0.08);
-  border-radius: 5.37857px;
-  padding: 10px;
-  margin-left: 10px;
+
+  background: #ffffff;
   text-decoration: none;
 }
 
 .cart-img {
   width: 34px;
   height: 34px;
+
   transform: translate(2px, 10px);
 }
 
@@ -173,20 +188,25 @@
 
 @media (max-width: 425px) {
   .footer-container {
-    height: 900px;
     padding-left: 10px;
+
+    height: 900px;
   }
 
   .footer-info-all {
     padding: 30px 0px 75px 0px;
+
     flex-direction: column;
   }
 
   .footer-info-blocks {
     padding: 0px;
+
+    height: 100%;
+
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+
     gap: 0px;
   }
 
@@ -205,7 +225,9 @@
 
   .footer-payments {
     padding-top: 10px;
+
     transform: translate(0px, 0px);
+
     text-align: center;
   }
 

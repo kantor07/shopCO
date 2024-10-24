@@ -15,13 +15,15 @@
 
 @media (max-width: 768px) {
   .new-arrivals-container,
-  .top-selling-container {
+  .top-selling-container,
+  .you-like-container {
     padding-left: 30px;
   }
 }
 @media (max-width: 425px) {
   .new-arrivals-container,
-  .top-selling-container {
+  .top-selling-container,
+  .you-like-container {
     padding-left: 10px;
   }
   .section-title,
