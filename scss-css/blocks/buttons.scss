@@ -1,0 +1,44 @@
+.view-all-btn,
+.view-all-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-all-button {
+  padding: 40px 0 80px 0;
+}
+
+.view-all-btn {
+  width: 230px;
+  height: 50px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+  background-color: #ffffff;
+
+  transition: 500ms;
+
+  &:hover {
+    transform: (1.1);
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+  &:active {
+    transform: scale(1);
+    border: 1px solid #000000;
+    background: #000000;
+
+    font-weight: 500;
+
+    color: #ffffff;
+  }
+}
+
+.view-all-btn-title {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #000000;
+}
