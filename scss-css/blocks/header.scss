@@ -94,17 +94,24 @@
   background: #f0f0f0;
 
   border: none;
+
+  &:active {
+    outline: 0;
+    outline-offset: 0;
+  }
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+
+  &:hover {
+    outline: 0;
+    outline-offset: 0;
+  }
 }
 
 .search-field::placeholder {
   @include font(16px, 400);
-}
-
-.search-field:active,
-.search-field:hover,
-.search-field:focus {
-  outline: 0;
-  outline-offset: 0;
 }
 
 .login {

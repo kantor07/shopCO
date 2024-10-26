@@ -3,7 +3,10 @@
 /* section single page */
 /* section item single page */
 .item-container,
-.item-img-single-page {
+.item-img-single-page,
+.item-price-single-page,
+.input-item-single-page,
+.navbar-reviews {
   display: flex;
 }
 
@@ -21,6 +24,7 @@
   margin: 0px 15px 15px 0px;
   width: 150px;
   height: 165px;
+  background: #f0eeed;
   border-radius: 20px;
   transition: 500ms;
 }
@@ -74,10 +78,6 @@
   color: #000000;
 }
 
-.item-price-single-page {
-  display: flex;
-}
-
 .item-selling-price-single-page,
 .item-basic-price-single-page {
   font-family: "Satoshi", Arial, sans-serif;
@@ -93,11 +93,13 @@
 }
 
 .item-basic-price-single-page {
+  margin: 0px 10px;
   text-decoration-line: line-through;
   color: rgba(0, 0, 0, 0.3);
 }
 
 .item-price-discount-single-page {
+  margin-top: 5px;
   padding: 6px 14px;
   display: flex;
   flex-direction: row;
@@ -105,7 +107,7 @@
   align-items: center;
   width: 72px;
   height: 34px;
-  border-radius: 62px;
+  border-radius: 60px;
   background: rgba(255, 51, 51, 0.1);
   gap: 12px;
 }
@@ -123,11 +125,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  leading-trim: both;
-  text-edge: cap;
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* select colors */
 .item-colors-single-page {
   margin: 20px 0px;
   padding: 20px 0px;
@@ -142,8 +143,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  leading-trim: both;
-  text-edge: cap;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -207,13 +206,13 @@
   background: #31344f;
 }
 
+/* choose size */
 .item-size-single-page {
   padding-bottom: 35px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .input-btn {
-  margin-top: 45px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -245,23 +244,36 @@
   margin-right: 20px;
   padding: 16px 20px;
   width: 170px;
-  height: 52px;
+  height: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 500ms;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  transition: 500ms;
-  background: #f0f0f0;
-  border-radius: 62px;
   gap: 12px;
 }
 .item-count:hover {
-  transform: scale(1.1);
+  transform: 1.1;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 .item-count:active {
   transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
+}
+.item-count:active {
+  transform: scale(1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #f0f0f0;
+  background: #f0f0f0;
+  font-weight: 500;
+  color: #f0f0f0;
 }
 
 .item-count-change {
@@ -298,15 +310,14 @@
 .review-btn,
 .review-btn-cart {
   padding: 10px 25px;
-  margin: 0px 0px 25px 0px;
+  margin: 0px 5px 25px 5px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
   border: none;
 }
 
-.input-size,
-.review-btn {
-  width: 105px;
+.input-size {
+  width: 110px;
   height: 45px;
   display: flex;
   justify-content: center;
@@ -316,12 +327,34 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 500ms;
 }
-.input-size:hover,
+.input-size:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.input-size:active {
+  transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.review-btn {
+  padding: 15px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+}
 .review-btn:hover {
   transform: 1.1;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
-.input-size:active,
 .review-btn:active {
   transform: scale(1);
   border: 1px solid #000000;
@@ -403,16 +436,12 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar-reviews {
-  display: flex;
-}
-
 .filter-reviews {
   padding: 10px;
   width: 50px;
   height: 50px;
   border: none;
-  border-radius: 62px;
+  border-radius: 60px;
   background: url(../img/singlePageSettings.png) center center no-repeat, #f0f0f0;
   transition: 500ms;
 }
@@ -456,6 +485,8 @@
   color: rgba(0, 0, 0, 0.6);
   border: none;
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .select-filter-reviews:hover {
   transform: 1.1;
@@ -467,12 +498,6 @@
   background: #000000;
   font-weight: 500;
   color: #ffffff;
-}
-
-.review-btn {
-  padding: 15px;
-  width: 150px;
-  height: 50px;
 }
 
 /* reviews blocks */

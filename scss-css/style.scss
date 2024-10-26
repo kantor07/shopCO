@@ -1,3 +1,6 @@
+/* mixin */
+@import "blocks/mixin.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -36,9 +39,6 @@ body {
   flex-grow: 1;
   /*border: 5px solid green;*/
 }
-
-/* mixin */
-@import "blocks/mixin.scss";
 
 /* section discount */
 @import "blocks/discount.scss";

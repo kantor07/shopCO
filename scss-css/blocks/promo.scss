@@ -105,9 +105,6 @@
 
   transition: 500ms;
 
-  &:hover {
-    color: #000000;
-  }
   &:active {
     color: #000000;
   }
@@ -142,10 +139,7 @@
     margin-bottom: 20px;
     padding: 15px 55px;
 
-    width: 360px;
-    height: 55px;
-
-    border-radius: 62px;
+    @include button(360px, 55px, #000000);
 
     gap: 12px;
   }
@@ -188,10 +182,7 @@
   .promo-btn {
     padding: 15px 55px;
 
-    width: 360px;
-    height: 55px;
-
-    border-radius: 62px;
+    @include button(360px, 55px, #000000);
 
     gap: 12px;
   }

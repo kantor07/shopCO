@@ -128,16 +128,20 @@
 }
 
 .item-selling-price {
-  font-size: 24px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
   font-weight: 700;
+  font-size: 24px;
   display: flex;
   align-items: center;
   color: #000000;
 }
 
 .item-basic-price {
-  font-size: 24px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
   font-weight: 700;
+  font-size: 24px;
   display: flex;
   align-items: center;
   text-decoration-line: line-through;

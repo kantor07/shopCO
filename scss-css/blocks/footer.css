@@ -101,11 +101,9 @@
   background: #ffffff;
   transition: 1s;
 }
-
 .footer-social-icon:hover {
   background: rgba(0, 0, 0, 0.1);
 }
-
 .footer-social-icon:active {
   background: #000000;
 }
@@ -115,13 +113,15 @@
   color: #000000;
   transition: 1s;
 }
-
-.social-icon-img:active,
 .social-icon-img:hover {
   color: #ffffff;
 }
+.social-icon-img:active {
+  color: #ffffff;
+}
 
-.fa-twitter {
+.fa-twitter,
+.fa-instagram {
   padding: 3px 0px 3px 3px;
 }
 
@@ -131,10 +131,6 @@
 
 .fa-github {
   padding: 3px;
-}
-
-.fa-instagram {
-  padding: 3px 0px 3px 3px;
 }
 
 .footer-payment {

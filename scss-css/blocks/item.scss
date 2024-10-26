@@ -159,8 +159,7 @@
 }
 
 .item-selling-price {
-  font-size: 24px;
-  font-weight: 700;
+  @include font(24px, 700);
 
   display: flex;
   align-items: center;
@@ -169,8 +168,7 @@
 }
 
 .item-basic-price {
-  font-size: 24px;
-  font-weight: 700;
+  @include font(24px, 700);
 
   display: flex;
   align-items: center;
