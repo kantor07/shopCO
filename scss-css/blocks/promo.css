@@ -1,3 +1,5 @@
+/* mixin */
+/* mixin */
 /* section promo */
 .promo {
   height: 665px;
@@ -20,7 +22,8 @@
 }
 
 .promo-title {
-  font-family: "Integral CF";
+  font-family: "Integral CF", Arial, sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 64px;
   color: #000000;
@@ -28,49 +31,11 @@
 
 .promo-desc {
   padding-bottom: 20px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
-}
-
-.promo-btn {
-  padding: 15px 55px;
-  width: 210px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background: #000000;
-  border-radius: 60px;
-  transition: 500ms;
-}
-.promo-btn:hover {
-  transform: 1.1;
-  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-}
-.promo-btn:active {
-  transform: scale(1);
-  border: 1px solid #ffffff;
-  background: #ffffff;
-  font-weight: 500;
-  color: #000000;
-}
-
-.promo-btn-title {
-  font-family: "Satoshi";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-  transition: 500ms;
-}
-.promo-btn-title:hover {
-  color: #000000;
-}
-.promo-btn-title:active {
-  color: #000000;
 }
 
 .promo-aside-list {
@@ -85,6 +50,8 @@
 .promo-aside-second,
 .promo-aside-third {
   height: 75px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   color: #000000;
@@ -100,11 +67,59 @@
 
 .promo-aside-desc {
   width: 170px;
-  font-family: "Satoshi";
+  font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.promo-btn {
+  width: 210px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+  padding: 15px 55px;
+  flex-direction: row;
+  gap: 10px;
+}
+.promo-btn:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.promo-btn:active {
+  transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
+}
+.promo-btn:active {
+  transform: scale(1);
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  font-weight: 500;
+  color: #000000;
+}
+
+.promo-btn-title {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  transition: 500ms;
+}
+.promo-btn-title:hover {
+  color: #000000;
+}
+.promo-btn-title:active {
+  color: #000000;
 }
 
 @media (max-width: 768px) {
@@ -153,13 +168,15 @@
   .promo-title {
     padding: 0px;
     margin: 0px;
-    font-family: "Integral CF";
-    font-size: 38px;
-    line-height: 35px;
+    font-family: "Integral CF", Arial, sans-serif;
+    font-style: normal;
     font-weight: 900;
+    font-size: 38px;
   }
   .promo-desc {
     padding: 10px 0px;
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
   }
@@ -183,6 +200,9 @@
     margin: 0px;
     padding: 0px;
     height: 50px;
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 24px;
   }
   .promo-aside-second {
@@ -194,6 +214,9 @@
   }
   .promo-aside-desc {
     width: 120px;
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
   }
 }

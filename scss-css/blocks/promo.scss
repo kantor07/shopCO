@@ -1,3 +1,6 @@
+/* mixin */
+@import "mixin.scss";
+
 /* section promo */
 
 .promo {
@@ -25,9 +28,7 @@
 }
 
 .promo-title {
-  font-family: "Integral CF";
-  font-weight: 700;
-  font-size: 64px;
+  @include font-title(64px, 700);
 
   color: #000000;
 }
@@ -35,59 +36,9 @@
 .promo-desc {
   padding-bottom: 20px;
 
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.6);
-}
-
-.promo-btn {
-  padding: 15px 55px;
-
-  width: 210px;
-  height: 50px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  gap: 10px;
-
-  background: #000000;
-  border-radius: 60px;
-
-  transition: 500ms;
-
-  &:hover {
-    transform: (1.1);
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-  }
-  &:active {
-    transform: scale(1);
-    border: 1px solid #ffffff;
-    background: #ffffff;
-
-    font-weight: 500;
-
-    color: #000000;
-  }
-}
-
-.promo-btn-title {
-  font-family: "Satoshi";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #ffffff;
-  transition: 500ms;
-  &:hover {
-    color: #000000;
-  }
-  &:active {
-    color: #000000;
-  }
 }
 
 .promo-aside-list {
@@ -105,8 +56,8 @@
 .promo-aside-third {
   height: 75px;
 
-  font-weight: 700;
-  font-size: 40px;
+  @include font(40px, 700);
+
   color: #000000;
 
   display: flex;
@@ -123,12 +74,43 @@
 .promo-aside-desc {
   width: 170px;
 
-  font-family: "Satoshi";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.6);
+}
+
+.promo-btn {
+  @include button(210px, 50px, #000000);
+  padding: 15px 55px;
+
+  flex-direction: row;
+
+  gap: 10px;
+
+  &:active {
+    transform: scale(1);
+    border: 1px solid #ffffff;
+    background: #ffffff;
+
+    font-weight: 500;
+
+    color: #000000;
+  }
+}
+
+.promo-btn-title {
+  @include font(16px, 500);
+
+  color: #ffffff;
+
+  transition: 500ms;
+
+  &:hover {
+    color: #000000;
+  }
+  &:active {
+    color: #000000;
+  }
 }
 
 @media (max-width: 768px) {
@@ -194,17 +176,13 @@
     padding: 0px;
     margin: 0px;
 
-    font-family: "Integral CF";
-    font-size: 38px;
-    line-height: 35px;
-    font-weight: 900;
+    @include font-title(38px, 900);
   }
 
   .promo-desc {
     padding: 10px 0px;
 
-    font-weight: 400;
-    font-size: 14px;
+    @include font(14px, 400);
   }
 
   .promo-btn {
@@ -236,7 +214,7 @@
 
     height: 50px;
 
-    font-size: 24px;
+    @include font(24px, 400);
   }
 
   .promo-aside-second {
@@ -252,7 +230,7 @@
   .promo-aside-desc {
     width: 120px;
 
-    font-size: 12px;
+    @include font(12px, 400);
   }
 }
 

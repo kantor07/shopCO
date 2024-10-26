@@ -1,20 +1,22 @@
-.view-all-btn,
+/* mixin */
+/* mixin */
+/* button of sections */
 .view-all-button {
+  padding: 40px 0 80px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.view-all-button {
-  padding: 40px 0 80px 0;
-}
-
 .view-all-btn {
   width: 230px;
   height: 50px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 60px;
-  background-color: #ffffff;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 500ms;
 }
 .view-all-btn:hover {
@@ -30,7 +32,7 @@
 }
 
 .view-all-btn-title {
-  font-family: "Satoshi";
+  font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

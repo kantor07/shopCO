@@ -1,3 +1,5 @@
+/* mixin */
+/* mixin */
 /* footer */
 .footer {
   background: rgba(0, 0, 0, 0.1);
@@ -31,10 +33,10 @@
 
 .company-name {
   margin: 0;
-  font-family: "Integral CF";
+  font-family: "Integral CF", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 32px;
   color: #000000;
 }
 
@@ -47,6 +49,8 @@
 }
 
 .footer-info-block-title {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 3px;
@@ -55,8 +59,10 @@
 }
 
 .link-info-company {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
@@ -72,6 +78,9 @@
 .footer-payments-text {
   margin: 0;
   padding-top: 5px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   text-align: right;
   color: rgba(0, 0, 0, 0.6);
@@ -181,8 +190,10 @@
     padding: 15px 0px 20px 0px;
   }
   .company-name {
-    font-size: 28.847px;
-    line-height: 35px;
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
   }
   .footer-payments {
     padding-top: 10px;

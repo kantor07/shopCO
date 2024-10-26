@@ -1,0 +1,53 @@
+/* mixin */
+/* mixin */
+/* section breadcrumbls */
+.breadcrumbls {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-breadscrumbls {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.list-menu-breadcrumbles {
+  display: flex;
+}
+
+.info-menu-breadcrumbles,
+.info-menu-breadcrumbles-single-page {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+.info-menu-breadcrumbles:hover,
+.info-menu-breadcrumbles-single-page:hover {
+  color: #000000;
+}
+.info-menu-breadcrumbles:active,
+.info-menu-breadcrumbles-single-page:active {
+  color: #000000;
+}
+
+.info-menu-breadcrumbles-single-page {
+  color: #000000;
+}
+
+.arrow-right {
+  margin: 6px 0px 0px 5px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid rgba(0, 0, 0, 0.6);
+  border-left: 2px solid rgba(0, 0, 0, 0.6);
+  transform: rotate(135deg);
+}/*# sourceMappingURL=breadcrumbls.css.map */

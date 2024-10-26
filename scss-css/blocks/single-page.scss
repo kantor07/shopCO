@@ -1,55 +1,9 @@
-/*breadcrumbls single page*/
+/* mixin */
+@import "mixin.scss";
 
-.breadcrumbls-single-page {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
+/* section single page */
 
-.menu-breadscrumbls {
-  padding: 0px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-
-  gap: 12px;
-
-  list-style-type: none;
-}
-
-.list-menu-breadcrumbles {
-  display: flex;
-}
-
-.info-menu-breadcrumbles,
-.info-menu-breadcrumbles-single-page {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: rgba(0, 0, 0, 0.6);
-
-  text-decoration: none;
-}
-
-.info-menu-breadcrumbles-single-page {
-  color: #000000;
-}
-
-.arrow-right {
-  margin: 6px 0px 0px 5px;
-
-  display: block;
-
-  width: 10px;
-  height: 10px;
-
-  border-top: 2px solid rgba(0, 0, 0, 0.6);
-  border-left: 2px solid rgba(0, 0, 0, 0.6);
-
-  transform: rotate(135deg);
-}
-
-/*section item single page*/
+/* section item single page */
 
 .item-container,
 .item-img-single-page {
@@ -60,7 +14,7 @@
   margin-right: 40px;
 }
 
-/*section item img single page*/
+/* section item img single page */
 
 .img-single-page {
   display: flex;
@@ -98,6 +52,7 @@
   transition: 500ms;
 
   &:hover {
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
 }
@@ -108,9 +63,7 @@
   margin: 0px;
   padding-bottom: 15px;
 
-  font-family: "Integral CF";
-  font-weight: 700;
-  font-size: 40px;
+  @include font-title(40px, 700);
 
   display: flex;
   align-items: center;
@@ -141,26 +94,19 @@
   display: flex;
 }
 
-.item-selling-price-single-page {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 43px;
+.item-selling-price-single-page,
+.item-basic-price-single-page {
+  @include font(32px, 700);
 
   display: flex;
   align-items: center;
+}
 
+.item-selling-price-single-page {
   color: #000000;
 }
 
 .item-basic-price-single-page {
-  padding: 0px 10px;
-
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 43px;
-
-  display: flex;
-  align-items: center;
   text-decoration-line: line-through;
 
   color: rgba(0, 0, 0, 0.3);
@@ -184,16 +130,13 @@
 }
 
 .price-discount-single-page {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 500;
+  @include font(16px, 500);
 
   color: #ff3333;
 }
 
 .item-desc-single-page {
-  font-size: 16px;
-  line-height: 22px;
+  @include font(16px, 400);
 
   leading-trim: both;
   text-edge: cap;
@@ -213,9 +156,7 @@
 
 .item-label-single-page {
   margin: 0;
-
-  font-size: 16px;
-  font-weight: 400;
+  @include font(16px, 400);
 
   leading-trim: both;
   text-edge: cap;
@@ -400,8 +341,7 @@
 
 .input-size,
 .review-btn,
-.review-btn-cart,
-.select-filter-reviews {
+.review-btn-cart {
   padding: 10px 25px;
   margin: 0px 0px 25px 0px;
 
@@ -409,42 +349,20 @@
 
   color: rgba(0, 0, 0, 0.6);
 
-  background: #f0f0f0;
-
-  border-radius: 62px;
   border: none;
-
-  transition: 500ms;
-
-  &:hover {
-    transform: (1.1);
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-  }
-  &:active {
-    transform: scale(1);
-
-    font-weight: 500;
-    color: #ffffff;
-
-    border: 1px solid #000000;
-    background: #000000;
-  }
-}
-
-.review-btn-cart {
-  width: 400px;
-  height: 50px;
 }
 
 .input-size,
 .review-btn {
-  width: 105px;
-  height: 45px;
+  @include button(105px, 45px, #f0f0f0);
+}
+
+.review-btn-cart {
+  @include button(400px, 50px, #f0f0f0);
 }
 
 .review-adress {
-  font-size: 16px;
-  font-weight: 500;
+  @include font(16px, 500);
 
   color: rgba(0, 0, 0, 0.6);
 }
@@ -460,10 +378,7 @@
 
 .title-item-details {
   width: 415px;
-
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 22px;
+  @include font(20px, 400);
 
   color: rgba(0, 0, 0, 0.6);
 
@@ -481,29 +396,10 @@
 
 /*section reviews single page*/
 
-.link-desc-review {
-  display: flex;
-
-  text-decoration: none;
-}
-
-.link-desc-review span {
-  margin: 2px;
-
-  width: 5px;
-  height: 5px;
-
-  display: block;
-
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 50%;
-}
-
 .reviews-title-all {
   margin: 0;
 
-  font-size: 24px;
-  font-weight: 700;
+  @include font(24px, 700);
 
   color: #000000;
 }
@@ -511,8 +407,7 @@
 .count-reviews {
   margin: 10px;
 
-  font-family: "Satoshi";
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.6);
 }
@@ -569,9 +464,13 @@
   margin: 0px 10px;
   padding: 0px 20px;
 
-  width: 120px;
-  height: 50px;
+  @include button(120px, 50px, #ffffff);
 
+  font-size: 16px;
+
+  color: rgba(0, 0, 0, 0.6);
+
+  border: none;
   -webkit-appearance: none;
 }
 
@@ -582,12 +481,12 @@
   height: 50px;
 }
 
-.reviews-block {
+/* reviews blocks */
+
+.reviews-block-single-page {
   height: 100%;
 
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-content: flex-start;
 }
 
@@ -602,54 +501,21 @@
   width: 600px;
 }
 
-.review-rating {
-  padding: 0px;
-
+.link-desc-review {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
 
-  gap: 5px;
+  text-decoration: none;
 }
 
-.reviews-author {
-  display: flex;
-  align-items: center;
+.link-desc-review span {
+  margin: 2px;
 
-  gap: 5px;
+  width: 5px;
+  height: 5px;
+
+  display: block;
+
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
 }
-
-.vector {
-  padding-top: 5px;
-}
-
-.fa-circle-check {
-  font-size: 19.5px;
-  color: #01ab31;
-}
-
-.review-star {
-  padding-right: 6px;
-
-  font-size: 22.58px;
-}
-
-.review-author {
-  margin: 0;
-  padding: 15px 0px 10px 0px;
-
-  font-size: 20px;
-  font-weight: 700;
-  color: #000000;
-
-  text-align: start;
-}
-
-.review-desc {
-  margin-bottom: 30px;
-
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
-}
-
 /*section you like*/

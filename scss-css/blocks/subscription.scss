@@ -1,3 +1,6 @@
+/* mixin */
+@import "mixin.scss";
+
 /* section subscription */
 .subscription {
   transform: translate(0px, 90px);
@@ -23,10 +26,7 @@
 .subscription-text {
   margin: 0 auto;
 
-  font-family: "Integral CF";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
+  @include font-title(40px, 700);
 
   color: #ffffff;
 }
@@ -67,26 +67,29 @@
 }
 
 .subscription-mail {
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.4);
   border: none;
+
+  &:hover {
+    outline: 0;
+    outline-offset: 0;
+  }
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+  &:active {
+    outline: 0;
+    outline-offset: 0;
+  }
 }
 
 .subscription-mail::placeholder {
-  font-family: "Satoshi";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.4);
-}
-
-.subscription-mail:active,
-.subscription-mail:hover,
-.subscription-mail:focus {
-  outline: 0;
-  outline-offset: 0;
 }
 
 .subscription-btn {
@@ -94,10 +97,7 @@
 }
 
 .mail-btn-title {
-  font-family: "Satoshi";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  @include font(16px, 500);
 
   color: #000000;
 }
@@ -117,13 +117,13 @@
 
 @media (max-width: 425px) {
   .subscription-text {
-    font-size: 32px;
+    @include font-title(32px, 700);
   }
 
   .mail-btn-title,
   .subscription-mail,
   .subscription-mail::placeholder {
-    font-size: 14px;
+    @include font(14px, 400);
   }
 
   .mail-img {

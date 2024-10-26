@@ -1,3 +1,5 @@
+/* mixin */
+/* mixin */
 /* section subscription */
 .subscription {
   transform: translate(0px, 90px);
@@ -18,7 +20,7 @@
 
 .subscription-text {
   margin: 0 auto;
-  font-family: "Integral CF";
+  font-family: "Integral CF", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -54,13 +56,28 @@
 }
 
 .subscription-mail {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4);
   border: none;
 }
+.subscription-mail:hover {
+  outline: 0;
+  outline-offset: 0;
+}
+.subscription-mail:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.subscription-mail:active {
+  outline: 0;
+  outline-offset: 0;
+}
 
 .subscription-mail::-moz-placeholder {
-  font-family: "Satoshi";
+  font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -68,18 +85,11 @@
 }
 
 .subscription-mail::placeholder {
-  font-family: "Satoshi";
+  font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4);
-}
-
-.subscription-mail:active,
-.subscription-mail:hover,
-.subscription-mail:focus {
-  outline: 0;
-  outline-offset: 0;
 }
 
 .subscription-btn {
@@ -87,7 +97,7 @@
 }
 
 .mail-btn-title {
-  font-family: "Satoshi";
+  font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -106,14 +116,23 @@
 }
 @media (max-width: 425px) {
   .subscription-text {
+    font-family: "Integral CF", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 32px;
   }
   .subscription-mail::-moz-placeholder {
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
   }
   .mail-btn-title,
   .subscription-mail,
   .subscription-mail::placeholder {
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
   }
   .mail-img {

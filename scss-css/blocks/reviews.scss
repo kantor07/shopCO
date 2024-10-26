@@ -1,3 +1,6 @@
+/* mixin */
+@import "mixin.scss";
+
 /* section reviews */
 
 .reviews-block,
@@ -66,8 +69,7 @@
   margin: 0;
   padding: 15px 0px 10px 0px;
 
-  font-weight: 700;
-  font-size: 20px;
+  @include font(20px, 700);
 
   color: #000000;
 
@@ -77,7 +79,8 @@
 .review-desc {
   margin-bottom: 30px;
 
-  font-size: 16px;
+  @include font(16px, 400);
+
   color: rgba(0, 0, 0, 0.6);
 }
 

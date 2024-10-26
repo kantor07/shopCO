@@ -9,9 +9,7 @@ body {
 }
 
 body {
-  font-family: "Satoshi", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  @include font(16px, 400);
   display: flex;
   flex-direction: column;
   /*border: 1px solid red;*/
@@ -39,11 +37,8 @@ body {
   /*border: 5px solid green;*/
 }
 
-/* item cart */
-@import "blocks/item.scss";
-
-/* buttons */
-@import "blocks/buttons.scss";
+/* mixin */
+@import "blocks/mixin.scss";
 
 /* section discount */
 @import "blocks/discount.scss";
@@ -73,4 +68,14 @@ body {
 /* footer */
 @import "blocks/footer.scss";
 
+/* section single page */
 @import "blocks/single-page.scss";
+
+/* item cart */
+@import "blocks/item.scss";
+
+/* buttons */
+@import "blocks/buttons.scss";
+
+/* section breadcrumbls */
+@import "blocks/breadcrumbls.scss";
