@@ -90,6 +90,8 @@
 }
 .promo-btn:hover {
   transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .promo-btn:active {
   transform: scale(1);
@@ -153,6 +155,8 @@
   }
   .promo-btn:hover {
     transform: 1.1;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
   }
   .promo-btn:active {
     transform: scale(1);
@@ -162,10 +166,9 @@
     color: #ffffff;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 670px) {
   .promo {
-    margin-bottom: 0px;
-    height: 800px;
+    height: 100%;
   }
   .promo-img {
     height: 450px;
@@ -173,7 +176,7 @@
     background-position: 93%;
   }
   .promo-text {
-    margin: 0px 0px 110px 50px;
+    margin: 0px 0px 145px 50px;
     width: 360px;
     height: 275px;
   }
@@ -207,6 +210,8 @@
   }
   .promo-btn:hover {
     transform: 1.1;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
   }
   .promo-btn:active {
     transform: scale(1);
@@ -250,10 +255,13 @@
 }
 @media (max-width: 375px) {
   .promo-img {
-    margin-top: 90px;
+    width: 360px;
+    height: 400px;
+    background-size: 240%;
+    background-position: 90%;
   }
   .promo-text {
-    margin: 0px;
+    margin: 0px 0px 145px 0px;
   }
 }
 @media (max-width: 320px) {

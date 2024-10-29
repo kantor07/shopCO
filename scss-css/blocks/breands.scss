@@ -21,7 +21,7 @@
   }
 
   .breands-list {
-    padding: 30px 0;
+    padding: 30px 0px;
 
     flex-wrap: wrap;
     justify-content: space-around;
@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width: 425px) {
+  .breands {
+    margin-top: 0px;
+  }
+
   .breand-img {
     margin: 10px 0px;
 
@@ -42,6 +46,14 @@
 
 @media screen and (max-width: 375px) {
   .breands {
-    width: 390px;
+    width: 370px;
+  }
+
+  .breands-list {
+    padding: 20px 0px;
+  }
+
+  .breand-img {
+    margin: 10px 25px 10px 0px;
   }
 }

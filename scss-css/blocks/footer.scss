@@ -183,16 +183,19 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .footer-container {
+    margin-top: 30px;
     padding-left: 10px;
 
-    height: 900px;
+    height: 100%;
+  }
+
+  .footer-info {
+    padding-top: 30px;
   }
 
   .footer-info-all {
-    padding: 30px 0px 75px 0px;
-
     flex-direction: column;
   }
 
@@ -216,10 +219,11 @@
   }
 
   .company-name {
-    @include font(30px, 400);
+    @include font-title(30px, 700);
   }
 
   .footer-payments {
+    margin-bottom: 75px;
     padding-top: 10px;
 
     transform: translate(0px, 0px);
@@ -239,6 +243,6 @@
 
 @media (max-width: 375px) {
   .footer {
-    width: 390px;
+    width: 370px;
   }
 }

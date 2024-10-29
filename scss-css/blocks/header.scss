@@ -155,7 +155,11 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 665px) {
+  .header-bars {
+    padding-right: 10px;
+  }
+
   .header-logo-href {
     font-size: 25px;
   }

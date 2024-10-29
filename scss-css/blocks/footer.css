@@ -163,13 +163,16 @@
     gap: 15px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .footer-container {
+    margin-top: 30px;
     padding-left: 10px;
-    height: 900px;
+    height: 100%;
+  }
+  .footer-info {
+    padding-top: 30px;
   }
   .footer-info-all {
-    padding: 30px 0px 75px 0px;
     flex-direction: column;
   }
   .footer-info-blocks {
@@ -186,12 +189,13 @@
     padding: 15px 0px 20px 0px;
   }
   .company-name {
-    font-family: "Satoshi", Arial, sans-serif;
+    font-family: "Integral CF", Arial, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 30px;
   }
   .footer-payments {
+    margin-bottom: 75px;
     padding-top: 10px;
     transform: translate(0px, 0px);
     text-align: center;
@@ -206,6 +210,6 @@
 }
 @media (max-width: 375px) {
   .footer {
-    width: 390px;
+    width: 370px;
   }
 }/*# sourceMappingURL=footer.css.map */
