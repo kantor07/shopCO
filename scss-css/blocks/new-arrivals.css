@@ -205,7 +205,7 @@
     width: 290px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 576px) and (min-width: 390px) {
   .item {
     width: 40%;
     height: 345px;
@@ -271,12 +271,6 @@
     font-size: 14px;
   }
 }
-/*
-@media (max-width: 390px) {
-  .item-title {
-    @include font(14px, 400);
-  }
-}*/
 /* section new-arrivals */
 .new-arrivals-container {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -300,7 +294,7 @@
     padding-left: 30px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 576px) and (min-width: 390px) {
   .new-arrivals-container,
   .top-selling-container,
   .you-like-container {

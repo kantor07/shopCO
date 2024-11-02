@@ -166,7 +166,7 @@
     color: #ffffff;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 576px) and (min-width: 390px) {
   .promo {
     height: 100%;
   }
@@ -176,7 +176,7 @@
     background-position: 93%;
   }
   .promo-text {
-    margin: 0px 0px 145px 50px;
+    margin: 0px 0px 145px 0px;
     width: 360px;
     height: 275px;
   }
@@ -251,25 +251,5 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-  }
-}
-@media (max-width: 375px) {
-  .promo-img {
-    width: 360px;
-    height: 400px;
-    background-size: 240%;
-    background-position: 90%;
-  }
-  .promo-text {
-    margin: 0px 0px 145px 0px;
-  }
-}
-@media (max-width: 320px) {
-  .promo-img {
-    background-size: 235%;
-    background-position: 92%;
-  }
-  .promo {
-    height: 785px;
   }
 }/*# sourceMappingURL=promo.css.map */

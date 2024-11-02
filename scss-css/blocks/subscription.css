@@ -133,7 +133,7 @@
     gap: 30px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 576px) and (min-width: 390px) {
   .subscription-text {
     font-family: "Integral CF", Arial, sans-serif;
     font-style: normal;

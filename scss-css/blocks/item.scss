@@ -247,7 +247,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 576px) and (min-width: 390px) {
   .item {
     width: 40%;
     height: 345px;
@@ -324,9 +324,3 @@
     @include font(14px, 400);
   }
 }
-/*
-@media (max-width: 390px) {
-  .item-title {
-    @include font(14px, 400);
-  }
-}*/

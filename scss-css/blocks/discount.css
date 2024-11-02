@@ -20,12 +20,4 @@
 .fa-times {
   font-size: 20px;
   color: #ffffff;
-}
-
-@media (max-width: 375px) {
-  .discount {
-    height: 40px;
-    width: 390px;
-    background: #000000;
-  }
 }/*# sourceMappingURL=discount.css.map */

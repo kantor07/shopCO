@@ -120,7 +120,7 @@
   font-size: 0px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1024px) {
   .header-bars {
     margin: 0;
     padding: 0;
@@ -143,7 +143,7 @@
     width: 400px;
   }
 }
-@media (max-width: 665px) {
+@media (max-width: 576px) and (min-width: 390px) {
   .header-bars {
     padding-right: 10px;
   }

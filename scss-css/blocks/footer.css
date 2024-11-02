@@ -151,7 +151,7 @@
   transform: translate(2px, 10px);
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1024px) {
   .footer-info-all,
   .footer-info-blocks {
     gap: 60px;
@@ -163,7 +163,7 @@
     gap: 15px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 756px) and (min-width: 390px) {
   .footer-container {
     margin-top: 30px;
     padding-left: 10px;
@@ -206,10 +206,5 @@
   }
   .footer-payments-text {
     text-align: center;
-  }
-}
-@media (max-width: 375px) {
-  .footer {
-    width: 370px;
   }
 }/*# sourceMappingURL=footer.css.map */
