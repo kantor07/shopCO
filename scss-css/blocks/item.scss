@@ -247,7 +247,12 @@
   }
 }
 
-@media (max-width: 576px) and (min-width: 390px) {
+@media (max-width: 576px) {
+  .overlay {
+    width: 175px;
+    height: 200px;
+  }
+
   .item {
     width: 40%;
     height: 345px;
@@ -256,7 +261,7 @@
       margin-right: 5px;
       padding-bottom: 10px;
 
-      width: 170px;
+      width: 175px;
       height: 355px;
 
       border-radius: 20px;
@@ -264,17 +269,17 @@
     }
 
     &:hover .overlay {
-      width: 170px;
+      width: 175px;
       height: 200px;
     }
 
     &:hover .item-img {
-      width: 170px;
+      width: 175px;
     }
   }
 
   .item-img {
-    width: 170px;
+    width: 175px;
     height: 200px;
   }
 

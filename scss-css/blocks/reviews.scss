@@ -106,7 +106,7 @@
   }
 }
 
-@media (max-width: 576px) and (min-width: 390px) {
+@media (max-width: 576px) {
   .reviews-block {
     justify-content: center;
   }
@@ -131,5 +131,32 @@
 
   .reviews-arrows {
     width: 65px;
+  }
+
+  .review-author {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+
+    @include font(16px, 700);
+  }
+
+  .vector {
+    padding-top: 0px;
+  }
+
+  .fa-circle-check {
+    font-size: 15.44px;
+  }
+
+  .review-star {
+    padding-right: 6px;
+
+    font-size: 19.19px;
+  }
+
+  .review-desc {
+    margin: 0px;
+
+    @include font(14px, 400);
   }
 }

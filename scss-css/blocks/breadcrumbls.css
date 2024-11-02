@@ -25,7 +25,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
@@ -50,4 +49,22 @@
   border-top: 2px solid rgba(0, 0, 0, 0.6);
   border-left: 2px solid rgba(0, 0, 0, 0.6);
   transform: rotate(135deg);
+}
+
+@media (max-width: 576px) {
+  .breadcrumbls {
+    margin: 0px 15px;
+  }
+  .info-menu-breadcrumbles,
+  .info-menu-breadcrumbles-single-page {
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .arrow-right {
+    margin: 7px 0px 0px 5px;
+    width: 6px;
+    height: 6px;
+  }
 }/*# sourceMappingURL=breadcrumbls.css.map */

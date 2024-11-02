@@ -27,7 +27,6 @@
 .info-menu-breadcrumbles,
 .info-menu-breadcrumbles-single-page {
   @include font(16px, 400);
-  line-height: 22px;
 
   color: rgba(0, 0, 0, 0.6);
 
@@ -58,4 +57,22 @@
   border-left: 2px solid rgba(0, 0, 0, 0.6);
 
   transform: rotate(135deg);
+}
+
+@media (max-width: 576px) {
+  .breadcrumbls {
+    margin: 0px 15px;
+  }
+
+  .info-menu-breadcrumbles,
+  .info-menu-breadcrumbles-single-page {
+    @include font(14px, 400);
+  }
+
+  .arrow-right {
+    margin: 7px 0px 0px 5px;
+
+    width: 6px;
+    height: 6px;
+  }
 }

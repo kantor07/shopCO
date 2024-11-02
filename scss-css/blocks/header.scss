@@ -155,9 +155,14 @@
   }
 }
 
-@media (max-width: 576px) and (min-width: 390px) {
+@media (max-width: 576px) {
+  .header-container {
+    margin: 0px 15px;
+    gap: 0px;
+  }
+
   .header-bars {
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
   .header-logo-href {
