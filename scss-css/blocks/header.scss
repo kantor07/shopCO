@@ -63,9 +63,7 @@
 .header-arrow-down {
   margin: 5px;
 
-  @include arrow-down(8px, 8px);
-  border-top: 1px solid #000000;
-  border-left: 1px solid #000000;
+  @include arrow-down(10px, 10px);
 }
 
 .search {

@@ -59,13 +59,11 @@
 .header-arrow-down {
   margin: 5px;
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-top: 2px solid #000000;
   border-left: 2px solid #000000;
   transform: rotate(225deg);
-  border-top: 1px solid #000000;
-  border-left: 1px solid #000000;
 }
 
 .search {

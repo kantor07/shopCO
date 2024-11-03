@@ -65,8 +65,8 @@
   width: $width;
   height: $height;
 
-  border-top: 2px solid rgba(0, 0, 0, 0.6);
-  border-left: 2px solid rgba(0, 0, 0, 0.6);
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  border-left: 1px solid rgba(0, 0, 0, 0.6);
 
   transform: rotate(135deg);
 }
@@ -77,8 +77,8 @@
   width: $width;
   height: $height;
 
-  border-top: 2px solid #000000;
-  border-left: 2px solid #000000;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
 
   transform: rotate(225deg);
 }
@@ -88,8 +88,8 @@
   width: $width;
   height: $height;
 
-  border-top: 2px solid #000000;
-  border-left: 2px solid #000000;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
 
   transform: rotate(45deg);
 }
