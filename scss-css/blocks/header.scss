@@ -32,7 +32,7 @@
   min-width: 320px;
 }
 
-.nav-list {
+.header-nav-list {
   margin: 0;
   padding: 0;
 
@@ -40,25 +40,32 @@
   justify-content: center;
 
   list-style: none;
+  list-style-type: none;
 
   gap: 25px;
 }
 
-.nav-menu,
-.nav-link {
-  font-size: 16px;
+.header-nav-line {
+  display: flex;
+}
 
+.header-nav-menu,
+.header-nav-link {
+  @include font(16px, 400);
   color: #000000;
+
+  display: flex;
+  justify-content: space-between;
 
   text-decoration: none;
 }
 
-.nav-menu-span {
-  padding-left: 5px;
-}
+.header-arrow-down {
+  margin: 5px;
 
-.fa-chevron-down {
-  color: #000000;
+  @include arrow-down(8px, 8px);
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
 }
 
 .search {

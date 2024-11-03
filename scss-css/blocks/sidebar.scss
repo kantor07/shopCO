@@ -16,15 +16,19 @@
 /* section sidebar */
 
 .list-title-filter,
+.list-title,
+.nav-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-title-filter,
 .list-title {
   padding-bottom: 25px;
 
   width: 245px;
 
   @include font(20px, 700);
-
-  display: flex;
-  justify-content: space-between;
 
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -40,29 +44,13 @@ details > summary {
 .list-title::after {
   content: "";
 
-  display: block;
-
-  width: 5px;
-  height: 5px;
-
-  border-top: 2px solid #000000;
-  border-left: 2px solid #000000;
-
-  transform: rotate(225deg);
+  @include arrow-down(5px, 5px);
 }
 
 .list[open] .list-title::after {
   content: "";
 
-  display: block;
-
-  width: 5px;
-  height: 5px;
-
-  border-top: 2px solid #000000;
-  border-left: 2px solid #000000;
-
-  transform: rotate(45deg);
+  @include arrow-up(5px, 5px);
 }
 
 .list-filter-img {
@@ -74,8 +62,18 @@ details > summary {
   list-style-type: none;
 }
 
-.list-nav-link {
+.nav-line {
+  display: flex;
+}
+
+.nav-link-category-page {
   @include font(16px, 700);
+
   color: rgba(0, 0, 0, 0.6);
+
   text-decoration: none;
+}
+
+.nav-line-arrow-right {
+  @include arrow-right(5px, 5px);
 }
