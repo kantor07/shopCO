@@ -1,0 +1,81 @@
+/* mixin */
+@import "mixin.scss";
+
+.container-category-page {
+  width: 295px;
+  height: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.sidebar-category-page {
+  padding: 20px 25px;
+}
+
+/* section sidebar */
+
+.list-title-filter,
+.list-title {
+  padding-bottom: 25px;
+
+  width: 245px;
+
+  @include font(20px, 700);
+
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+
+.list-title::after {
+  content: "";
+
+  display: block;
+
+  width: 5px;
+  height: 5px;
+
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+
+  transform: rotate(225deg);
+}
+
+.list[open] .list-title::after {
+  content: "";
+
+  display: block;
+
+  width: 5px;
+  height: 5px;
+
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+
+  transform: rotate(45deg);
+}
+
+.list-filter-img {
+  width: 25px;
+  height: 25px;
+}
+
+.list-nav {
+  list-style-type: none;
+}
+
+.list-nav-link {
+  @include font(16px, 700);
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}

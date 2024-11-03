@@ -387,8 +387,7 @@
   border: none;
   border-radius: 60px;
 
-  background: url(../img/singlePageSettings.png) center center no-repeat,
-    #f0f0f0;
+  background: url(../img/filterSinglePage.png) center center no-repeat, #f0f0f0;
 
   transition: 500ms;
 
@@ -400,7 +399,7 @@
   &:active {
     transform: scale(1);
     border: 1px solid #ffffff;
-    background: url(../img/singlePageSettings.png) center center no-repeat,
+    background: url(../img/filterSinglePage.png) center center no-repeat,
       #ffffff;
   }
 }

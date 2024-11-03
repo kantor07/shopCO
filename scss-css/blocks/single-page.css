@@ -442,7 +442,7 @@
   height: 50px;
   border: none;
   border-radius: 60px;
-  background: url(../img/singlePageSettings.png) center center no-repeat, #f0f0f0;
+  background: url(../img/filterSinglePage.png) center center no-repeat, #f0f0f0;
   transition: 500ms;
 }
 .filter-reviews:hover {
@@ -452,7 +452,7 @@
 .filter-reviews:active {
   transform: scale(1);
   border: 1px solid #ffffff;
-  background: url(../img/singlePageSettings.png) center center no-repeat, #ffffff;
+  background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
 }
 
 .select-option {

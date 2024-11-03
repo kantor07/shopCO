@@ -1939,7 +1939,7 @@ body {
   height: 50px;
   border: none;
   border-radius: 60px;
-  background: url(../img/singlePageSettings.png) center center no-repeat, #f0f0f0;
+  background: url(../img/filterSinglePage.png) center center no-repeat, #f0f0f0;
   transition: 500ms;
 }
 .filter-reviews:hover {
@@ -1949,7 +1949,7 @@ body {
 .filter-reviews:active {
   transform: scale(1);
   border: 1px solid #ffffff;
-  background: url(../img/singlePageSettings.png) center center no-repeat, #ffffff;
+  background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
 }
 
 .select-option {
@@ -2753,7 +2753,7 @@ body {
     padding: 40px 0 50px 0;
   }
 }
-/* section breadcrumbls */
+/* breadcrumbls */
 /* mixin */
 /* mixin */
 /* section breadcrumbls */
@@ -2823,4 +2823,77 @@ body {
     width: 6px;
     height: 6px;
   }
+}
+/* sidebar */
+/* mixin */
+/* mixin */
+.container-category-page {
+  width: 295px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.sidebar-category-page {
+  padding: 20px 25px;
+}
+
+/* section sidebar */
+.list-title-filter,
+.list-title {
+  padding-bottom: 25px;
+  width: 245px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+
+.list-title::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  transform: rotate(225deg);
+}
+
+.list[open] .list-title::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  transform: rotate(45deg);
+}
+
+.list-filter-img {
+  width: 25px;
+  height: 25px;
+}
+
+.list-nav {
+  list-style-type: none;
+}
+
+.list-nav-link {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
