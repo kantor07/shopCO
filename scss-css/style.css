@@ -2776,7 +2776,7 @@ body {
 }
 
 .info-menu-breadcrumbles,
-.info-menu-breadcrumbles-single-page {
+.info-menu-breadcrumbles-bold {
   font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -2785,15 +2785,15 @@ body {
   text-decoration: none;
 }
 .info-menu-breadcrumbles:hover,
-.info-menu-breadcrumbles-single-page:hover {
+.info-menu-breadcrumbles-bold:hover {
   color: #000000;
 }
 .info-menu-breadcrumbles:active,
-.info-menu-breadcrumbles-single-page:active {
+.info-menu-breadcrumbles-bold:active {
   color: #000000;
 }
 
-.info-menu-breadcrumbles-single-page {
+.info-menu-breadcrumbles-bold {
   color: #000000;
 }
 
@@ -2812,7 +2812,7 @@ body {
     margin: 0px 15px;
   }
   .info-menu-breadcrumbles,
-  .info-menu-breadcrumbles-single-page {
+  .info-menu-breadcrumbles-bold {
     font-family: "Satoshi", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
