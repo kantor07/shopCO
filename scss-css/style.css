@@ -2852,8 +2852,7 @@ body {
 
 /* section sidebar */
 .sidebar-list-title-filter,
-.sidebar-list-title,
-.sidebar-line {
+.sidebar-list-title {
   display: flex;
   justify-content: space-between;
 }
@@ -2923,17 +2922,15 @@ details > summary {
   list-style-type: none;
 }
 
-.sidebar-line {
-  display: flex;
-  padding: 10px 35px 10px 5px;
-}
-
 .sidebar-link {
+  padding: 10px 35px 10px 5px;
   font-family: "Satoshi", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
   text-decoration: none;
 }
 
