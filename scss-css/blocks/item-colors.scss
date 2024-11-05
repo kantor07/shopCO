@@ -1,0 +1,71 @@
+.item-color-input {
+  appearance: none;
+  position: relative;
+
+  width: 35px;
+  height: 35px;
+
+  transition: 500ms;
+
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 0.2);
+}
+
+.item-color-input::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 0px;
+  height: 0px;
+
+  font-size: 15px;
+
+  transition: 500ms;
+
+  overflow: hidden;
+  background: url(../img/arrowInputCheckbox.png) no-repeat;
+}
+
+.item-color-input:checked::after {
+  width: 35px;
+  height: 35px;
+
+  transition: 500ms;
+}
+
+.item-color-input:disabled {
+  background: #ccc;
+  border-color: #ccc;
+}
+
+.item-color-input:disabled::after {
+  filter: grayscale(100%);
+}
+
+/* colors */
+.color-brown {
+  background: #4f4631;
+}
+
+.color-green {
+  background: #314f4a;
+}
+
+.color-blue {
+  background: #31344f;
+}
+
+.color-lite-green {
+  background: #00c12b;
+}
+
+.color-red {
+  background: #f50606;
+}
+
+.color-yellow {
+  background: #f5dd06;
+}

@@ -165,12 +165,4 @@ details > summary {
   align-items: center;
   gap: 16px;
   list-style-type: none;
-}
-
-.sidebar-color {
-  box-sizing: border-box;
-  width: 35px;
-  height: 35px;
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
 }/*# sourceMappingURL=sidebar.css.map */
