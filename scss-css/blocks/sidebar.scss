@@ -15,6 +15,8 @@
 
 /* section sidebar */
 
+/* filters */
+
 .sidebar-list-title-filter,
 .sidebar-list-title {
   display: flex;
@@ -92,4 +94,59 @@ details > summary {
 .sidebar-arrow-right {
   margin-top: 8px;
   @include arrow-right(8px, 8px);
+}
+
+/* price */
+.range-filter {
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.range-controls {
+  position: relative;
+  height: 6px;
+
+  background: #f0f0f0;
+  border-radius: 20px;
+}
+
+.range-controls .scale {
+  height: 6px;
+  background: #f0f0f0;
+}
+
+.range-controls .bar {
+  margin-left: 15%;
+  width: 60%;
+  height: 6px;
+  background: #000000;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: -6px;
+
+  border-radius: 20px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 15%;
+}
+
+.range-controls .toggle-max {
+  left: 75%;
+}
+
+.range-controls .price-toggle-title {
+  position: absolute;
+  top: 25px;
+
+  @include font(14px, 500);
+
+  color: #000000;
 }
