@@ -72,13 +72,16 @@ body {
 @import "blocks/single-page.scss";
 
 /* item cart */
-@import "blocks/item.scss";
+@import "blocks/item-cart.scss";
 
 /* buttons */
 @import "blocks/buttons.scss";
 
 /* item colors */
 @import "blocks/item-colors.scss";
+
+/* item size */
+@import "blocks/item-size.scss";
 
 /* breadcrumbls */
 @import "blocks/breadcrumbls.scss";
