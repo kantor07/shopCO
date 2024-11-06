@@ -2713,6 +2713,12 @@ body {
   border: 1px solid #ffffff;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
+.item-color-input:hover {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.item-color-input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
 
 .item-color-input::after {
   content: "";
@@ -2751,7 +2757,7 @@ body {
   background: #314f4a;
 }
 
-.color-blue {
+.color-dark-blue {
   background: #31344f;
 }
 
@@ -2765,6 +2771,34 @@ body {
 
 .color-yellow {
   background: #f5dd06;
+}
+
+.color-orange {
+  background: #f57906;
+}
+
+.color-lite-blue {
+  background: #06caf5;
+}
+
+.color-blue {
+  background: #063af5;
+}
+
+.color-purpel {
+  background: #7d06f5;
+}
+
+.color-pink {
+  background: #f506a4;
+}
+
+.color-white {
+  background: #ffffff;
+}
+
+.color-black {
+  background: #000000;
 }
 
 /* breadcrumbls */
@@ -3000,10 +3034,9 @@ details > summary {
   padding: 0px 20px 25px 0px;
   margin: 0px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 9px;
   list-style-type: none;
 }/*# sourceMappingURL=style.css.map */

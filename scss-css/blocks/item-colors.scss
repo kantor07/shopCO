@@ -11,6 +11,14 @@
   border: 1px solid #ffffff;
 
   box-shadow: inset 0 0 5px rgb(0 0 0 / 0.2);
+
+  &:hover {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+
+  &:focus {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
 }
 
 .item-color-input::after {
@@ -46,6 +54,7 @@
 }
 
 /* colors */
+
 .color-brown {
   background: #4f4631;
 }
@@ -54,7 +63,7 @@
   background: #314f4a;
 }
 
-.color-blue {
+.color-dark-blue {
   background: #31344f;
 }
 
@@ -68,4 +77,32 @@
 
 .color-yellow {
   background: #f5dd06;
+}
+
+.color-orange {
+  background: #f57906;
+}
+
+.color-lite-blue {
+  background: #06caf5;
+}
+
+.color-blue {
+  background: #063af5;
+}
+
+.color-purpel {
+  background: #7d06f5;
+}
+
+.color-pink {
+  background: #f506a4;
+}
+
+.color-white {
+  background: #ffffff;
+}
+
+.color-black {
+  background: #000000;
 }
