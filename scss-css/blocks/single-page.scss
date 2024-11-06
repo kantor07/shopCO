@@ -1,5 +1,6 @@
 /* mixin */
 @import "mixin.scss";
+@import "item-size.scss";
 
 /* section single page */
 
@@ -148,28 +149,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.btn-item-size {
-  appearance: none;
-  position: relative;
-}
-
-.btn-item-size:checked + .btn-name-item-size {
-  border: 1px solid #000000;
-  background: #000000;
-
-  color: #ffffff;
-
-  transition: 500ms;
-}
-
-.btn-item-size:disabled + .btn-name-item-size {
-  background: #f0f0f0;
-
-  transition: 500ms;
-}
-
-.btn-item-size:disabled::after + .btn-name-item-size {
-  filter: grayscale(100%);
+.item-size-btn-single-page {
+  @include button(110px, 45px, #f0f0f0);
 }
 
 .item-count-card {
@@ -242,21 +223,16 @@
   }
 }
 
-.btn-name-item-size,
 .review-btn,
 .review-btn-cart {
   padding: 10px 25px;
   margin: 0px 5px 0px 5px;
 
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.6);
 
   border: none;
-}
-
-.btn-name-item-size {
-  @include button(110px, 45px, #f0f0f0);
 }
 
 .review-btn {
@@ -440,15 +416,10 @@
     @include font-title(32px, 700);
   }
 
-  .btn-name-item-size,
   .review-btn,
   .review-btn-cart {
     padding: 0px;
-    font-size: 14px;
-  }
-
-  .btn-name-item-size {
-    @include button(75px, 40px, #f0f0f0);
+    @include font(14px, 400);
   }
 
   .item-count {
@@ -604,10 +575,6 @@
   }
 
   /* choose size */
-
-  .btn-name-item-size {
-    @include button(80px, 40px, #f0f0f0);
-  }
 
   .review-btn-cart {
     @include button(220px, 45px, #f0f0f0);

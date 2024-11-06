@@ -155,13 +155,47 @@ details > summary {
 }
 
 /* colors */
-.sidebar-list-colors {
+.sidebar-btn-list {
   padding: 0px 20px 25px 0px;
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.colors-btn-list {
   gap: 9px;
   list-style-type: none;
+}
+
+/* size */
+.item-size-btn-sidebar {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+  margin: 0px;
+  padding: 0px;
+}
+.item-size-btn-sidebar:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.item-size-btn-sidebar:active {
+  transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
 }/*# sourceMappingURL=sidebar.css.map */
