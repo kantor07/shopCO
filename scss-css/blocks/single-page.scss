@@ -148,12 +148,12 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.input-btn {
+.btn-item-size {
   appearance: none;
   position: relative;
 }
 
-.input-btn:checked + .input-size {
+.btn-item-size:checked + .btn-name-item-size {
   border: 1px solid #000000;
   background: #000000;
 
@@ -162,13 +162,13 @@
   transition: 500ms;
 }
 
-.input-btn:disabled + .input-size {
+.btn-item-size:disabled + .btn-name-item-size {
   background: #f0f0f0;
 
   transition: 500ms;
 }
 
-.input-btn:disabled::after + .input-size {
+.btn-item-size:disabled::after + .btn-name-item-size {
   filter: grayscale(100%);
 }
 
@@ -242,7 +242,7 @@
   }
 }
 
-.input-size,
+.btn-name-item-size,
 .review-btn,
 .review-btn-cart {
   padding: 10px 25px;
@@ -255,7 +255,7 @@
   border: none;
 }
 
-.input-size {
+.btn-name-item-size {
   @include button(110px, 45px, #f0f0f0);
 }
 
@@ -440,14 +440,14 @@
     @include font-title(32px, 700);
   }
 
-  .input-size,
+  .btn-name-item-size,
   .review-btn,
   .review-btn-cart {
     padding: 0px;
     font-size: 14px;
   }
 
-  .input-size {
+  .btn-name-item-size {
     @include button(75px, 40px, #f0f0f0);
   }
 
@@ -605,7 +605,7 @@
 
   /* choose size */
 
-  .input-size {
+  .btn-name-item-size {
     @include button(80px, 40px, #f0f0f0);
   }
 

@@ -155,26 +155,26 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.input-btn {
+.btn-item-size {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   position: relative;
 }
 
-.input-btn:checked + .input-size {
+.btn-item-size:checked + .btn-name-item-size {
   border: 1px solid #000000;
   background: #000000;
   color: #ffffff;
   transition: 500ms;
 }
 
-.input-btn:disabled + .input-size {
+.btn-item-size:disabled + .btn-name-item-size {
   background: #f0f0f0;
   transition: 500ms;
 }
 
-.input-btn:disabled::after + .input-size {
+.btn-item-size:disabled::after + .btn-name-item-size {
   filter: grayscale(100%);
 }
 
@@ -250,7 +250,7 @@
   outline: none;
 }
 
-.input-size,
+.btn-name-item-size,
 .review-btn,
 .review-btn-cart {
   padding: 10px 25px;
@@ -260,7 +260,7 @@
   border: none;
 }
 
-.input-size {
+.btn-name-item-size {
   width: 110px;
   height: 45px;
   display: flex;
@@ -271,12 +271,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 500ms;
 }
-.input-size:hover {
+.btn-name-item-size:hover {
   transform: 1.1;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.input-size:active {
+.btn-name-item-size:active {
   transform: scale(1);
   border: 1px solid #000000;
   background: #000000;
@@ -517,13 +517,13 @@
     font-weight: 700;
     font-size: 32px;
   }
-  .input-size,
+  .btn-name-item-size,
   .review-btn,
   .review-btn-cart {
     padding: 0px;
     font-size: 14px;
   }
-  .input-size {
+  .btn-name-item-size {
     width: 75px;
     height: 40px;
     display: flex;
@@ -534,12 +534,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: 500ms;
   }
-  .input-size:hover {
+  .btn-name-item-size:hover {
     transform: 1.1;
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
-  .input-size:active {
+  .btn-name-item-size:active {
     transform: scale(1);
     border: 1px solid #000000;
     background: #000000;
@@ -769,7 +769,7 @@
     font-size: 14px;
   }
   /* choose size */
-  .input-size {
+  .btn-name-item-size {
     width: 80px;
     height: 40px;
     display: flex;
@@ -780,12 +780,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: 500ms;
   }
-  .input-size:hover {
+  .btn-name-item-size:hover {
     transform: 1.1;
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
-  .input-size:active {
+  .btn-name-item-size:active {
     transform: scale(1);
     border: 1px solid #000000;
     background: #000000;
