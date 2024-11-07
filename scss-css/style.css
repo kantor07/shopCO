@@ -2844,7 +2844,7 @@ body {
 /* sidebar */
 /* mixin */
 /* mixin */
-.container-category-page {
+.sidebar-container {
   width: 295px;
   padding: 25px;
   height: 100%;
@@ -3019,7 +3019,7 @@ details > summary {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  width: 120px;
+  width: 100px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -3044,6 +3044,18 @@ details > summary {
   color: #ffffff;
 }
 
-.size-btn-list {
-  margin: 0px;
+/* category page */
+/* section item category page */
+.container-category-page {
+  display: flex;
+}
+
+.item-category-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-category-page-sort {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */

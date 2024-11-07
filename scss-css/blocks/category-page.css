@@ -1,0 +1,14 @@
+/* section item category page */
+.container-category-page {
+  display: flex;
+}
+
+.item-category-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-category-page-sort {
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=item-category-page.css.map */

@@ -100,7 +100,7 @@
     <main class="main">
       <h1 class="hidden">Welcome to SHOP.CO category page</h1>
       <div class="container container-category-page">
-        <section class="sidebar-category-page">
+        <section class="sidebar-category-page sidebar-container">
           <h2 class="hidden">section sidebar</h2>
           <details open class="sidebar-list">
             <summary class="sidebar-list-title-filter">
@@ -356,14 +356,37 @@
             </button>
           </div>
         </section>
+        <div class="item-container-category-page">
+          <section class="item-category-page">
+            <h2 class="hidden">section item category page</h2>
+            <div class="item-category-title">
+              <h3 class="item-category-page-title">Casual</h3>
+              <div class="item-category-page-sort">
+                <p class="page-sort">Showing 1-10 of 100 Products</p>
+                <form>
+                  <span class="select-option">
+                    <select name="sort" class="select-filter-reviews">
+                      <option
+                        class="select-filter-reviews"
+                        value="firstest"
+                        selected
+                      >
+                        Most Popular
+                      </option>
+                      <option value="latest">Most Popular</option>
+                      <option value="negative">Most Popular</option>
+                      <option value="positive">Most Popular</option>
+                    </select>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </section>
 
-        <section class="item-category-page">
-          <h2 class="hidden">section item category page</h2>
-        </section>
-
-        <section class="pagination-category-page">
-          <h2 class="hidden">section pagination category page</h2>
-        </section>
+          <section class="pagination-category-page">
+            <h2 class="hidden">section pagination category page</h2>
+          </section>
+        </div>
       </div>
     </main>
 

@@ -1,7 +1,7 @@
 /* mixin */
 @import "mixin.scss";
 
-.container-category-page {
+.sidebar-container {
   width: 295px;
   padding: 25px;
   height: 100%;
@@ -164,7 +164,7 @@ details > summary {
 
 .item-size-btn-sidebar {
   @include font(14px, 400);
-  @include button(120px, 40px, #f0f0f0);
+  @include button(100px, 40px, #f0f0f0);
   margin: 0px;
   padding: 0px;
 }

@@ -1,6 +1,6 @@
 /* mixin */
 /* mixin */
-.container-category-page {
+.sidebar-container {
   width: 295px;
   padding: 25px;
   height: 100%;
@@ -175,7 +175,7 @@ details > summary {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  width: 120px;
+  width: 100px;
   height: 40px;
   display: flex;
   justify-content: center;
