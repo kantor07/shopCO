@@ -70,7 +70,7 @@ details > summary {
 }
 
 .sidebar-link {
-  padding: 10px 30px 10px 0px;
+  padding: 10px 10px 10px 0px;
 
   @include font(16px, 400);
 
@@ -145,7 +145,7 @@ details > summary {
 /* colors */
 
 .sidebar-btn-list {
-  padding: 0px 20px 25px 0px;
+  padding: 0px 0px 25px 0px;
   margin: 0px;
 
   display: flex;
@@ -155,7 +155,7 @@ details > summary {
 }
 
 .colors-btn-list {
-  gap: 9px;
+  gap: 7px;
 
   list-style-type: none;
 }
