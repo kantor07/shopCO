@@ -114,6 +114,13 @@
   gap: 10px;
 }
 
+.item-rating-star {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .fa-star,
 .fa-star-half {
   font-size: 18.49px;

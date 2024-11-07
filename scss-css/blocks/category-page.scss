@@ -1,4 +1,20 @@
+/* mixin */
+
+@import "mixin.scss";
+
 /* section item category page */
+
+.item-container-category-page {
+  margin-left: 20px;
+}
+
+.item-category-page {
+  margin-bottom: 30px;
+
+  max-width: 925px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .container-category-page {
   display: flex;
@@ -9,7 +25,108 @@
   justify-content: space-between;
 }
 
-.item-category-page-sort {
+.item-category-page-sort,
+.form-page-sort {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-page-sort {
+  margin: 0px 10px;
+}
+
+.item-category-page-title {
+  margin: 0px;
+
+  @include font(32px, 700);
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.form-page-sort-title,
+.page-sort {
+  @include font(16px, 400);
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-page-sort-select,
+.form-page-sort-option {
+  @include font(16px, 500);
+
+  color: #000000;
+
+  display: block;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  &:hover {
+    border: none;
+    outline: none;
+    border-color: #000000;
+  }
+
+  &:focus {
+    border: none;
+    outline: none;
+    border-color: #000000;
+  }
+
+  &:active {
+    border: none;
+    outline: none;
+    border-color: #000000;
+  }
+}
+
+/* section pagination category page */
+
+.arrow-pagination {
+  @include button(110px, 35px, #ffffff);
+  @include font(14px, 500);
+  color: #000000;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+}
+
+.long-arrow-right,
+.long-arrow-left {
+  display: block;
+
+  margin: 10px;
+
+  width: 8px;
+  height: 8px;
+
+  border-top: 1.67px solid #000000;
+  border-left: 1.67px solid #000000;
+}
+
+.long-arrow-right {
+  transform: rotate(135deg);
+}
+
+.long-arrow-left {
+  transform: rotate(-45deg);
+}
+
+.long-arrow-right::after,
+.long-arrow-left::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: black;
+  transform: rotate(-45deg) translate(3px, 2px);
+  left: 0;
+  top: 0;
 }

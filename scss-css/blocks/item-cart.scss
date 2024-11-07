@@ -143,6 +143,10 @@
   gap: 10px;
 }
 
+.item-rating-star {
+  @include font(14px, 400);
+}
+
 .fa-star,
 .fa-star-half {
   font-size: 18.49px;

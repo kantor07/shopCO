@@ -671,6 +671,13 @@ body {
   gap: 10px;
 }
 
+.item-rating-star {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .fa-star,
 .fa-star-half {
   font-size: 18.49px;
@@ -1507,6 +1514,7 @@ body {
   }
 }
 /* section single page */
+/* mixin */
 /* mixin */
 /* mixin */
 .btn-name-item-size {
@@ -2462,6 +2470,13 @@ body {
   gap: 10px;
 }
 
+.item-rating-star {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .fa-star,
 .fa-star-half {
   font-size: 18.49px;
@@ -2770,6 +2785,42 @@ body {
   background: #000000;
 }
 
+/* item size */
+/* mixin */
+.btn-name-item-size {
+  padding: 10px 25px;
+  margin: 0px 5px 0px 5px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.btn-item-size {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+}
+
+.btn-item-size:checked + .btn-name-item-size {
+  border: 1px solid #000000;
+  background: #000000;
+  color: #ffffff;
+  transition: 500ms;
+}
+
+.btn-item-size:disabled + .btn-name-item-size {
+  background: #f0f0f0;
+  transition: 500ms;
+}
+
+.btn-item-size:disabled::after + .btn-name-item-size {
+  filter: grayscale(100%);
+}
+
 /* breadcrumbls */
 /* mixin */
 /* mixin */
@@ -3045,7 +3096,19 @@ details > summary {
 }
 
 /* category page */
+/* mixin */
+/* mixin */
 /* section item category page */
+.item-container-category-page {
+  margin-left: 20px;
+}
+
+.item-category-page {
+  margin-bottom: 30px;
+  max-width: 925px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .container-category-page {
   display: flex;
 }
@@ -3055,7 +3118,126 @@ details > summary {
   justify-content: space-between;
 }
 
-.item-category-page-sort {
+.item-category-page-sort,
+.form-page-sort {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-page-sort {
+  margin: 0px 10px;
+}
+
+.item-category-page-title {
+  margin: 0px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.form-page-sort-title,
+.page-sort {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-page-sort-select,
+.form-page-sort-option {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  display: block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.form-page-sort-select:hover,
+.form-page-sort-option:hover {
+  border: none;
+  outline: none;
+  border-color: #000000;
+}
+.form-page-sort-select:focus,
+.form-page-sort-option:focus {
+  border: none;
+  outline: none;
+  border-color: #000000;
+}
+.form-page-sort-select:active,
+.form-page-sort-option:active {
+  border: none;
+  outline: none;
+  border-color: #000000;
+}
+
+/* section pagination category page */
+.arrow-pagination {
+  width: 110px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.arrow-pagination:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.arrow-pagination:active {
+  transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.long-arrow-right,
+.long-arrow-left {
+  display: block;
+  margin: 10px;
+  width: 8px;
+  height: 8px;
+  border-top: 1.67px solid #000000;
+  border-left: 1.67px solid #000000;
+}
+
+.long-arrow-right {
+  transform: rotate(135deg);
+}
+
+.long-arrow-left {
+  transform: rotate(-45deg);
+}
+
+.long-arrow-right::after,
+.long-arrow-left::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: black;
+  transform: rotate(-45deg) translate(3px, 2px);
+  left: 0;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
