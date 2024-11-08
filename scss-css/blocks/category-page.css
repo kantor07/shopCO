@@ -80,4 +80,10 @@
   border: none;
   outline: none;
   border-color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .item-cart-category-page {
+    width: 45%;
+  }
 }/*# sourceMappingURL=category-page.css.map */

@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.pagination-number {
+  margin-top: 5px;
+}
+
 .arrow-pagination,
 .link-pagination-number {
   font-family: "Satoshi", Arial, sans-serif;
@@ -74,9 +78,11 @@
 .link-pagination-number:hover {
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  border-radius: 8px;
 }
 .link-pagination-number:active {
   background: rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
   font-weight: 500;
   color: #000000;
 }
@@ -85,4 +91,48 @@
   margin-right: 10px;
   width: 10px;
   height: 10px;
+}
+
+@media (width: 768px) {
+  .arrow-pagination,
+  .link-pagination-number {
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .arrow-pagination {
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 500ms;
+    border-radius: 8px;
+  }
+  .arrow-pagination:hover {
+    transform: 1.1;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .arrow-pagination:active {
+    transform: scale(1);
+    border: 1px solid #000000;
+    background: #000000;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .link-pagination-number {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+  }
+  .img-arrow-pagination {
+    margin-right: 10px;
+    width: 7px;
+    height: 7px;
+  }
 }/*# sourceMappingURL=pagination.css.map */
