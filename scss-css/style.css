@@ -1101,7 +1101,6 @@ body {
     height: 1px;
     opacity: 0;
     visibility: hidden;
-    /* display: none; */
   }
   .reviews-title {
     text-align: start;
@@ -2326,10 +2325,6 @@ body {
     font-weight: 400;
     font-size: 14px;
   }
-  .filter-reviews {
-    width: 40px;
-    height: 40px;
-  }
   .select-option,
   .link-desc-review {
     position: absolute;
@@ -3093,6 +3088,16 @@ details > summary {
   color: #ffffff;
 }
 
+@media (width: 768px) {
+  .hidden-sidebar {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 /* category page */
 /* mixin */
 /* mixin */
