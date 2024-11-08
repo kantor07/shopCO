@@ -4,7 +4,6 @@
 .sidebar-container {
   width: 295px;
   padding: 25px;
-  height: 100%;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -169,8 +168,37 @@ details > summary {
   padding: 0px;
 }
 
-@media (width: 768px) {
-  .hidden-sidebar {
-    @include hidden();
+@media (max-width: 768px) {
+  .sidebar-container {
+    position: absolute;
+    left: 470px;
+
+    transform: scaleY(0);
+    transform-origin: top;
+
+    transition: 0.5s;
+  }
+
+  .filter-btn {
+    @include button-filter(40px, 40px);
+    background-size: 20px 20px;
+  }
+
+  .sidebar-category-page {
+    &:hover .sidebar-container {
+      transform: scaleY(1);
+    }
+
+    &:hover .item-list-category-page {
+      opacity: 0;
+      box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .filter-btn {
+    @include button-filter(30px, 30px);
+    background-size: 15px 15px;
   }
 }

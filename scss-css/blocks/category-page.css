@@ -82,7 +82,20 @@
   border-color: #000000;
 }
 
+@media (min-width: 1024px) {
+  .filter-btn {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @media (max-width: 1024px) {
+  .item-list-category-page {
+    margin-left: 30px;
+  }
   .item-cart-category-page {
     width: 45%;
   }

@@ -86,7 +86,17 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .filter-btn {
+    @include hidden();
+  }
+}
+
 @media (max-width: 1024px) {
+  .item-list-category-page {
+    margin-left: 30px;
+  }
+
   .item-cart-category-page {
     width: 45%;
   }
