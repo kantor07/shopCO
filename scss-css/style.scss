@@ -18,14 +18,8 @@ body {
   /*border: 1px solid red;*/
 }
 
-.hidden {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  visibility: hidden;
-  /* display: none; */
+.hidden-section {
+  @include hidden();
 }
 
 .container {

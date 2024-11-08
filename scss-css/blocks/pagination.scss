@@ -108,4 +108,7 @@
 }
 
 @media (width: 576px) {
+  .hidden-link {
+    @include hidden();
+  }
 }

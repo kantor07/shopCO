@@ -20,14 +20,13 @@ body {
   /*border: 1px solid red;*/
 }
 
-.hidden {
+.hidden-section {
   position: absolute;
   left: -9999px;
   width: 1px;
   height: 1px;
   opacity: 0;
   visibility: hidden;
-  /* display: none; */
 }
 
 .container {
@@ -1086,7 +1085,6 @@ body {
     height: 1px;
     opacity: 0;
     visibility: hidden;
-    /* display: none; */
   }
 }
 @media (max-width: 576px) {
@@ -3322,5 +3320,15 @@ details > summary {
     margin-right: 10px;
     width: 7px;
     height: 7px;
+  }
+}
+@media (width: 576px) {
+  .hidden-link {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
   }
 }/*# sourceMappingURL=style.css.map */

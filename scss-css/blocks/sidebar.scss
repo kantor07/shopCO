@@ -168,3 +168,9 @@ details > summary {
   margin: 0px;
   padding: 0px;
 }
+
+@media (width: 768px) {
+  .hidden-sidebar {
+    @include hidden();
+  }
+}

@@ -613,12 +613,7 @@
 
   .select-option,
   .link-desc-review {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
-    visibility: hidden;
+    @include hidden();
   }
 
   /* reviews blocks */
