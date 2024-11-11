@@ -63,7 +63,7 @@
   height: 10px;
   border-top: 1px solid #000000;
   border-left: 1px solid #000000;
-  transform: rotate(225deg);
+  transform: rotate(225 deg);
 }
 
 .search {

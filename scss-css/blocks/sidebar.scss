@@ -49,7 +49,7 @@ details > summary {
   position: relative;
   top: 10px;
   right: 5px;
-  @include arrow-down(8px, 8px);
+  @include arrow(8px, 8px, #000000, 225);
 }
 
 .sidebar-list[open] .sidebar-list-title::after {
@@ -57,7 +57,7 @@ details > summary {
   position: relative;
   top: 10px;
   right: 5px;
-  @include arrow-up(8px, 8px);
+  @include arrow(8px, 8px, #000000, 45);
 }
 
 .sidebar-filter-img {
@@ -85,7 +85,7 @@ details > summary {
 
 .sidebar-arrow-right {
   margin-top: 8px;
-  @include arrow-right(8px, 8px);
+  @include arrow(8px, 8px, rgba(0, 0, 0, 0.6), 135);
 }
 
 /* price */
