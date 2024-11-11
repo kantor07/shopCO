@@ -3136,7 +3136,6 @@ details > summary {
     transform-origin: top;
     transition: 0.5s;
     transform: translate(465px, -95px);
-    border: 2px solid red;
   }
   .sidebar-category-page:hover .sidebar-container {
     transform: scaleY(1);
@@ -3153,13 +3152,8 @@ details > summary {
     visibility: hidden;
   }
   .arrow-cross-filter {
-    display: block;
-    width: 15px;
-    height: 15px;
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
-    border-left: 1px solid rgba(0, 0, 0, 0.4);
-    transform: rotate(90deg);
-    transform: scaleY(1.5) scaleX(1.5);
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 24px;
   }
 }
 @media (max-width: 576px) {

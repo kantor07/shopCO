@@ -201,8 +201,6 @@ details > summary {
 
     transform: translate(465px, -95px);
 
-    border: 2px solid red;
-
     &:hover .sidebar-container {
       transform: scaleY(1);
     }
@@ -217,8 +215,8 @@ details > summary {
   }
 
   .arrow-cross-filter {
-    @include arrow(15px, 15px, rgba(0, 0, 0, 0.4), 90deg);
-    transform: scaleY(1.5) scaleX(1.5);
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 24px;
   }
 }
 
