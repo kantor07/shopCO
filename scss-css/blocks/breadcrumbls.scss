@@ -48,7 +48,7 @@
 .arrow-right {
   margin: 6px 0px 0px 5px;
 
-  @include arrow(10px, 10px, rgba(0, 0, 0, 0.6), 135);
+  @include arrow(10px, 10px, rgba(0, 0, 0, 0.6), 135deg);
 }
 
 @media (max-width: 576px) {

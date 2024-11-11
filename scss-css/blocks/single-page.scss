@@ -305,15 +305,13 @@
 }
 
 .select-option::after {
-  padding: 0;
-
   position: absolute;
+
   left: 100px;
-  top: 17px;
+  top: 18px;
 
-  font-size: 12px;
-
-  content: "" url(../img/down-arrow.png);
+  content: "";
+  @include arrow(7px, 7px, #000000, 225deg);
 }
 
 .select-filter-reviews {
@@ -322,7 +320,7 @@
 
   @include button(120px, 50px, #ffffff);
 
-  font-size: 16px;
+  @include font(16px, 400);
 
   color: rgba(0, 0, 0, 0.6);
 

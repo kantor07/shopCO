@@ -49,7 +49,7 @@ details > summary {
   position: relative;
   top: 10px;
   right: 5px;
-  @include arrow(8px, 8px, #000000, 225);
+  @include arrow(8px, 8px, #000000, 225deg);
 }
 
 .sidebar-list[open] .sidebar-list-title::after {
@@ -57,10 +57,12 @@ details > summary {
   position: relative;
   top: 10px;
   right: 5px;
-  @include arrow(8px, 8px, #000000, 45);
+  @include arrow(8px, 8px, #000000, 45deg);
 }
 
 .sidebar-filter-img {
+  margin-left: 140px;
+
   width: 25px;
   height: 25px;
 }
@@ -85,7 +87,7 @@ details > summary {
 
 .sidebar-arrow-right {
   margin-top: 8px;
-  @include arrow(8px, 8px, rgba(0, 0, 0, 0.6), 135);
+  @include arrow(8px, 8px, rgba(0, 0, 0, 0.6), 135deg);
 }
 
 /* price */
@@ -171,7 +173,8 @@ details > summary {
 }
 
 @media (min-width: 1024px) {
-  .filter-btn {
+  .filter-btn,
+  .arrow-cross-filter {
     @include hidden();
   }
 }
@@ -214,7 +217,7 @@ details > summary {
   }
 
   .arrow-cross-filter {
-    @include arrow-cross(15px, 15px, rgba(0, 0, 0, 0.4), 90deg);
+    @include arrow(15px, 15px, rgba(0, 0, 0, 0.4), 90deg);
     transform: scaleY(1.5) scaleX(1.5);
   }
 }

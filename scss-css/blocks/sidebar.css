@@ -69,6 +69,7 @@ details > summary {
 }
 
 .sidebar-filter-img {
+  margin-left: 140px;
   width: 25px;
   height: 25px;
 }
@@ -201,7 +202,8 @@ details > summary {
 }
 
 @media (min-width: 1024px) {
-  .filter-btn {
+  .filter-btn,
+  .arrow-cross-filter {
     position: absolute;
     left: -9999px;
     width: 1px;

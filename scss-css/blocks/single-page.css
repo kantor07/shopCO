@@ -422,12 +422,16 @@
 }
 
 .select-option::after {
-  padding: 0;
   position: absolute;
   left: 100px;
-  top: 17px;
-  font-size: 12px;
-  content: "" url(../img/down-arrow.png);
+  top: 18px;
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  transform: rotate(225deg);
 }
 
 .select-filter-reviews {
@@ -442,6 +446,9 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 500ms;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
   border: none;
