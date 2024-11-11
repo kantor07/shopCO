@@ -86,12 +86,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .filter-btn {
-    @include hidden();
-  }
-}
-
 @media (max-width: 1024px) {
   .item-list-category-page {
     margin-left: 30px;
@@ -99,5 +93,24 @@
 
   .item-cart-category-page {
     width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden-form-page-sort {
+    @include hidden();
+  }
+
+  .item-category-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .item-category-page-title {
+    @include font(28px, 700);
+  }
+
+  .page-sort {
+    margin: 5px 0px 0px 10px;
   }
 }

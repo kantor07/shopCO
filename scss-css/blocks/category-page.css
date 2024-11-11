@@ -82,8 +82,16 @@
   border-color: #000000;
 }
 
-@media (min-width: 1024px) {
-  .filter-btn {
+@media (max-width: 1024px) {
+  .item-list-category-page {
+    margin-left: 30px;
+  }
+  .item-cart-category-page {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .hidden-form-page-sort {
     position: absolute;
     left: -9999px;
     width: 1px;
@@ -91,12 +99,17 @@
     opacity: 0;
     visibility: hidden;
   }
-}
-@media (max-width: 1024px) {
-  .item-list-category-page {
-    margin-left: 30px;
+  .item-category-title {
+    display: flex;
+    justify-content: flex-start;
   }
-  .item-cart-category-page {
-    width: 45%;
+  .item-category-page-title {
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .page-sort {
+    margin: 5px 0px 0px 10px;
   }
 }/*# sourceMappingURL=category-page.css.map */
