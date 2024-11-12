@@ -149,10 +149,6 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.item-size-btn-single-page {
-  @include button(110px, 45px, #f0f0f0);
-}
-
 .item-count-card {
   margin: 25px 0px;
 
@@ -280,7 +276,7 @@
 /*section reviews single page*/
 
 .reviews-title-all {
-  margin: 0;
+  margin-top: 5px;
 
   @include font(24px, 700);
 
@@ -395,7 +391,6 @@
   .review-btn,
   .review-btn-cart {
     padding: 0px;
-    @include font(14px, 400);
   }
 
   .item-count {
@@ -484,6 +479,7 @@
 
   .review-btn {
     @include button(115px, 40px, #f0f0f0);
+    @include font(14px, 400);
   }
 
   /* section item details single page */
@@ -554,6 +550,7 @@
 
   .review-btn-cart {
     @include button(220px, 45px, #f0f0f0);
+    @include font(14px, 400);
   }
 
   /*section product details single page*/

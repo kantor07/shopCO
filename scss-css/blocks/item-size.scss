@@ -1,5 +1,9 @@
 @import "mixin.scss";
 
+.item-size-btn {
+  @include button(110px, 45px, #f0f0f0);
+}
+
 .btn-name-item-size {
   padding: 10px 25px;
   margin: 0px 5px 0px 5px;
@@ -33,4 +37,32 @@
 
 .btn-item-size:disabled::after + .btn-name-item-size {
   filter: grayscale(100%);
+}
+
+@media (max-width: 1024px) {
+  .item-size-btn {
+    @include button(85px, 45px, #f0f0f0);
+  }
+
+  .btn-name-item-size {
+    padding: 10px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-size-btn {
+    @include button(85px, 45px, #f0f0f0);
+  }
+}
+
+@media (max-width: 576px) {
+  .item-size-btn {
+    @include button(80px, 45px, #f0f0f0);
+  }
+
+  .btn-name-item-size {
+    padding: 5px;
+    margin-right: 5px;
+  }
 }
