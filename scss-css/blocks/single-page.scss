@@ -587,6 +587,10 @@
     @include hidden();
   }
 
+  .btn-reviews-filter {
+    @include button-filter(40px, 40px);
+  }
+
   /* reviews blocks */
 
   .review-adress {
