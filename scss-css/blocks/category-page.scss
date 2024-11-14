@@ -97,11 +97,11 @@
 }
 
 @media (max-width: 768px) {
-  .hidden-form-page-sort {
+  .form-page-sort {
     @include hidden();
   }
 
-  .item-category-title {
+  item-category-title {
     display: flex;
     justify-content: flex-start;
   }
@@ -111,6 +111,6 @@
   }
 
   .page-sort {
-    margin: 5px 0px 0px 10px;
+    margin: 5px 50px 0px 10px;
   }
 }
