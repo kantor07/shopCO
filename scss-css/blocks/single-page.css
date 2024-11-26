@@ -494,7 +494,6 @@
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 .btn-reviews-filter:active {
-  transform: scale(1);
   border: 1px solid #ffffff;
   background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
 }
@@ -929,7 +928,6 @@
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .btn-reviews-filter:active {
-    transform: scale(1);
     border: 1px solid #ffffff;
     background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
   }

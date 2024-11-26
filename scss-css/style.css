@@ -2007,7 +2007,6 @@ body {
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 .btn-reviews-filter:active {
-  transform: scale(1);
   border: 1px solid #ffffff;
   background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
 }
@@ -2442,7 +2441,6 @@ body {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .btn-reviews-filter:active {
-    transform: scale(1);
     border: 1px solid #ffffff;
     background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
   }
@@ -3308,7 +3306,7 @@ details > summary {
   color: #ffffff;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 769px) {
   .filter-btn,
   .sidebar-filter {
     position: absolute;
@@ -3320,6 +3318,7 @@ details > summary {
   }
 }
 @media (max-width: 768px) {
+  /* section sidebar filter */
   .sidebar-category-page {
     position: absolute;
     left: -9999px;
@@ -3328,15 +3327,10 @@ details > summary {
     opacity: 0;
     visibility: hidden;
   }
-  /* section sidebar filter */
-  #menu {
-    display: none;
-  }
-  sidebar-container {
-    transform: scaleY(1);
+  .sidebar-container {
+    border: none;
   }
   .filter-btn {
-    margin-left: 255px;
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -3345,6 +3339,7 @@ details > summary {
     background: url(../img/filterSinglePage.png) center center no-repeat, #f0f0f0;
     transition: 500ms;
     padding: 10px 20px;
+    display: block;
     background-size: 20px 20px;
   }
   .filter-btn:hover {
@@ -3352,86 +3347,31 @@ details > summary {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .filter-btn:active {
-    transform: scale(1);
     border: 1px solid #ffffff;
     background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
   }
-  sidebar-filter {
-    display: block;
-    position: fixid;
-    width: 100%;
-    border-size: border-box;
-    background-color: rgba(0, 0, 0, 0.2);
-    transform-origin: top;
-    transition: 0.5s;
-    transform: translate(0px, 0px);
-  }
-  sidebar-filter:hover .sidebar-container {
-    transform: scaleY(0);
-    transform: translate(0px, 0px);
+  .sidebar-filter {
+    display: none;
   }
   .arrow-cross-filter {
     color: rgba(0, 0, 0, 0.4);
     font-size: 24px;
   }
-  .arrow-cross-filter:hover .sidebar-container {
-    transform: scaleY(0);
-  }
-  .nav,
-  .sidebar-filter {
-    background-color: gold;
+  .sidebar-list-nav {
     padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
   }
   #menu {
     display: none;
   }
-  .burger {
-    width: 15px;
-    height: 10px;
-    display: none;
-    border: 1px solid grey;
-    background-color: #fff;
-    padding: 10px;
-  }
-  .burger span {
+  #menu:checked ~ .sidebar-filter {
     display: block;
-    width: 14px;
-    height: 2px;
-    background-color: black;
-    box-shadow: 0px 5px 0 black, 0px -5px 0 black;
-  }
-  .nav-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .nav-item {
-    padding: 10px;
-    outline: 1px solid black;
-  }
-}
-@media (max-width: 768px) and (max-width: 600px) {
-  .burger,
-  .filter-btn {
-    display: block;
-  }
-  .nav-list {
-    display: none;
-  }
-  #menu:checked ~ .nav-list {
-    display: block;
-    position: fixed;
+    position: absolute;
+    transform: translate(0px, 460px);
     width: 100%;
-    left: 0;
-    right: 0;
-    background-color: tomato;
-    padding: 10px;
+    background-color: #ffffff;
     box-sizing: border-box;
-  }
-  .nav-item {
-    margin-bottom: 20px;
-    background-color: #fff;
   }
 }
 @media (max-width: 576px) {
@@ -3450,7 +3390,6 @@ details > summary {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .filter-btn:active {
-    transform: scale(1);
     border: 1px solid #ffffff;
     background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
   }
