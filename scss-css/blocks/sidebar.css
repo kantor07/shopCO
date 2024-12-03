@@ -201,8 +201,9 @@ details > summary {
   color: #ffffff;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 951px) {
   .filter-btn,
+  .filter-input,
   .sidebar-filter {
     position: absolute;
     left: -9999px;
@@ -212,7 +213,7 @@ details > summary {
     visibility: hidden;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   /* section sidebar filter */
   .sidebar-category-page {
     position: absolute;

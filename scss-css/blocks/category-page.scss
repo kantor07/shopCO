@@ -6,13 +6,16 @@
 
 .item-container-category-page {
   margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .item-category-page {
   margin-bottom: 30px;
 
-  max-width: 925px;
-
+  min-height: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -96,14 +99,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .form-page-sort {
     @include hidden();
-  }
-
-  item-category-title {
-    display: flex;
-    justify-content: flex-start;
   }
 
   .item-category-page-title {

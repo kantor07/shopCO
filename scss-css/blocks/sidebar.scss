@@ -172,14 +172,15 @@ details > summary {
   padding: 0px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 951px) {
   .filter-btn,
+  .filter-input,
   .sidebar-filter {
     @include hidden();
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   /* section sidebar filter */
   .sidebar-category-page {
     @include hidden();
