@@ -223,9 +223,6 @@ details > summary {
     opacity: 0;
     visibility: hidden;
   }
-  .sidebar-container {
-    border: none;
-  }
   .filter-btn {
     padding: 10px;
     width: 40px;
@@ -249,6 +246,10 @@ details > summary {
   .sidebar-filter {
     display: none;
   }
+  .sidebar-container {
+    position: absolute;
+    background-color: #ffffff;
+  }
   .arrow-cross-filter {
     color: rgba(0, 0, 0, 0.4);
     font-size: 24px;
@@ -262,12 +263,24 @@ details > summary {
     display: none;
   }
   #menu:checked ~ .sidebar-filter {
-    display: block;
+    display: flex;
+    justify-content: center;
     position: absolute;
-    transform: translate(0px, 460px);
+    top: 130px;
+    left: 0px;
     width: 100%;
-    background-color: #ffffff;
+    height: 545%;
+    background-color: rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
+    border: 1px solid red;
+  }
+  #menu:checked .item-list-category-page {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    visibility: hidden;
   }
 }
 @media (max-width: 576px) {

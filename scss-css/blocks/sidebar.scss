@@ -186,10 +186,6 @@ details > summary {
     @include hidden();
   }
 
-  .sidebar-container {
-    border: none;
-  }
-
   .filter-btn {
     @include button-filter(40px, 40px);
     padding: 10px 20px;
@@ -199,6 +195,12 @@ details > summary {
 
   .sidebar-filter {
     display: none;
+  }
+
+  .sidebar-container {
+    position: absolute;
+
+    background-color: #ffffff;
   }
 
   .arrow-cross-filter {
@@ -217,14 +219,24 @@ details > summary {
   }
 
   #menu:checked ~ .sidebar-filter {
-    display: block;
-    position: absolute;
-    transform: translate(0px, 460px);
-    width: 100%;
+    display: flex;
+    justify-content: center;
 
-    background-color: #ffffff;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+
+    width: 100%;
+    height: 545%;
+
+    background-color: rgba(0, 0, 0, 0.2);
 
     box-sizing: border-box;
+    border: 1px solid red;
+  }
+
+  #menu:checked .item-list-category-page {
+    @include hidden();
   }
 }
 

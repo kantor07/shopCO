@@ -2,10 +2,15 @@
 @import "mixin.scss";
 
 /* section pagination category page */
+.pagination-category-page {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .pagination {
+  min-width: 630px;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .pagination-number {
@@ -82,7 +87,13 @@
   height: 10px;
 }
 
-@media (width: 768px) {
+@media (max-width: 1024px) {
+  .pagination {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
   .arrow-pagination,
   .link-pagination-number {
     @include font(12px, 500);
@@ -107,8 +118,12 @@
   }
 }
 
-@media (width: 576px) {
+@media (max-width: 576px) {
   .hidden-link {
     @include hidden();
+  }
+
+  .pagination {
+    min-width: 60px;
   }
 }

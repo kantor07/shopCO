@@ -8,17 +8,17 @@
   justify-content: space-between;
 }
 
-.item-category-page {
+.item-list-category-page {
   margin-bottom: 30px;
-  min-height: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 800px;
 }
 
 .container-category-page {
   display: flex;
 }
 
-.item-category-title {
+.item-category-title,
+.item-category-sort {
   display: flex;
   justify-content: space-between;
 }
@@ -110,5 +110,13 @@
   }
   .page-sort {
     margin: 5px 50px 0px 10px;
+  }
+}
+@media (max-width: 576px) {
+  .page-sort {
+    font-family: "Satoshi", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=category-page.css.map */
