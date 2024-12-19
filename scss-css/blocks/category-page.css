@@ -86,9 +86,6 @@
 }
 
 @media (max-width: 1024px) {
-  .item-list-category-page {
-    margin-left: 30px;
-  }
   .item-cart-category-page {
     width: 45%;
   }
@@ -110,6 +107,9 @@
   }
   .page-sort {
     margin: 5px 50px 0px 10px;
+  }
+  .item {
+    position: static;
   }
 }
 @media (max-width: 576px) {

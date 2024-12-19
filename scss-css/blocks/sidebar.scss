@@ -2,8 +2,9 @@
 @import "mixin.scss";
 
 .sidebar-container {
-  width: 295px;
   padding: 25px;
+
+  width: 295px;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -193,13 +194,16 @@ details > summary {
     background-size: 20px 20px;
   }
 
-  .sidebar-filter {
+  .sidebar-filter,
+  #menu {
     display: none;
   }
 
-  .sidebar-container {
-    position: absolute;
+  .sidebar-filter{
+    padding: 130px 0px 1800px 0px;
+  }
 
+  .sidebar-container {
     background-color: #ffffff;
   }
 
@@ -214,35 +218,31 @@ details > summary {
     background-color: #fff;
   }
 
-  #menu {
-    display: none;
-  }
-
   #menu:checked ~ .sidebar-filter {
     display: flex;
     justify-content: center;
 
     position: absolute;
-    top: 130px;
+    top: 0px;
     left: 0px;
 
     width: 100%;
-    height: 545%;
-
+    
     background-color: rgba(0, 0, 0, 0.2);
 
     box-sizing: border-box;
     border: 1px solid red;
   }
 
-  #menu:checked .item-list-category-page {
-    @include hidden();
-  }
-}
+ }
 
 @media (max-width: 576px) {
   .filter-btn {
     @include button-filter(30px, 30px);
     background-size: 15px 15px;
+  }
+
+  .sidebar-filter{
+    padding: 130px 0px 2000px 0px;
   }
 }

@@ -3106,8 +3106,8 @@ body {
 /* mixin */
 /* mixin */
 .sidebar-container {
-  width: 295px;
   padding: 25px;
+  width: 295px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
@@ -3348,11 +3348,14 @@ details > summary {
     border: 1px solid #ffffff;
     background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
   }
-  .sidebar-filter {
+  .sidebar-filter,
+  #menu {
     display: none;
   }
+  .sidebar-filter {
+    padding: 130px 0px 1800px 0px;
+  }
   .sidebar-container {
-    position: absolute;
     background-color: #ffffff;
   }
   .arrow-cross-filter {
@@ -3364,28 +3367,16 @@ details > summary {
     margin-bottom: 20px;
     background-color: #fff;
   }
-  #menu {
-    display: none;
-  }
   #menu:checked ~ .sidebar-filter {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 130px;
+    top: 0px;
     left: 0px;
     width: 100%;
-    height: 545%;
     background-color: rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
     border: 1px solid red;
-  }
-  #menu:checked .item-list-category-page {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
-    visibility: hidden;
   }
 }
 @media (max-width: 576px) {
@@ -3406,6 +3397,9 @@ details > summary {
   .filter-btn:active {
     border: 1px solid #ffffff;
     background: url(../img/filterSinglePage.png) center center no-repeat, #ffffff;
+  }
+  .sidebar-filter {
+    padding: 130px 0px 2000px 0px;
   }
 }
 /* category page */
@@ -3497,9 +3491,6 @@ details > summary {
 }
 
 @media (max-width: 1024px) {
-  .item-list-category-page {
-    margin-left: 30px;
-  }
   .item-cart-category-page {
     width: 45%;
   }
@@ -3521,6 +3512,9 @@ details > summary {
   }
   .page-sort {
     margin: 5px 50px 0px 10px;
+  }
+  .item {
+    position: static;
   }
 }
 @media (max-width: 576px) {
