@@ -1,0 +1,96 @@
+/* mixin */
+@import "mixin.scss";
+
+.title-cart-page {
+  margin: 0;
+  @include font-title(40px, 700);
+  color: #000000;
+
+  text-transform: uppercase;
+}
+
+.item-cart-list {
+  padding: 20px 24px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 24px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.shopping-cart-item {
+  padding-bottom: 25px;
+
+  width: 665px;
+  height: 175px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-img-cart-page {
+  width: 124px;
+  height: 124px;
+
+  background: #f0eeed;
+  border-radius: 8.65772px;
+}
+
+.item-desc-cart-page,
+.item-cart-btn {
+  height: 120px;
+}
+
+.item-title-cart-page {
+  margin: 0;
+  padding-bottom: 10px;
+
+  @include font(20px, 700);
+}
+
+.item-desc {
+  margin: 0;
+  padding-top: 5px;
+
+  @include font(14px, 400);
+}
+
+.item-price-cart-page {
+  margin: 0;
+  padding-top: 10px;
+
+  @include font(24px, 700);
+}
+
+.item-cart-btn {
+  padding: 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item-count-card-page {
+  display: flex;
+}
+
+.delete-cart-item {
+  @include button(24px, 24px, #ffffff);
+  border: none;
+
+  &:active {
+    border: none;
+    background: #ffffff;
+  }
+}

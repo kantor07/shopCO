@@ -3688,4 +3688,118 @@ details > summary {
   .pagination {
     min-width: 60px;
   }
+}
+/* cart page */
+/* mixin */
+/* mixin */
+.title-cart-page {
+  margin: 0;
+  font-family: "Integral CF", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.item-cart-list {
+  padding: 20px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.shopping-cart-item {
+  padding-bottom: 25px;
+  width: 665px;
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-img-cart-page {
+  width: 124px;
+  height: 124px;
+  background: #f0eeed;
+  border-radius: 8.65772px;
+}
+
+.item-desc-cart-page,
+.item-cart-btn {
+  height: 120px;
+}
+
+.item-title-cart-page {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.item-desc {
+  margin: 0;
+  padding-top: 5px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.item-price-cart-page {
+  margin: 0;
+  padding-top: 10px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.item-cart-btn {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item-count-card-page {
+  display: flex;
+}
+
+.delete-cart-item {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+  border: none;
+}
+.delete-cart-item:hover {
+  transform: 1.1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.delete-cart-item:active {
+  transform: scale(1);
+  border: 1px solid #000000;
+  background: #000000;
+  font-weight: 500;
+  color: #ffffff;
+}
+.delete-cart-item:active {
+  border: none;
+  background: #ffffff;
 }/*# sourceMappingURL=style.css.map */
