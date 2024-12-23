@@ -124,10 +124,7 @@
 .item-title {
   padding: 15px 5px 0px 0px;
 
-  font-weight: 700;
-  font-size: 20px;
-
-  color: #000000;
+  @include font(20px, 700);
 
   text-transform: capitalize;
   flex-grow: 1;

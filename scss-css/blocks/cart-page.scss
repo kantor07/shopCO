@@ -49,13 +49,12 @@
 .item-desc-cart-page,
 .item-cart-btn {
   height: 120px;
+  width: 225px;
 }
 
 .item-title-cart-page {
   margin: 0;
-  padding-bottom: 10px;
-
-  @include font(20px, 700);
+  padding: 0px 0px 10px 0px;
 }
 
 .item-desc {
@@ -73,7 +72,7 @@
 }
 
 .item-cart-btn {
-  padding: 0px;
+  padding-left: 165px;
 
   display: flex;
   flex-direction: column;
@@ -93,4 +92,20 @@
     border: none;
     background: #ffffff;
   }
+}
+
+.item-count-cart {
+  margin: 0px;
+  padding: 15px 10px;
+
+  @include button(125px, 45px, #f0f0f0);
+}
+
+.item-count-change-cart {
+  width: 20px;
+  height: 20px;
+}
+
+.item-count-input-cart {
+  max-width: 35px;
 }
