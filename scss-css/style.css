@@ -3694,6 +3694,10 @@ details > summary {
 /* cart page */
 /* mixin */
 /* mixin */
+.container-shopping-cart {
+  display: flex;
+}
+
 .title-cart-page {
   margin: 0;
   font-family: "Integral CF", Arial, sans-serif;
@@ -3704,7 +3708,8 @@ details > summary {
   text-transform: uppercase;
 }
 
-.item-cart-list {
+.shopping-cart-list,
+.order-cart-page {
   padding: 20px 24px;
   box-sizing: border-box;
   display: flex;
@@ -3713,6 +3718,14 @@ details > summary {
   gap: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+}
+
+.shopping-cart-list {
+  max-width: 715px;
+}
+
+.order-cart-page {
+  max-width: 505px;
 }
 
 .shopping-cart-item {
@@ -3735,8 +3748,10 @@ details > summary {
 
 .item-desc-cart-page,
 .item-cart-btn {
+  padding: 0px;
   height: 120px;
   width: 225px;
+  list-style-type: none;
 }
 
 .item-title-cart-page {

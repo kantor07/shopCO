@@ -101,9 +101,10 @@
 
 .item-title {
   padding: 15px 5px 0px 0px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  color: #000000;
   text-transform: capitalize;
   flex-grow: 1;
 }
