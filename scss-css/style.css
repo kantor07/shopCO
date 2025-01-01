@@ -3851,4 +3851,46 @@ details > summary {
 
 .item-count-input-cart {
   max-width: 35px;
+}
+
+.order-cart-page {
+  padding: 20px 25px;
+  width: 505px;
+  height: 460px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.summary-order {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.summary-order-title {
+  padding-bottom: 5px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.summary-order-text {
+  padding: 20px 0px;
+  width: 455px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+}
+
+.span-total {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
