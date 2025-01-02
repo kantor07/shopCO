@@ -7,6 +7,8 @@
 
 .title-cart-page {
   margin: 0;
+  padding-bottom: 25px;
+
   @include font-title(40px, 700);
   color: #000000;
 
@@ -50,11 +52,10 @@
 }
 
 .shopping-cart-border {
-  padding: 25px 0px;
-  margin: 25px 0px;
+  padding-top: 25px;
+  margin-top: 25px;
 
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .item-img-cart-page {
@@ -117,6 +118,11 @@
   padding: 15px 10px;
 
   @include button(125px, 45px, #f0f0f0);
+
+  &:active {
+    background: #f0f0f0;
+    border: 1px solid #f0f0f0;
+  }
 }
 
 .item-count-change-cart {
@@ -133,7 +139,6 @@
   margin-left: 20px;
 
   width: 505px;
-  height: 460px;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -183,11 +188,108 @@
 
 .summary-order-total {
   margin: 10px 0px;
-  padding: 20px 0px 25px 0px;
+  padding-top: 20px;
 
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .span-total {
   @include font(24px, 700);
+}
+
+/* checkout */
+
+.promo-code-form {
+  margin: 0 auto;
+  padding: 0px;
+
+  width: 455px;
+  height: 50px;
+
+  display: flex;
+
+  gap: 12px;
+}
+
+.promo-form {
+  padding: 10px 15px;
+
+  @include button(325px, 50px, #f0f0f0);
+
+  flex-direction: row;
+  align-items: flex-start;
+
+  gap: 12px;
+
+  &:active {
+    background: #f0f0f0;
+    color: #000000;
+
+    border: 1px solid #f0f0f0;
+  }
+}
+
+.promo-code-img {
+  padding-top: 3px;
+}
+
+.promo-code-text {
+  @include font(16px, 400);
+
+  color: rgba(0, 0, 0, 0.4);
+  border: none;
+
+  background: #f0f0f0;
+
+  &:hover {
+    outline: 0;
+    outline-offset: 0;
+    background: #f0f0f0;
+  }
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+    background: #f0f0f0;
+  }
+  &:active {
+    outline: 0;
+    outline-offset: 0;
+    background: #f0f0f0;
+  }
+}
+
+.promo-code-text::placeholder {
+  @include font(16px, 400);
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.checkout-btn {
+  margin-top: 25px;
+
+  @include font(16px, 500);
+
+  @include button(455px, 60px, #000000);
+
+  color: #ffffff;
+
+  &:active {
+    border: none;
+    color: #000000;
+    background: #ffffff;
+  }
+}
+
+.span-checkout-btn {
+  margin-top: 2px;
+  @include arrow(10px, 10px, #ffffff, 130deg);
+}
+
+.span-checkout {
+  width: 15px;
+  height: 1px;
+
+  transform: translate(-27px, 1px);
+
+  border-top: 1px solid #ffffff;
 }

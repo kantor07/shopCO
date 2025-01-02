@@ -88,13 +88,10 @@
   gap: 10px;
 
   &:active {
-    transform: scale(1);
-    border: 1px solid #ffffff;
     background: #ffffff;
 
-    font-weight: 500;
-
     color: #000000;
+    border: none;
   }
 }
 

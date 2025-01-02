@@ -200,7 +200,54 @@
                   </div>
                 </div>
               </div>
-              <div class="shopping-cart-item">
+              <div class="shopping-cart-item shopping-cart-border">
+                <img
+                  src="img/Item3.png"
+                  alt="item-single-page"
+                  class="item-img-cart-page"
+                />
+                <div class="desc-cart-item">
+                  <ul class="item-desc-cart-page">
+                    <li class="item-title item-title-cart-page">
+                      Checkered Shirt
+                    </li>
+                    <li class="item-desc">Size: <span>Medium</span></li>
+                    <li class="item-desc">Color: <span>Red</span></li>
+                    <li class="item-price-cart-page">$180</li>
+                  </ul>
+                  <div class="item-cart-btn">
+                    <button
+                      type="button"
+                      class="delete-cart-item"
+                      title="delete-btn"
+                    >
+                      <img
+                        src="img/delete-cart.png"
+                        alt="delete-cart"
+                        title="delete-cart-img"
+                      />
+                    </button>
+                    <div class="item-count-card-page">
+                      <div class="item-count item-count-cart">
+                        <span class="item-count-change item-count-change-cart"
+                          >-</span
+                        >
+                        <input
+                          type="text"
+                          name="productСount"
+                          value="1"
+                          placeholder="count"
+                          class="item-count-input item-count-input-cart"
+                        />
+                        <span class="item-count-change item-count-change-cart"
+                          >+</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shopping-cart-item shopping-cart-border">
                 <img
                   src="img/Item2.png"
                   alt="item-single-page"
@@ -265,7 +312,38 @@
                 Total <span class="span-total">$467</span>
               </li>
             </ul>
-            <div class="checkout"></div>
+            <div class="checkout">
+              <form action="#" class="promo-code-form">
+                <div class="promo-form">
+                  <img
+                    src="./img/addPromoCode.png"
+                    alt="promo-code-img"
+                    class="promo-code-img"
+                  />
+                  <input
+                    class="promo-code-text"
+                    type="text"
+                    placeholder="Add promo code"
+                  />
+                </div>
+                <button
+                  class="promo-btn promo-btn-title"
+                  title="promo-btn"
+                  type="submit"
+                >
+                  Apply
+                </button>
+              </form>
+              <button
+                class="promo-btn checkout-btn"
+                title="checkout-btn"
+                type="button"
+              >
+                Go to Checkout
+                <span class="span-checkout-btn"></span>
+                <span class="span-checkout"></span>
+              </button>
+            </div>
           </section>
         </div>
       </div>
