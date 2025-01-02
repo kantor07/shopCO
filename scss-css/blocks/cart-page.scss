@@ -15,8 +15,6 @@
 
 .shopping-cart-list,
 .order-cart-page {
-  padding: 20px 24px;
-
   box-sizing: border-box;
 
   display: flex;
@@ -29,42 +27,47 @@
   border-radius: 20px;
 }
 
-.shopping-cart-list {
-  max-width: 715px;
+.item-cart-list {
+  padding: 20px 25px;
+}
+
+.desc-cart-item {
+  min-width: 515px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .order-cart-page {
-  max-width: 505px;
+  min-width: 505px;
 }
 
 .shopping-cart-item {
-  padding-bottom: 25px;
-
   width: 665px;
-  height: 175px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 16px;
 
+  display: flex;
+}
+
+.shopping-cart-border {
+  padding: 25px 0px;
+  margin: 25px 0px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .item-img-cart-page {
-  width: 124px;
-  height: 124px;
+  max-width: 125px;
+  max-height: 125px;
 
   background: #f0eeed;
   border-radius: 8.65772px;
 }
 
-.item-desc-cart-page,
-.item-cart-btn {
+.item-desc-cart-page {
   padding: 0px;
-
-  height: 120px;
-  width: 225px;
+  margin: 0px;
 
   list-style-type: none;
 }
@@ -89,8 +92,6 @@
 }
 
 .item-cart-btn {
-  padding-left: 165px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -129,6 +130,7 @@
 
 .order-cart-page {
   padding: 20px 25px;
+  margin-left: 20px;
 
   width: 505px;
   height: 460px;
@@ -145,26 +147,47 @@
 }
 
 .summary-order-title {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 
   @include font(24px, 700);
 }
 
-.summary-order-text {
-  padding: 20px 0px;
-
+.summary-order-text,
+.summary-order-total {
   width: 455px;
 
   @include font(20px, 400);
-
-  color: rgba(0, 0, 0, 0.6);
 
   display: flex;
   justify-content: space-between;
 }
 
-.span-total {
-  @include font(20px, 700);
+.summary-order-text {
+  padding: 10px 0px;
 
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.span-text,
+.span-discount {
+  @include font(20px, 700);
+}
+
+.span-text {
   color: #000000;
+}
+
+.span-discount {
+  color: #ff3333;
+}
+
+.summary-order-total {
+  margin: 10px 0px;
+  padding: 20px 0px 25px 0px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.span-total {
+  @include font(24px, 700);
 }
