@@ -365,6 +365,7 @@
     width: 325px;
   }
 }
+
 @media (max-width: 576px) {
   .shopping-cart-item {
     width: 330px;
@@ -396,6 +397,29 @@
   }
 
   .item-title-cart-page {
+    width: 190px;
     font-weight: 700;
+  }
+
+  .item-price-cart-page {
+    font-size: 20px;
+  }
+
+  .item-desc {
+    font-size: 12px;
+  }
+
+  .delete-cart-item {
+    width: 20px;
+    height: 20px;
+  }
+
+  .item-count-cart {
+    width: 105px;
+    height: 30px;
+  }
+
+  .item-cart-btn {
+    transform: translateX(-80px);
   }
 }
