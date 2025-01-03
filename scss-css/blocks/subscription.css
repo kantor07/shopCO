@@ -139,7 +139,7 @@
     gap: 30px;
   }
 }
-@media (max-width: 576px) and (min-width: 390px) {
+@media (max-width: 576px) {
   .subscription-text {
     font-size: 32px;
   }
@@ -158,10 +158,15 @@
     font-size: 14px;
   }
   .mail-img {
-    padding: 2px;
-    font-size: 20px;
+    height: 20px;
   }
   .subscription {
     transform: translate(0px, 50px);
+  }
+  .mail-form,
+  .subscription-btn {
+    padding: 10px;
+    width: 310px;
+    height: 40px;
   }
 }/*# sourceMappingURL=subscription.css.map */

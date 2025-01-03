@@ -5,7 +5,7 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-content: flex-start;
 }
 
@@ -173,7 +173,7 @@
 @media (max-width: 1024px) {
   .item {
     margin: 20px 15px;
-    width: 30%;
+    width: 290px;
   }
   .item:hover {
     margin-right: 5px;
@@ -191,40 +191,45 @@
     width: 290px;
   }
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .item {
-    width: 45%;
-  }
-  .item:hover {
-    margin-right: 0px;
-    padding-bottom: 10px;
     width: 290px;
-    height: 470px;
-    border-radius: 20px;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+
+    &:hover {
+      margin-right: 0px;
+      padding-bottom: 10px;
+
+      width: 290px;
+      height: 470px;
+
+      border-radius: 20px;
+      box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    }
+    &:hover .overlay {
+      width: 290px;
+      height: 300px;
+    }
+
+    &:hover .item-img {
+      width: 290px;
+    }
   }
-  .item:hover .overlay {
-    width: 290px;
-    height: 300px;
-  }
-  .item:hover .item-img {
-    width: 290px;
-  }
-}
+}*/
 @media (max-width: 576px) {
   .overlay {
     width: 175px;
     height: 200px;
   }
   .item {
-    width: 40%;
-    height: 345px;
+    width: 175px;
+    height: 350px;
+    margin: 0px;
+    padding-top: 10px;
   }
   .item:hover {
-    margin-right: 5px;
-    padding-bottom: 10px;
+    margin-top: 10px;
     width: 175px;
-    height: 355px;
+    height: 350px;
     border-radius: 20px;
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
@@ -242,7 +247,7 @@
   .item-title {
     font-family: "Satoshi", Arial, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
   }
   .item-rating {

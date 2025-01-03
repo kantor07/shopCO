@@ -85,12 +85,10 @@
   border-color: #000000;
 }
 
-@media (max-width: 1024px) {
-  .item-cart-category-page {
-    width: 45%;
-  }
-}
 @media (max-width: 950px) {
+  .item-container-category-page {
+    margin: 0px 15px;
+  }
   .form-page-sort {
     position: absolute;
     left: -9999px;
