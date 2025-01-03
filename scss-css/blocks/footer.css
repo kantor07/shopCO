@@ -153,6 +153,9 @@
 }
 
 @media (max-width: 1024px) {
+  .footer-container {
+    padding: 0px 15px;
+  }
   .footer-info-all,
   .footer-info-blocks {
     gap: 60px;

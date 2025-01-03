@@ -123,9 +123,15 @@
   color: #000000;
 }
 
+@media (max-width: 1024px) {
+  .subscription-container {
+    margin: 15px;
+  }
+}
 @media (max-width: 768px) {
   .subscription-container {
     padding: 30px 25px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;

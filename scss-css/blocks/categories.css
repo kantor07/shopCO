@@ -111,6 +111,9 @@
     transform: translate(-20px, -25px);
   }
   .categories {
-    margin-bottom: 10px;
+    margin: 0px 15px 10px 15px;
+  }
+  .reviews-section-title {
+    margin: 0px 15px;
   }
 }/*# sourceMappingURL=categories.css.map */

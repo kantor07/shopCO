@@ -85,6 +85,10 @@
   @include font(14px, 400);
 }
 
+.span-item-desc {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .item-price-cart-page {
   margin: 0;
   padding-top: 10px;
@@ -264,12 +268,9 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
-.checkout-btn {
-  margin-top: 25px;
-
+.checkout-btn,
+.promo-code-btn {
   @include font(16px, 500);
-
-  @include button(455px, 60px, #000000);
 
   color: #ffffff;
 
@@ -278,6 +279,16 @@
     color: #000000;
     background: #ffffff;
   }
+}
+
+.checkout-btn {
+  margin-top: 25px;
+
+  @include button(455px, 60px, #000000);
+}
+
+.promo-code-btn {
+  @include button(120px, 50px, #000000);
 }
 
 .span-checkout-btn {
@@ -292,4 +303,99 @@
   transform: translate(-27px, 1px);
 
   border-top: 1px solid #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .container-cart {
+    margin: 0px 15px;
+  }
+
+  .shopping-cart-item {
+    width: 515px;
+  }
+
+  .desc-cart-item {
+    min-width: 350px;
+  }
+
+  .summary-order-text,
+  .summary-order-total,
+  .promo-code-form,
+  .checkout-btn {
+    width: 355px;
+  }
+
+  .order-cart-page {
+    min-width: 400px;
+  }
+
+  .promo-form {
+    width: 225px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shopping-cart-item {
+    width: 665px;
+  }
+
+  .desc-cart-item {
+    min-width: 515px;
+  }
+
+  .summary-order-text,
+  .summary-order-total,
+  .promo-code-form,
+  .checkout-btn {
+    width: 455px;
+  }
+
+  .order-cart-page {
+    margin: 20px 0px 15px 0px;
+    min-width: 505px;
+  }
+
+  .promo-form {
+    width: 325px;
+  }
+}
+@media (max-width: 576px) {
+  .shopping-cart-item {
+    width: 330px;
+  }
+
+  .desc-cart-item {
+    min-width: 215px;
+  }
+
+  .summary-order-text,
+  .summary-order-total,
+  .promo-code-form,
+  .checkout-btn,
+  .order-cart-page {
+    width: 320px;
+  }
+
+  .order-cart-page {
+    min-width: 390px;
+  }
+
+  .promo-form {
+    width: 320px;
+  }
+
+  .item-img-cart-page {
+    width: 100px;
+    height: 100px;
+  }
+
+  .item-title-cart-page {
+    font-weight: 700;
+  }
 }

@@ -51,10 +51,12 @@
   transform: rotate(135deg);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .breadcrumbls {
     margin: 0px 15px;
   }
+}
+@media (max-width: 576px) {
   .info-menu-breadcrumbles,
   .info-menu-breadcrumbles-bold {
     font-family: "Satoshi", Arial, sans-serif;

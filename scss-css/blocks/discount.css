@@ -20,4 +20,10 @@
 .fa-times {
   font-size: 20px;
   color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .discount-message {
+    padding: 0px 15px;
+  }
 }/*# sourceMappingURL=discount.css.map */
