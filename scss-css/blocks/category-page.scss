@@ -101,17 +101,16 @@
   }
 
   .item-category-page-title {
-    @include font(28px, 700);
+    font-size: 28px;
   }
 
   .page-sort {
     margin: 5px 50px 0px 10px;
   }
 
-   .item{
+  .item {
     position: static;
   }
-
 }
 
 @media (max-width: 576px) {

@@ -550,7 +550,7 @@
 
   .review-btn-cart {
     @include button(220px, 45px, #f0f0f0);
-    @include font(14px, 400);
+    font-size: 14px;
   }
 
   /*section product details single page*/
@@ -572,11 +572,11 @@
   }
 
   .reviews-title-all {
-    @include font(20px, 700);
+    font-size: 20px;
   }
 
   .count-reviews {
-    @include font(14px, 400);
+    font-size: 14px;
   }
 
   .select-option,
@@ -591,7 +591,7 @@
   /* reviews blocks */
 
   .review-adress {
-    @include font(14px, 500);
+    font-size: 14px;
   }
 
   /* section you like */

@@ -171,7 +171,7 @@
   .promo-desc {
     padding: 10px 0px;
 
-    @include font(14px, 400);
+    font-size: 14px;
   }
 
   .promo-btn {
@@ -216,6 +216,6 @@
   .promo-aside-desc {
     width: 120px;
 
-    @include font(12px, 400);
+    font-size: 12px;
   }
 }

@@ -141,9 +141,6 @@
 }
 @media (max-width: 576px) and (min-width: 390px) {
   .subscription-text {
-    font-family: "Integral CF", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
   }
   .subscription-mail::-moz-placeholder {

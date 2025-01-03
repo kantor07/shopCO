@@ -107,34 +107,11 @@
 @media (max-width: 768px) {
   .arrow-pagination,
   .link-pagination-number {
-    font-family: "Satoshi", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
     font-size: 12px;
   }
   .arrow-pagination {
     width: 90px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: 500ms;
     border-radius: 8px;
-  }
-  .arrow-pagination:hover {
-    transform: 1.1;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  .arrow-pagination:active {
-    transform: scale(1);
-    border: 1px solid #000000;
-    background: #000000;
-    font-weight: 500;
-    color: #ffffff;
   }
   .link-pagination-number {
     width: 35px;

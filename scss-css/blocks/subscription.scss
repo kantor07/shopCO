@@ -119,7 +119,7 @@
 
 @media (max-width: 576px) and (min-width: 390px) {
   .subscription-text {
-    @include font-title(32px, 700);
+    font-size: 32px;
   }
 
   .mail-btn-title,

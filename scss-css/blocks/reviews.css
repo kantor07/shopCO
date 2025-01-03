@@ -117,9 +117,6 @@
   .review-author {
     margin: 0;
     padding: 10px 0px 10px 0px;
-    font-family: "Satoshi", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
   }
   .vector {
@@ -134,9 +131,6 @@
   }
   .review-desc {
     margin: 0px;
-    font-family: "Satoshi", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
   }
 }/*# sourceMappingURL=reviews.css.map */

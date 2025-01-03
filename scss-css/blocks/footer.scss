@@ -224,7 +224,7 @@
   }
 
   .company-name {
-    @include font-title(30px, 700);
+    font-size: 30px;
   }
 
   .footer-payments {

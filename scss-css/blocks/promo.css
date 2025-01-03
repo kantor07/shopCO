@@ -188,9 +188,6 @@
   }
   .promo-desc {
     padding: 10px 0px;
-    font-family: "Satoshi", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
   }
   .promo-btn {
@@ -245,9 +242,6 @@
   }
   .promo-aside-desc {
     width: 120px;
-    font-family: "Satoshi", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
   }
 }/*# sourceMappingURL=promo.css.map */

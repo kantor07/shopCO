@@ -96,11 +96,11 @@
 @media (max-width: 768px) {
   .arrow-pagination,
   .link-pagination-number {
-    @include font(12px, 500);
+    font-size: 12px;
   }
 
   .arrow-pagination {
-    @include button(90px, 35px, #ffffff);
+    width: 90px;
     border-radius: 8px;
   }
 

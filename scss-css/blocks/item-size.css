@@ -60,26 +60,6 @@
 @media (max-width: 1024px) {
   .item-size-btn {
     width: 85px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-    background: #f0f0f0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: 500ms;
-  }
-  .item-size-btn:hover {
-    transform: 1.1;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  .item-size-btn:active {
-    transform: scale(1);
-    border: 1px solid #000000;
-    background: #000000;
-    font-weight: 500;
-    color: #ffffff;
   }
   .btn-name-item-size {
     padding: 10px;
@@ -89,51 +69,11 @@
 @media (max-width: 768px) {
   .item-size-btn {
     width: 85px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-    background: #f0f0f0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: 500ms;
-  }
-  .item-size-btn:hover {
-    transform: 1.1;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  .item-size-btn:active {
-    transform: scale(1);
-    border: 1px solid #000000;
-    background: #000000;
-    font-weight: 500;
-    color: #ffffff;
   }
 }
 @media (max-width: 576px) {
   .item-size-btn {
     width: 80px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-    background: #f0f0f0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: 500ms;
-  }
-  .item-size-btn:hover {
-    transform: 1.1;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  .item-size-btn:active {
-    transform: scale(1);
-    border: 1px solid #000000;
-    background: #000000;
-    font-weight: 500;
-    color: #ffffff;
   }
   .btn-name-item-size {
     padding: 5px;

@@ -60,7 +60,7 @@
 @media (max-width: 576px) {
   .info-menu-breadcrumbles,
   .info-menu-breadcrumbles-bold {
-    @include font(14px, 400);
+    font-size: 14px;
   }
 
   .arrow-right {

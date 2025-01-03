@@ -59,9 +59,6 @@
 @media (max-width: 576px) {
   .info-menu-breadcrumbles,
   .info-menu-breadcrumbles-bold {
-    font-family: "Satoshi", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
   }
   .arrow-right {

@@ -41,7 +41,7 @@
 
 @media (max-width: 1024px) {
   .item-size-btn {
-    @include button(85px, 45px, #f0f0f0);
+    width: 85px;
   }
 
   .btn-name-item-size {
@@ -52,13 +52,13 @@
 
 @media (max-width: 768px) {
   .item-size-btn {
-    @include button(85px, 45px, #f0f0f0);
+    width: 85px;
   }
 }
 
 @media (max-width: 576px) {
   .item-size-btn {
-    @include button(80px, 45px, #f0f0f0);
+    width: 80px;
   }
 
   .btn-name-item-size {
