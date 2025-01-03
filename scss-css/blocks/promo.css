@@ -89,7 +89,7 @@
   gap: 10px;
 }
 .promo-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -152,7 +152,7 @@
     gap: 12px;
   }
   .promo-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -204,7 +204,7 @@
     gap: 12px;
   }
   .promo-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }

@@ -199,7 +199,7 @@ details > summary {
     display: none;
   }
 
-  .sidebar-filter{
+  .sidebar-filter {
     padding: 130px 0px 1800px 0px;
   }
 
@@ -227,14 +227,13 @@ details > summary {
     left: 0px;
 
     width: 100%;
-    
+
     background-color: rgba(0, 0, 0, 0.2);
 
     box-sizing: border-box;
     border: 1px solid red;
   }
-
- }
+}
 
 @media (max-width: 576px) {
   .filter-btn {
@@ -242,7 +241,7 @@ details > summary {
     background-size: 15px 15px;
   }
 
-  .sidebar-filter{
+  .sidebar-filter {
     padding: 130px 0px 2000px 0px;
   }
 }

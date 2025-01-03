@@ -13,7 +13,7 @@
   transition: 500ms;
 }
 .item-size-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -259,7 +259,7 @@
   gap: 12px;
 }
 .item-count:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -334,7 +334,7 @@
   transition: 500ms;
 }
 .review-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -358,7 +358,7 @@
   transition: 500ms;
 }
 .review-btn-cart:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -430,7 +430,7 @@
   transition: 500ms;
 }
 .btn-reviews-filter:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 .btn-reviews-filter:active {
@@ -479,7 +479,7 @@
           appearance: none;
 }
 .select-filter-reviews:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -577,7 +577,7 @@
     transition: 500ms;
   }
   .item-count:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -607,7 +607,7 @@
     transition: 500ms;
   }
   .review-btn-cart:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -714,7 +714,7 @@
     font-size: 14px;
   }
   .review-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -804,7 +804,7 @@
     font-size: 14px;
   }
   .review-btn-cart:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -855,7 +855,7 @@
     transition: 500ms;
   }
   .btn-reviews-filter:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .btn-reviews-filter:active {

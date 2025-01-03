@@ -189,7 +189,7 @@ details > summary {
   padding: 0px;
 }
 .item-size-btn-sidebar:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -236,7 +236,7 @@ details > summary {
     background-size: 20px 20px;
   }
   .filter-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .filter-btn:active {
@@ -286,7 +286,7 @@ details > summary {
     background-size: 15px 15px;
   }
   .filter-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
   .filter-btn:active {

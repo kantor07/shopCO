@@ -369,7 +369,7 @@ body {
   gap: 10px;
 }
 .promo-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -432,7 +432,7 @@ body {
     gap: 12px;
   }
   .promo-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -484,7 +484,7 @@ body {
     gap: 12px;
   }
   .promo-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -1202,7 +1202,7 @@ body {
 }
 .mail-form:hover,
 .subscription-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -1544,7 +1544,7 @@ body {
   transition: 500ms;
 }
 .item-size-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -1790,7 +1790,7 @@ body {
   gap: 12px;
 }
 .item-count:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -1865,7 +1865,7 @@ body {
   transition: 500ms;
 }
 .review-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -1889,7 +1889,7 @@ body {
   transition: 500ms;
 }
 .review-btn-cart:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -2010,7 +2010,7 @@ body {
           appearance: none;
 }
 .select-filter-reviews:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -2108,7 +2108,7 @@ body {
     transition: 500ms;
   }
   .item-count:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -2138,7 +2138,7 @@ body {
     transition: 500ms;
   }
   .review-btn-cart:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -2245,7 +2245,7 @@ body {
     font-size: 14px;
   }
   .review-btn:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -2335,7 +2335,7 @@ body {
     font-size: 14px;
   }
   .review-btn-cart:hover {
-    transform: 1.1;
+    transform: scale(1.1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
@@ -2714,7 +2714,7 @@ body {
   transition: 500ms;
 }
 .view-all-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -2854,7 +2854,7 @@ body {
   transition: 500ms;
 }
 .item-size-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3185,7 +3185,7 @@ details > summary {
   padding: 0px;
 }
 .item-size-btn-sidebar:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3459,7 +3459,7 @@ details > summary {
   text-decoration: none;
 }
 .arrow-pagination:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3670,7 +3670,7 @@ details > summary {
   border: none;
 }
 .delete-cart-item:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3700,7 +3700,7 @@ details > summary {
   transition: 500ms;
 }
 .item-count-cart:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3818,7 +3818,7 @@ details > summary {
   gap: 12px;
 }
 .promo-form:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3908,7 +3908,7 @@ details > summary {
   transition: 500ms;
 }
 .checkout-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -3932,7 +3932,7 @@ details > summary {
   transition: 500ms;
 }
 .promo-code-btn:hover {
-  transform: 1.1;
+  transform: scale(1.1);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
