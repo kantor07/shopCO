@@ -387,10 +387,6 @@
     min-width: 390px;
   }
 
-  .promo-form {
-    width: 320px;
-  }
-
   .item-img-cart-page {
     width: 100px;
     height: 100px;
@@ -421,5 +417,49 @@
 
   .item-cart-btn {
     transform: translateX(-80px);
+  }
+
+  .summary-order-title,
+  .span-total {
+    font-size: 20px;
+  }
+
+  .summary-order-text,
+  .span-text,
+  .span-discount,
+  .summary-order-total {
+    font-size: 16px;
+  }
+
+  .promo-code-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .promo-code-text {
+    font-size: 14px;
+  }
+
+  .promo-code-text::placeholder {
+    font-size: 14px;
+  }
+
+  .promo-form {
+    padding-top: 15px;
+    width: 200px;
+  }
+
+  .promo-code-btn,
+  .checkout-btn {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .promo-code-btn {
+    width: 90px;
+  }
+
+  .checkout-btn {
+    height: 55px;
   }
 }
